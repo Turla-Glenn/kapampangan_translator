@@ -1,0 +1,7456 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "kapampangan": "mamangan",
+            "filipino": "kumakain",
+            "english": "Eating"
+        },
+        {
+            "id": "2",
+            "kapampangan": "abakada",
+            "filipino": "abakada",
+            "english": "alphabet"
+        },
+        {
+            "id": "3",
+            "kapampangan": "abala",
+            "filipino": "abala",
+            "english": "busy"
+        },
+        {
+            "id": "4",
+            "kapampangan": "abalo",
+            "filipino": "nababatid",
+            "english": "aware"
+        },
+        {
+            "id": "6",
+            "kapampangan": "abay",
+            "filipino": "abay",
+            "english": "bridesmaid"
+        },
+        {
+            "id": "7",
+            "kapampangan": "abilidad",
+            "filipino": "kakayahan",
+            "english": "ability"
+        },
+        {
+            "id": "8",
+            "kapampangan": "abnormal",
+            "filipino": "tiwali",
+            "english": "abnormal"
+        },
+        {
+            "id": "9",
+            "kapampangan": "abo",
+            "filipino": "abo",
+            "english": "ash"
+        },
+        {
+            "id": "10",
+            "kapampangan": "abogado",
+            "filipino": "abogado",
+            "english": "barrister"
+        },
+        {
+            "id": "11",
+            "kapampangan": "abogado",
+            "filipino": "abogado",
+            "english": "attorney"
+        },
+        {
+            "id": "12",
+            "kapampangan": "abokado",
+            "filipino": "abokado",
+            "english": "avocado"
+        },
+        {
+            "id": "13",
+            "kapampangan": "abolisyon",
+            "filipino": "pag-aalis",
+            "english": "abolition"
+        },
+        {
+            "id": "14",
+            "kapampangan": "aborsiyon",
+            "filipino": "pagkalaglag",
+            "english": "abortion"
+        },
+        {
+            "id": "15",
+            "kapampangan": "abril",
+            "filipino": "abril",
+            "english": "april"
+        },
+        {
+            "id": "16",
+            "kapampangan": "abrod",
+            "filipino": "sa ibang bansa",
+            "english": "abroad"
+        },
+        {
+            "id": "17",
+            "kapampangan": "absen",
+            "filipino": "liban",
+            "english": "absent"
+        },
+        {
+            "id": "18",
+            "kapampangan": "abtak",
+            "filipino": "tigang",
+            "english": "abusado"
+        },
+        {
+            "id": "19",
+            "kapampangan": "abtak",
+            "filipino": "tigang",
+            "english": "arid"
+        },
+        {
+            "id": "20",
+            "kapampangan": "abut",
+            "filipino": "abot",
+            "english": "scope"
+        },
+        {
+            "id": "21",
+            "kapampangan": "abwan",
+            "filipino": "abuhin",
+            "english": "ashen"
+        },
+        {
+            "id": "22",
+            "kapampangan": "abyador",
+            "filipino": "piloto",
+            "english": "aviator"
+        },
+        {
+            "id": "23",
+            "kapampangan": "adberbiyo",
+            "filipino": "pang-abay",
+            "english": "adverb"
+        },
+        {
+            "id": "24",
+            "kapampangan": "adhetibo",
+            "filipino": "pang-uri",
+            "english": "adjective"
+        },
+        {
+            "id": "25",
+            "kapampangan": "adik",
+            "filipino": "adik",
+            "english": "addict"
+        },
+        {
+            "id": "26",
+            "kapampangan": "administrasyon",
+            "filipino": "pangasiwaan",
+            "english": "administration"
+        },
+        {
+            "id": "27",
+            "kapampangan": "admiral",
+            "filipino": "admiral",
+            "english": "admiral"
+        },
+        {
+            "id": "28",
+            "kapampangan": "adulto",
+            "filipino": "nasa gulang",
+            "english": "adult"
+        },
+        {
+            "id": "29",
+            "kapampangan": "adwa",
+            "filipino": "dalawa",
+            "english": "two"
+        },
+        {
+            "id": "30",
+            "kapampangan": "adwa bitis",
+            "filipino": "dalawang paa",
+            "english": "biped"
+        },
+        {
+            "id": "31",
+            "kapampangan": "adwa gulong",
+            "filipino": "bisekleta",
+            "english": "bicycle"
+        },
+        {
+            "id": "32",
+            "kapampangan": "adwaang pamanganta",
+            "filipino": "duweto",
+            "english": "duet"
+        },
+        {
+            "id": "33",
+            "kapampangan": "adwampulu",
+            "filipino": "dalawampu",
+            "english": "twenty"
+        },
+        {
+            "id": "34",
+            "kapampangan": "adyenda",
+            "filipino": "adyenda",
+            "english": "agenda"
+        },
+        {
+            "id": "35",
+            "kapampangan": "adyu king edad",
+            "filipino": "nasa gulang",
+            "english": "adult"
+        },
+        {
+            "id": "36",
+            "kapampangan": "aeronatika",
+            "filipino": "aeronautika",
+            "english": "aeronautics"
+        },
+        {
+            "id": "37",
+            "kapampangan": "agad",
+            "filipino": "sa madaling panahon",
+            "english": "soon"
+        },
+        {
+            "id": "38",
+            "kapampangan": "agamit",
+            "filipino": "magagamit",
+            "english": "available"
+        },
+        {
+            "id": "39",
+            "kapampangan": "agawa",
+            "filipino": "nagawa",
+            "english": "achievement"
+        },
+        {
+            "id": "40",
+            "kapampangan": "agawa",
+            "filipino": "nagawa",
+            "english": "accomplisment"
+        },
+        {
+            "id": "41",
+            "kapampangan": "agawan atlu",
+            "filipino": "pagtatluhin",
+            "english": "triple"
+        },
+        {
+            "id": "42",
+            "kapampangan": "agi",
+            "filipino": "agiw",
+            "english": "soot"
+        },
+        {
+            "id": "43",
+            "kapampangan": "agiang makananu",
+            "filipino": "kahit paano",
+            "english": "anyway"
+        },
+        {
+            "id": "44",
+            "kapampangan": "agila",
+            "filipino": "agila",
+            "english": "eagle"
+        },
+        {
+            "id": "45",
+            "kapampangan": "agim",
+            "filipino": "makaya",
+            "english": "cope"
+        },
+        {
+            "id": "46",
+            "kapampangan": "agimat",
+            "filipino": "anting-anting",
+            "english": "amulet"
+        },
+        {
+            "id": "47",
+            "kapampangan": "agos",
+            "filipino": "agos",
+            "english": "tide"
+        },
+        {
+            "id": "48",
+            "kapampangan": "agosto",
+            "filipino": "agosto",
+            "english": "august"
+        },
+        {
+            "id": "49",
+            "kapampangan": "agpang",
+            "filipino": "alinsunod sa",
+            "english": "according to"
+        },
+        {
+            "id": "50",
+            "kapampangan": "agpang nung makananu",
+            "filipino": "alinsunod sa kung",
+            "english": "according as"
+        },
+        {
+            "id": "51",
+            "kapampangan": "agpang qng kaugalian",
+            "filipino": "naayon sa kaugalian",
+            "english": "stenotyped"
+        },
+        {
+            "id": "52",
+            "kapampangan": "agrabiyado",
+            "filipino": "agrabyado",
+            "english": "aggrieved"
+        },
+        {
+            "id": "53",
+            "kapampangan": "agresibo",
+            "filipino": "masugid",
+            "english": "aggressive"
+        },
+        {
+            "id": "54",
+            "kapampangan": "agta",
+            "filipino": "dagta",
+            "english": "sap"
+        },
+        {
+            "id": "55",
+            "kapampangan": "aguman",
+            "filipino": "kapisanan",
+            "english": "association"
+        },
+        {
+            "id": "56",
+            "kapampangan": "agusan danum",
+            "filipino": "kanal",
+            "english": "canal"
+        },
+        {
+            "id": "57",
+            "kapampangan": "agwantan",
+            "filipino": "agwaras",
+            "english": "turpentine"
+        },
+        {
+            "id": "58",
+            "kapampangan": "agwatan",
+            "filipino": "tiisin",
+            "english": "bear"
+        },
+        {
+            "id": "59",
+            "kapampangan": "agyang nanu",
+            "filipino": "kahit paano",
+            "english": "anyhow"
+        },
+        {
+            "id": "60",
+            "kapampangan": "agyu",
+            "filipino": "kakayahab",
+            "english": "ability"
+        },
+        {
+            "id": "61",
+            "kapampangan": "agyu",
+            "filipino": "kakayahan",
+            "english": "capability"
+        },
+        {
+            "id": "62",
+            "kapampangan": "agyu",
+            "filipino": "makaya",
+            "english": "afford"
+        },
+        {
+            "id": "63",
+            "kapampangan": "ahas",
+            "filipino": "ahas",
+            "english": "snake"
+        },
+        {
+            "id": "64",
+            "kapampangan": "ahas",
+            "filipino": "ahas",
+            "english": "endle"
+        },
+        {
+            "id": "65",
+            "kapampangan": "ahedres",
+            "filipino": "ahedres",
+            "english": "chess"
+        },
+        {
+            "id": "66",
+            "kapampangan": "ahensya",
+            "filipino": "tanggapan",
+            "english": "agency"
+        },
+        {
+            "id": "67",
+            "kapampangan": "ahente",
+            "filipino": "ahente",
+            "english": "agent"
+        },
+        {
+            "id": "68",
+            "kapampangan": "ala",
+            "filipino": "wala",
+            "english": "zero"
+        },
+        {
+            "id": "69",
+            "kapampangan": "aintindihan",
+            "filipino": "maunawaan",
+            "english": "comprehend"
+        },
+        {
+            "id": "70",
+            "kapampangan": "airmail",
+            "filipino": "airmail",
+            "english": "airmail"
+        },
+        {
+            "id": "71",
+            "kapampangan": "akademya",
+            "filipino": "akademya",
+            "english": "academic"
+        },
+        {
+            "id": "72",
+            "kapampangan": "akakit",
+            "filipino": "nakikita",
+            "english": "visible"
+        },
+        {
+            "id": "73",
+            "kapampangan": "akalingwan sarili",
+            "filipino": "amnesya",
+            "english": "amnesia"
+        },
+        {
+            "id": "74",
+            "kapampangan": "akauntant",
+            "filipino": "kontador",
+            "english": "accountant"
+        },
+        {
+            "id": "75",
+            "kapampangan": "akit",
+            "filipino": "makita",
+            "english": "see"
+        },
+        {
+            "id": "76",
+            "kapampangan": "akitan",
+            "filipino": "akitin",
+            "english": "ailure"
+        },
+        {
+            "id": "77",
+            "kapampangan": "akitan",
+            "filipino": "akitin",
+            "english": "attract"
+        },
+        {
+            "id": "78",
+            "kapampangan": "akmulan",
+            "filipino": "lunukin",
+            "english": "swallow"
+        },
+        {
+            "id": "79",
+            "kapampangan": "akomodasyon",
+            "filipino": "matutuluyan",
+            "english": "accommodation"
+        },
+        {
+            "id": "80",
+            "kapampangan": "akos",
+            "filipino": "kakayahan",
+            "english": "competent"
+        },
+        {
+            "id": "81",
+            "kapampangan": "akosanayan",
+            "filipino": "mahirati",
+            "english": "accustom"
+        },
+        {
+            "id": "82",
+            "kapampangan": "aksayaan ing perang e bandi",
+            "filipino": "lustayin",
+            "english": "squander"
+        },
+        {
+            "id": "83",
+            "kapampangan": "aksidental",
+            "filipino": "hindi sinasadya",
+            "english": "accidental"
+        },
+        {
+            "id": "84",
+            "kapampangan": "aksidente",
+            "filipino": "aksidente",
+            "english": "casualty"
+        },
+        {
+            "id": "85",
+            "kapampangan": "aksiyento",
+            "filipino": "punto",
+            "english": "accent"
+        },
+        {
+            "id": "86",
+            "kapampangan": "aksyon",
+            "filipino": "demanda",
+            "english": "action"
+        },
+        {
+            "id": "87",
+            "kapampangan": "aktibahan",
+            "filipino": "aktibahin",
+            "english": "activate"
+        },
+        {
+            "id": "88",
+            "kapampangan": "aktibidad",
+            "filipino": "gawain",
+            "english": "activity"
+        },
+        {
+            "id": "89",
+            "kapampangan": "aktibo",
+            "filipino": "aktibo",
+            "english": "active"
+        },
+        {
+            "id": "90",
+            "kapampangan": "aktuwal",
+            "filipino": "aktuwal",
+            "english": "actual"
+        },
+        {
+            "id": "91",
+            "kapampangan": "aku",
+            "filipino": "ako",
+            "english": "am"
+        },
+        {
+            "id": "92",
+            "kapampangan": "akumpanista",
+            "filipino": "tagasaliw",
+            "english": "accompanist"
+        },
+        {
+            "id": "93",
+            "kapampangan": "akusa",
+            "filipino": "bintang",
+            "english": "accusation"
+        },
+        {
+            "id": "94",
+            "kapampangan": "akustika",
+            "filipino": "akustika",
+            "english": "acoustic"
+        },
+        {
+            "id": "95",
+            "kapampangan": "akwa",
+            "filipino": "makamit",
+            "english": "acquire"
+        },
+        {
+            "id": "96",
+            "kapampangan": "akwaryum",
+            "filipino": "akwariyum",
+            "english": "aquarium"
+        },
+        {
+            "id": "97",
+            "kapampangan": "ala",
+            "filipino": "mahirap",
+            "english": "broke"
+        },
+        {
+            "id": "98",
+            "kapampangan": "ala king istandard",
+            "filipino": "wala sa pamantayan",
+            "english": "substandard"
+        },
+        {
+            "id": "99",
+            "kapampangan": "ala pang karanasan o agyu",
+            "filipino": "baguhan",
+            "english": "tyro"
+        },
+        {
+            "id": "100",
+            "kapampangan": "alab",
+            "filipino": "sigla",
+            "english": "ardor"
+        },
+        {
+            "id": "101",
+            "kapampangan": "alaga",
+            "filipino": "halaga",
+            "english": "value"
+        },
+        {
+            "id": "102",
+            "kapampangan": "alaga",
+            "filipino": "presyo",
+            "english": "price"
+        },
+        {
+            "id": "103",
+            "kapampangan": "alaga",
+            "filipino": "halaga",
+            "english": "cost"
+        },
+        {
+            "id": "104",
+            "kapampangan": "alak",
+            "filipino": "alak",
+            "english": "booze"
+        },
+        {
+            "id": "105",
+            "kapampangan": "alak",
+            "filipino": "alak",
+            "english": "wine"
+        },
+        {
+            "id": "106",
+            "kapampangan": "alalayan",
+            "filipino": "asal",
+            "english": "conduct"
+        },
+        {
+            "id": "107",
+            "kapampangan": "alale-hinala",
+            "filipino": "umalalay",
+            "english": "sustain"
+        },
+        {
+            "id": "108",
+            "kapampangan": "alampe",
+            "filipino": "alampay",
+            "english": "shawl"
+        },
+        {
+            "id": "109",
+            "kapampangan": "alang agyu",
+            "filipino": "walang kaya",
+            "english": "unable"
+        },
+        {
+            "id": "110",
+            "kapampangan": "alang anak",
+            "filipino": "alang anak",
+            "english": "childless"
+        },
+        {
+            "id": "111",
+            "kapampangan": "alang anggan",
+            "filipino": "walang hanggan",
+            "english": "perpetual"
+        },
+        {
+            "id": "112",
+            "kapampangan": "alang arte",
+            "filipino": "masining",
+            "english": "artless"
+        },
+        {
+            "id": "113",
+            "kapampangan": "alang batayan",
+            "filipino": "walang batayan",
+            "english": "baseless"
+        },
+        {
+            "id": "114",
+            "kapampangan": "alang buak",
+            "filipino": "kalbo",
+            "english": "bald"
+        },
+        {
+            "id": "115",
+            "kapampangan": "alang daya",
+            "filipino": "walang dugo",
+            "english": "bloodless"
+        },
+        {
+            "id": "116",
+            "kapampangan": "alang diyos",
+            "filipino": "walang diyos",
+            "english": "atheist"
+        },
+        {
+            "id": "117",
+            "kapampangan": "alang duda",
+            "filipino": "tiyak",
+            "english": "unquestionable"
+        },
+        {
+            "id": "118",
+            "kapampangan": "alang gagawan",
+            "filipino": "okupado",
+            "english": "unoccupied"
+        },
+        {
+            "id": "119",
+            "kapampangan": "alang ingat",
+            "filipino": "walang ingat",
+            "english": "sloppy"
+        },
+        {
+            "id": "120",
+            "kapampangan": "alang kabikas-bikas",
+            "filipino": "burles",
+            "english": "burlesque"
+        },
+        {
+            "id": "121",
+            "kapampangan": "alang kamatayan",
+            "filipino": "walang kamatayan",
+            "english": "undying"
+        },
+        {
+            "id": "122",
+            "kapampangan": "alang kapaniwalaan",
+            "filipino": "kawalan ng pananampalataya",
+            "english": "unbelief"
+        },
+        {
+            "id": "123",
+            "kapampangan": "alang kapante",
+            "filipino": "walang kapantay",
+            "english": "peerless"
+        },
+        {
+            "id": "124",
+            "kapampangan": "alang kapante",
+            "filipino": "walang kapantay",
+            "english": "unrivaled"
+        },
+        {
+            "id": "125",
+            "kapampangan": "alang kapupusan",
+            "filipino": "walang katapusan",
+            "english": "endless"
+        },
+        {
+            "id": "126",
+            "kapampangan": "alang katiyakan",
+            "filipino": "walang katiyakan",
+            "english": "unlikely"
+        },
+        {
+            "id": "127",
+            "kapampangan": "alang katutuan",
+            "filipino": "walang batayan",
+            "english": "unfounded"
+        },
+        {
+            "id": "128",
+            "kapampangan": "alang kuwentang tawo",
+            "filipino": "mababa at walang kwentang tao",
+            "english": "scum"
+        },
+        {
+            "id": "129",
+            "kapampangan": "alang kwenta",
+            "filipino": "walang kabuluhan",
+            "english": "useless"
+        },
+        {
+            "id": "130",
+            "kapampangan": "alang lakas",
+            "filipino": "walang lakas",
+            "english": "pointless"
+        },
+        {
+            "id": "131",
+            "kapampangan": "alang lalam",
+            "filipino": "walang ilalim",
+            "english": "bottomless"
+        },
+        {
+            "id": "132",
+            "kapampangan": "alang laman",
+            "filipino": "hungkag",
+            "english": "concave"
+        },
+        {
+            "id": "133",
+            "kapampangan": "alang laman",
+            "filipino": "bakante",
+            "english": "vacant"
+        },
+        {
+            "id": "134",
+            "kapampangan": "alang laman",
+            "filipino": "walang laman",
+            "english": "empty"
+        },
+        {
+            "id": "135",
+            "kapampangan": "alang laman",
+            "filipino": "walang laman",
+            "english": "vacant"
+        },
+        {
+            "id": "136",
+            "kapampangan": "alang lasa",
+            "filipino": "walang lasa",
+            "english": "vapid"
+        },
+        {
+            "id": "137",
+            "kapampangan": "alang lunos",
+            "filipino": "walang habag",
+            "english": "no mercy"
+        },
+        {
+            "id": "138",
+            "kapampangan": "alang malan",
+            "filipino": "hubad",
+            "english": "bare"
+        },
+        {
+            "id": "139",
+            "kapampangan": "alang malasakit",
+            "filipino": "walang malasakit",
+            "english": "aloof"
+        },
+        {
+            "id": "140",
+            "kapampangan": "alang male",
+            "filipino": "walang malay",
+            "english": "unaware"
+        },
+        {
+            "id": "141",
+            "kapampangan": "alang male",
+            "filipino": "walang malay",
+            "english": "unconscious"
+        },
+        {
+            "id": "142",
+            "kapampangan": "alang mali",
+            "filipino": "kasakdalan",
+            "english": "perfection"
+        },
+        {
+            "id": "143",
+            "kapampangan": "alang mapagsikap",
+            "filipino": "walang punyagi",
+            "english": "absent minded"
+        },
+        {
+            "id": "144",
+            "kapampangan": "alang muwang",
+            "filipino": "tanga",
+            "english": "blockhead"
+        },
+        {
+            "id": "145",
+            "kapampangan": "alang pagal",
+            "filipino": "walang hinawa",
+            "english": "untiring"
+        },
+        {
+            "id": "146",
+            "kapampangan": "alang pangisnawa",
+            "filipino": "walang hininga",
+            "english": "breathless"
+        },
+        {
+            "id": "147",
+            "kapampangan": "alang tuknang",
+            "filipino": "pagtuloy-tuloy",
+            "english": "continuous"
+        },
+        {
+            "id": "148",
+            "kapampangan": "alang ulaga",
+            "filipino": "mura",
+            "english": "cheap"
+        },
+        {
+            "id": "149",
+            "kapampangan": "alang ulaga",
+            "filipino": "walang halaga",
+            "english": "paltry"
+        },
+        {
+            "id": "150",
+            "kapampangan": "alang utak",
+            "filipino": "walang utak",
+            "english": "brainless"
+        },
+        {
+            "id": "151",
+            "kapampangan": "alang utang na lub",
+            "filipino": "walang utang na loob",
+            "english": "ungrateful"
+        },
+        {
+            "id": "152",
+            "kapampangan": "alang alang",
+            "filipino": "wala ng halaga",
+            "english": "trifle"
+        },
+        {
+            "id": "153",
+            "kapampangan": "alang swerte",
+            "filipino": "kapuspalad",
+            "english": "unfortunate"
+        },
+        {
+            "id": "154",
+            "kapampangan": "alarma",
+            "filipino": "alarma",
+            "english": "alarm"
+        },
+        {
+            "id": "155",
+            "kapampangan": "album",
+            "filipino": "album",
+            "english": "album"
+        },
+        {
+            "id": "156",
+            "kapampangan": "aldo",
+            "filipino": "araw",
+            "english": "sun"
+        },
+        {
+            "id": "157",
+            "kapampangan": "aldo kebaytan",
+            "filipino": "kapanganakan",
+            "english": "birthday"
+        },
+        {
+            "id": "158",
+            "kapampangan": "aldo ning pamagpaynawa ampong pamanyamba",
+            "filipino": "araw ng pamamahinga at pagsamba",
+            "english": "sabbath"
+        },
+        {
+            "id": "159",
+            "kapampangan": "aldo aldo",
+            "filipino": "araw araw",
+            "english": "daily"
+        },
+        {
+            "id": "160",
+            "kapampangan": "alegasyon",
+            "filipino": "pinagsasabi",
+            "english": "allegation"
+        },
+        {
+            "id": "161",
+            "kapampangan": "alergi",
+            "filipino": "alergi",
+            "english": "allergy"
+        },
+        {
+            "id": "162",
+            "kapampangan": "alhebra",
+            "filipino": "alhebra",
+            "english": "algebra"
+        },
+        {
+            "id": "163",
+            "kapampangan": "ali aparmasalanan",
+            "filipino": "di masisisi",
+            "english": "blameless"
+        },
+        {
+            "id": "164",
+            "kapampangan": "ali asisyan",
+            "filipino": "masisisi",
+            "english": "blameless"
+        },
+        {
+            "id": "165",
+            "kapampangan": "ali makapanawon",
+            "filipino": "di napapanahon",
+            "english": "arbitrary"
+        },
+        {
+            "id": "166",
+            "kapampangan": "ali makyabe",
+            "filipino": "lumahok",
+            "english": "abstain"
+        },
+        {
+            "id": "167",
+            "kapampangan": "ali mayuyulo",
+            "filipino": "hindi gumaling-galing",
+            "english": "chronic"
+        },
+        {
+            "id": "168",
+            "kapampangan": "ali okupado",
+            "filipino": "di okupado",
+            "english": "unoccupied"
+        },
+        {
+            "id": "169",
+            "kapampangan": "ali panawon",
+            "filipino": "di napapanahon",
+            "english": "untimely"
+        },
+        {
+            "id": "170",
+            "kapampangan": "ali pormal",
+            "filipino": "pahapyaw",
+            "english": "casual"
+        },
+        {
+            "id": "171",
+            "kapampangan": "ali sasarian",
+            "filipino": "hindi sinasadya",
+            "english": "accidental"
+        },
+        {
+            "id": "172",
+            "kapampangan": "ali tune",
+            "filipino": "artipisyal",
+            "english": "artificial"
+        },
+        {
+            "id": "173",
+            "kapampangan": "ali tuto",
+            "filipino": "di totoo",
+            "english": "assumed"
+        },
+        {
+            "id": "174",
+            "kapampangan": "ali tuto",
+            "filipino": "huwad",
+            "english": "bogus"
+        },
+        {
+            "id": "175",
+            "kapampangan": "alibay",
+            "filipino": "dahilan",
+            "english": "alibi"
+        },
+        {
+            "id": "176",
+            "kapampangan": "alino",
+            "filipino": "anino",
+            "english": "shadow"
+        },
+        {
+            "id": "177",
+            "kapampangan": "alipan",
+            "filipino": "alipin",
+            "english": "slave"
+        },
+        {
+            "id": "178",
+            "kapampangan": "alipin",
+            "filipino": "alipin",
+            "english": "serf"
+        },
+        {
+            "id": "179",
+            "kapampangan": "alipin",
+            "filipino": "alipin",
+            "english": "slave"
+        },
+        {
+            "id": "180",
+            "kapampangan": "alisan",
+            "filipino": "pruns",
+            "english": "pruns"
+        },
+        {
+            "id": "181",
+            "kapampangan": "alisto",
+            "filipino": "listo",
+            "english": "alert"
+        },
+        {
+            "id": "182",
+            "kapampangan": "alisto",
+            "filipino": "listo",
+            "english": "canny"
+        },
+        {
+            "id": "183",
+            "kapampangan": "alistu",
+            "filipino": "matalino",
+            "english": "clever"
+        },
+        {
+            "id": "184",
+            "kapampangan": "aliwa",
+            "filipino": "iba't iba",
+            "english": "varid"
+        },
+        {
+            "id": "185",
+            "kapampangan": "aliwa ",
+            "filipino": "iba't iba",
+            "english": "varied"
+        },
+        {
+            "id": "186",
+            "kapampangan": "aliwa",
+            "filipino": "pron",
+            "english": "iba"
+        },
+        {
+            "id": "187",
+            "kapampangan": "aliwa",
+            "filipino": "iba",
+            "english": "another"
+        },
+        {
+            "id": "188",
+            "kapampangan": "aliwa-aliwa",
+            "filipino": "iba't iba",
+            "english": "varied"
+        },
+        {
+            "id": "189",
+            "kapampangan": "aliwan",
+            "filipino": "aliwin",
+            "english": "cheer"
+        },
+        {
+            "id": "190",
+            "kapampangan": "alkampor",
+            "filipino": "alkampor",
+            "english": "camphor"
+        },
+        {
+            "id": "191",
+            "kapampangan": "alkampurado",
+            "filipino": "alkampuradoe",
+            "english": "camphorated"
+        },
+        {
+            "id": "192",
+            "kapampangan": "alkohol",
+            "filipino": "alkohon",
+            "english": "alcohon"
+        },
+        {
+            "id": "193",
+            "kapampangan": "alkohol",
+            "filipino": "alkohol",
+            "english": "alcohol"
+        },
+        {
+            "id": "194",
+            "kapampangan": "almanak",
+            "filipino": "almanak",
+            "english": "almanac"
+        },
+        {
+            "id": "195",
+            "kapampangan": "almusal",
+            "filipino": "almusal",
+            "english": "breakfast"
+        },
+        {
+            "id": "196",
+            "kapampangan": "almusalan",
+            "filipino": "almusal",
+            "english": "breakfast"
+        },
+        {
+            "id": "197",
+            "kapampangan": "alon",
+            "filipino": "alon",
+            "english": "wave"
+        },
+        {
+            "id": "198",
+            "kapampangan": "alos",
+            "filipino": "halos",
+            "english": "almost"
+        },
+        {
+            "id": "199",
+            "kapampangan": "alos magpante",
+            "filipino": "halos pumantay",
+            "english": "approximate"
+        },
+        {
+            "id": "200",
+            "kapampangan": "alowans",
+            "filipino": "sustento",
+            "english": "allowance"
+        },
+        {
+            "id": "201",
+            "kapampangan": "alpabeto",
+            "filipino": "abakada",
+            "english": "alphabet"
+        },
+        {
+            "id": "202",
+            "kapampangan": "alpombra",
+            "filipino": "alpombra",
+            "english": "carpet"
+        },
+        {
+            "id": "203",
+            "kapampangan": "alpombra",
+            "filipino": "alpombra",
+            "english": "rug"
+        },
+        {
+            "id": "204",
+            "kapampangan": "altar",
+            "filipino": "altar",
+            "english": "altar"
+        },
+        {
+            "id": "205",
+            "kapampangan": "aluminyo",
+            "filipino": "alminyo",
+            "english": "aluminum"
+        },
+        {
+            "id": "206",
+            "kapampangan": "alumno",
+            "filipino": "nagtapos",
+            "english": "alumnus"
+        },
+        {
+            "id": "207",
+            "kapampangan": "alun-alun",
+            "filipino": "alun-alon",
+            "english": "ripple"
+        },
+        {
+            "id": "208",
+            "kapampangan": "alyado",
+            "filipino": "alyado",
+            "english": "allied"
+        },
+        {
+            "id": "209",
+            "kapampangan": "alyansa",
+            "filipino": "alyansa",
+            "english": "alliance"
+        },
+        {
+            "id": "210",
+            "kapampangan": "alyas",
+            "filipino": "alyas",
+            "english": "alias"
+        },
+        {
+            "id": "211",
+            "kapampangan": "ambisyon",
+            "filipino": "ambisyon",
+            "english": "ambition"
+        },
+        {
+            "id": "212",
+            "kapampangan": "ambisyoso",
+            "filipino": "ambisyoso",
+            "english": "ambitious"
+        },
+        {
+            "id": "213",
+            "kapampangan": "ambog",
+            "filipino": "hambog",
+            "english": "braggart"
+        },
+        {
+            "id": "214",
+            "kapampangan": "ambog",
+            "filipino": "hambog",
+            "english": "boastful"
+        },
+        {
+            "id": "215",
+            "kapampangan": "ambon",
+            "filipino": "ulan",
+            "english": "drizzle"
+        },
+        {
+            "id": "216",
+            "kapampangan": "ambulansiya",
+            "filipino": "ambulansiya",
+            "english": "ambulance"
+        },
+        {
+            "id": "217",
+            "kapampangan": "ambus",
+            "filipino": "tambang",
+            "english": "ambush"
+        },
+        {
+            "id": "218",
+            "kapampangan": "aminan",
+            "filipino": "aminin",
+            "english": "admit"
+        },
+        {
+            "id": "219",
+            "kapampangan": "amiyendaan",
+            "filipino": "susugan",
+            "english": "amend"
+        },
+        {
+            "id": "220",
+            "kapampangan": "amnestiya",
+            "filipino": "pagpapatawad",
+            "english": "amnesty"
+        },
+        {
+            "id": "221",
+            "kapampangan": "amnesya",
+            "filipino": "amnesya",
+            "english": "amnesia"
+        },
+        {
+            "id": "222",
+            "kapampangan": "amon",
+            "filipino": "hamon",
+            "english": "challenge"
+        },
+        {
+            "id": "223",
+            "kapampangan": "amortisasyon",
+            "filipino": "amortisasyon",
+            "english": "amortization"
+        },
+        {
+            "id": "224",
+            "kapampangan": "ampatan",
+            "filipino": "ampatin",
+            "english": "stanch"
+        },
+        {
+            "id": "225",
+            "kapampangan": "ampibyan",
+            "filipino": "ampibyan",
+            "english": "amphibian"
+        },
+        {
+            "id": "226",
+            "kapampangan": "amplipayer",
+            "filipino": "amplipayer",
+            "english": "amplifier"
+        },
+        {
+            "id": "227",
+            "kapampangan": "ampong",
+            "filipino": "at",
+            "english": "and"
+        },
+        {
+            "id": "228",
+            "kapampangan": "ampunan",
+            "filipino": "ampunan",
+            "english": "asylum"
+        },
+        {
+            "id": "229",
+            "kapampangan": "ampunan",
+            "filipino": "kalingain",
+            "english": "adopt"
+        },
+        {
+            "id": "230",
+            "kapampangan": "anak",
+            "filipino": "inakay",
+            "english": "brood"
+        },
+        {
+            "id": "231",
+            "kapampangan": "anak",
+            "filipino": "bata",
+            "english": "child"
+        },
+        {
+            "id": "232",
+            "kapampangan": "anak a lalaki",
+            "filipino": "anak na lalaki",
+            "english": "son"
+        },
+        {
+            "id": "233",
+            "kapampangan": "anak a babai",
+            "filipino": "anak na babae",
+            "english": "daughter"
+        },
+        {
+            "id": "234",
+            "kapampangan": "anak lalaki",
+            "filipino": "batang lalaki",
+            "english": "boy"
+        },
+        {
+            "id": "235",
+            "kapampangan": "anak babai",
+            "filipino": "batang babae",
+            "english": "girl"
+        },
+        {
+            "id": "236",
+            "kapampangan": "anak malati",
+            "filipino": "batang munti",
+            "english": "tot"
+        },
+        {
+            "id": "237",
+            "kapampangan": "anam",
+            "filipino": "anim",
+            "english": "six"
+        },
+        {
+            "id": "238",
+            "kapampangan": "anam apulo",
+            "filipino": "animnapu",
+            "english": "sixty"
+        },
+        {
+            "id": "239",
+            "kapampangan": "anatomiya",
+            "filipino": "anatomiya",
+            "english": "anatomy"
+        },
+        {
+            "id": "240",
+            "kapampangan": "andamyo",
+            "filipino": "andamyo",
+            "english": "causeway"
+        },
+        {
+            "id": "241",
+            "kapampangan": "andang gastusan",
+            "filipino": "paglalaan",
+            "english": "appropriation"
+        },
+        {
+            "id": "242",
+            "kapampangan": "ane",
+            "filipino": "anay",
+            "english": "termite"
+        },
+        {
+            "id": "243",
+            "kapampangan": "anekdota",
+            "filipino": "maikling salaysay",
+            "english": "anecdote"
+        },
+        {
+            "id": "244",
+            "kapampangan": "anemya",
+            "filipino": "kakulangan sa dugo",
+            "english": "anemia"
+        },
+        {
+            "id": "245",
+            "kapampangan": "anestisya",
+            "filipino": "anestesya",
+            "english": "anethesia"
+        },
+        {
+            "id": "246",
+            "kapampangan": "ang lalam",
+            "filipino": "sa ilalim",
+            "english": "underneath"
+        },
+        {
+            "id": "247",
+            "kapampangan": "ang sablang sakit",
+            "filipino": "lunas sa lahat ng sakit",
+            "english": "panaca"
+        },
+        {
+            "id": "248",
+            "kapampangan": "angaan",
+            "filipino": "hangaan",
+            "english": "admire"
+        },
+        {
+            "id": "249",
+            "kapampangan": "angel",
+            "filipino": "anghel",
+            "english": "angel"
+        },
+        {
+            "id": "250",
+            "kapampangan": "angga king",
+            "filipino": "hanggang sa",
+            "english": "until"
+        },
+        {
+            "id": "251",
+            "kapampangan": "angga pa",
+            "filipino": "kahit na",
+            "english": "although"
+        },
+        {
+            "id": "252",
+            "kapampangan": "angganan",
+            "filipino": "hangganan",
+            "english": "border"
+        },
+        {
+            "id": "253",
+            "kapampangan": "angganan",
+            "filipino": "hanggang",
+            "english": "until"
+        },
+        {
+            "id": "254",
+            "kapampangan": "anggulo",
+            "filipino": "anggulo",
+            "english": "angle"
+        },
+        {
+            "id": "255",
+            "kapampangan": "anghel",
+            "filipino": "anghel",
+            "english": "angel"
+        },
+        {
+            "id": "256",
+            "kapampangan": "angin",
+            "filipino": "hangin",
+            "english": "air"
+        },
+        {
+            "id": "257",
+            "kapampangan": "angin",
+            "filipino": "hangin",
+            "english": "wind"
+        },
+        {
+            "id": "258",
+            "kapampangan": "angin palypala",
+            "filipino": "ang kanlurang hangin",
+            "english": "zephyr"
+        },
+        {
+            "id": "259",
+            "kapampangan": "angkinan",
+            "filipino": "angkinin",
+            "english": "claim"
+        },
+        {
+            "id": "260",
+            "kapampangan": "angkinan",
+            "filipino": "mang-agaw ng tungkulin",
+            "english": "usurp"
+        },
+        {
+            "id": "261",
+            "kapampangan": "angkla",
+            "filipino": "angkla",
+            "english": "anchor"
+        },
+        {
+            "id": "262",
+            "kapampangan": "angkop",
+            "filipino": "angkop",
+            "english": "appropriate"
+        },
+        {
+            "id": "263",
+            "kapampangan": "anibersaryo",
+            "filipino": "anibersaryo",
+            "english": "anniversary"
+        },
+        {
+            "id": "264",
+            "kapampangan": "animal",
+            "filipino": "hayop",
+            "english": "beast"
+        },
+        {
+            "id": "265",
+            "kapampangan": "animal",
+            "filipino": "hayop",
+            "english": "animal"
+        },
+        {
+            "id": "266",
+            "kapampangan": "antabayanan",
+            "filipino": "samahan",
+            "english": "accompany"
+        },
+        {
+            "id": "267",
+            "kapampangan": "antartiko",
+            "filipino": "antartiko",
+            "english": "antartic"
+        },
+        {
+            "id": "268",
+            "kapampangan": "antena",
+            "filipino": "antena",
+            "english": "aerial"
+        },
+        {
+            "id": "269",
+            "kapampangan": "antena",
+            "filipino": "antena",
+            "english": "antecedent"
+        },
+        {
+            "id": "270",
+            "kapampangan": "antigo",
+            "filipino": "antigo",
+            "english": "antique"
+        },
+        {
+            "id": "271",
+            "kapampangan": "antimano",
+            "filipino": "agad",
+            "english": "soon"
+        },
+        {
+            "id": "272",
+            "kapampangan": "antimano",
+            "filipino": "sa lalong madaling panahon",
+            "english": "soon"
+        },
+        {
+            "id": "273",
+            "kapampangan": "antimano",
+            "filipino": "awtomatiko",
+            "english": "automatic"
+        },
+        {
+            "id": "274",
+            "kapampangan": "anting-anting",
+            "filipino": "anting anting",
+            "english": "amulet"
+        },
+        {
+            "id": "275",
+            "kapampangan": "antiseptiko",
+            "filipino": "antiseptiko",
+            "english": "antiseptic"
+        },
+        {
+            "id": "276",
+            "kapampangan": "antolohiya",
+            "filipino": "katipunan",
+            "english": "anthology"
+        },
+        {
+            "id": "277",
+            "kapampangan": "antropolohiya",
+            "filipino": "antropolohiya",
+            "english": "anthropology"
+        },
+        {
+            "id": "278",
+            "kapampangan": "anunsiyo",
+            "filipino": "anunsiyo",
+            "english": "advertisement"
+        },
+        {
+            "id": "279",
+            "kapampangan": "anyang minuna",
+            "filipino": "noong una",
+            "english": "before"
+        },
+        {
+            "id": "280",
+            "kapampangan": "apa",
+            "filipino": "apa",
+            "english": "wafer"
+        },
+        {
+            "id": "281",
+            "kapampangan": "apan",
+            "filipino": "pain",
+            "english": "bait"
+        },
+        {
+            "id": "282",
+            "kapampangan": "apaningilan",
+            "filipino": "nalikom",
+            "english": "collection"
+        },
+        {
+            "id": "283",
+            "kapampangan": "aparato",
+            "filipino": "aparato",
+            "english": "apparatus"
+        },
+        {
+            "id": "284",
+            "kapampangan": "aprtment",
+            "filipino": "apartment",
+            "english": "apartment"
+        },
+        {
+            "id": "285",
+            "kapampangan": "apat-apat",
+            "filipino": "bahaging apatan",
+            "english": "quadruple"
+        },
+        {
+            "id": "286",
+            "kapampangan": "apayo",
+            "filipino": "maipapayo",
+            "english": "advisable"
+        },
+        {
+            "id": "287",
+            "kapampangan": "apendisitis",
+            "filipino": "apendisitis",
+            "english": "appendicitis"
+        },
+        {
+            "id": "288",
+            "kapampangan": "api",
+            "filipino": "apoy",
+            "english": "snolder"
+        },
+        {
+            "id": "289",
+            "kapampangan": "apidabit",
+            "filipino": "apidabit",
+            "english": "affidavit"
+        },
+        {
+            "id": "290",
+            "kapampangan": "apilyido",
+            "filipino": "apelyido",
+            "english": "surname"
+        },
+        {
+            "id": "291",
+            "kapampangan": "apis",
+            "filipino": "himas",
+            "english": "caress"
+        },
+        {
+            "id": "292",
+            "kapampangan": "aplayanses",
+            "filipino": "kagamitan",
+            "english": "appliances"
+        },
+        {
+            "id": "293",
+            "kapampangan": "aplikante",
+            "filipino": "aplikante",
+            "english": "applicant"
+        },
+        {
+            "id": "294",
+            "kapampangan": "aplikasyon",
+            "filipino": "aplikasyon",
+            "english": "application"
+        },
+        {
+            "id": "295",
+            "kapampangan": "apostol",
+            "filipino": "apostol",
+            "english": "apostle"
+        },
+        {
+            "id": "296",
+            "kapampangan": "aprobahan",
+            "filipino": "pagtibayin",
+            "english": "approve"
+        },
+        {
+            "id": "297",
+            "kapampangan": "Apung Ginu",
+            "filipino": "Diyos",
+            "english": "Almighty"
+        },
+        {
+            "id": "298",
+            "kapampangan": "apuraan",
+            "filipino": "apurahan",
+            "english": "urgent"
+        },
+        {
+            "id": "299",
+            "kapampangan": "arakap",
+            "filipino": "bihag",
+            "english": "captive"
+        },
+        {
+            "id": "300",
+            "kapampangan": "aranaan",
+            "filipino": "mangharana",
+            "english": "serenade"
+        },
+        {
+            "id": "301",
+            "kapampangan": "are",
+            "filipino": "dayami",
+            "english": "straw"
+        },
+        {
+            "id": "302",
+            "kapampangan": "arestuwan",
+            "filipino": "dakpin",
+            "english": "arrest"
+        },
+        {
+            "id": "303",
+            "kapampangan": "argumento",
+            "filipino": "pagtatalo",
+            "english": "argument"
+        },
+        {
+            "id": "304",
+            "kapampangan": "arian",
+            "filipino": "itindig",
+            "english": "adjourn"
+        },
+        {
+            "id": "305",
+            "kapampangan": "arian",
+            "filipino": "wakasan",
+            "english": "abate"
+        },
+        {
+            "id": "306",
+            "kapampangan": "arian ning mais",
+            "filipino": "arina nang mais",
+            "english": "cornstarch"
+        },
+        {
+            "id": "307",
+            "kapampangan": "arina",
+            "filipino": "arina",
+            "english": "breadstuff"
+        },
+        {
+            "id": "308",
+            "kapampangan": "arkangel",
+            "filipino": "arkanghel",
+            "english": "arcangel"
+        },
+        {
+            "id": "309",
+            "kapampangan": "arkitekto",
+            "filipino": "arkitekto",
+            "english": "architect"
+        },
+        {
+            "id": "310",
+            "kapampangan": "arkitektura",
+            "filipino": "arkitektura",
+            "english": "architecture"
+        },
+        {
+            "id": "311",
+            "kapampangan": "arko",
+            "filipino": "arko",
+            "english": "arch"
+        },
+        {
+            "id": "312",
+            "kapampangan": "arko",
+            "filipino": "daong",
+            "english": "ark"
+        },
+        {
+            "id": "313",
+            "kapampangan": "arko keng malan, buak",
+            "filipino": "arko sa damit at buhok",
+            "english": "scallop"
+        },
+        {
+            "id": "314",
+            "kapampangan": "armamento",
+            "filipino": "armamento",
+            "english": "armament"
+        },
+        {
+            "id": "315",
+            "kapampangan": "armas",
+            "filipino": "armas",
+            "english": "weapon"
+        },
+        {
+            "id": "316",
+            "kapampangan": "armi",
+            "filipino": "hukbo",
+            "english": "army"
+        },
+        {
+            "id": "317",
+            "kapampangan": "arnibal",
+            "filipino": "arnibal",
+            "english": "syrup"
+        },
+        {
+            "id": "318",
+            "kapampangan": "arsenal",
+            "filipino": "arsenal",
+            "english": "arsenal"
+        },
+        {
+            "id": "319",
+            "kapampangan": "arsobispo",
+            "filipino": "arsobispo",
+            "english": "achbishop"
+        },
+        {
+            "id": "320",
+            "kapampangan": "arteriya",
+            "filipino": "malaking ugat",
+            "english": "artery"
+        },
+        {
+            "id": "321",
+            "kapampangan": "arti",
+            "filipino": "sining",
+            "english": "art"
+        },
+        {
+            "id": "322",
+            "kapampangan": "artiko",
+            "filipino": "artiko",
+            "english": "arctic"
+        },
+        {
+            "id": "323",
+            "kapampangan": "artikulo",
+            "filipino": "lathalain",
+            "english": "article"
+        },
+        {
+            "id": "324",
+            "kapampangan": "artipisyal",
+            "filipino": "artipisyal",
+            "english": "artificial"
+        },
+        {
+            "id": "325",
+            "kapampangan": "artista",
+            "filipino": "artista",
+            "english": "artist"
+        },
+        {
+            "id": "326",
+            "kapampangan": "asaan",
+            "filipino": "asamin",
+            "english": "anticipate"
+        },
+        {
+            "id": "327",
+            "kapampangan": "asawa",
+            "filipino": "asawa",
+            "english": "spouse"
+        },
+        {
+            "id": "328",
+            "kapampangan": "asawang babai",
+            "filipino": "asawang babae",
+            "english": "wife"
+        },
+        {
+            "id": "329",
+            "kapampangan": "asbu ning bulkan",
+            "filipino": "bunganga ng bulkan",
+            "english": "crater"
+        },
+        {
+            "id": "330",
+            "kapampangan": "asdap",
+            "filipino": "himatong",
+            "english": "clue"
+        },
+        {
+            "id": "331",
+            "kapampangan": "asembliya",
+            "filipino": "kapulungan",
+            "english": "assembly"
+        },
+        {
+            "id": "332",
+            "kapampangan": "asero",
+            "filipino": "asero",
+            "english": "steel"
+        },
+        {
+            "id": "333",
+            "kapampangan": "asido",
+            "filipino": "asido",
+            "english": "acid"
+        },
+        {
+            "id": "334",
+            "kapampangan": "asin",
+            "filipino": "asin",
+            "english": "salt"
+        },
+        {
+            "id": "335",
+            "kapampangan": "asintado",
+            "filipino": "asintado",
+            "english": "sharpshooter"
+        },
+        {
+            "id": "336",
+            "kapampangan": "aslagan",
+            "filipino": "silangan",
+            "english": "east"
+        },
+        {
+            "id": "337",
+            "kapampangan": "aslagen",
+            "filipino": "silanganin",
+            "english": "eastern"
+        },
+        {
+            "id": "338",
+            "kapampangan": "aslam",
+            "filipino": "suka",
+            "english": "vinegar"
+        },
+        {
+            "id": "339",
+            "kapampangan": "asma",
+            "filipino": "hika",
+            "english": "asthma"
+        },
+        {
+            "id": "340",
+            "kapampangan": "asma",
+            "filipino": "asma",
+            "english": "asthma"
+        },
+        {
+            "id": "341",
+            "kapampangan": "asno",
+            "filipino": "asno",
+            "english": "ass"
+        },
+        {
+            "id": "342",
+            "kapampangan": "aso",
+            "filipino": "aso",
+            "english": "dog"
+        },
+        {
+            "id": "343",
+            "kapampangan": "asok",
+            "filipino": "usok",
+            "english": "smoke"
+        },
+        {
+            "id": "344",
+            "kapampangan": "asong maragul at mabagsik",
+            "filipino": "buldog",
+            "english": "bulldog"
+        },
+        {
+            "id": "345",
+            "kapampangan": "asosayon",
+            "filipino": "kapisanan",
+            "english": "association"
+        },
+        {
+            "id": "346",
+            "kapampangan": "aspalto",
+            "filipino": "aspalto",
+            "english": "aslphalt"
+        },
+        {
+            "id": "347",
+            "kapampangan": "aspekto",
+            "filipino": "aspekto",
+            "english": "aspect"
+        },
+        {
+            "id": "348",
+            "kapampangan": "aspile",
+            "filipino": "aspile",
+            "english": "pin"
+        },
+        {
+            "id": "349",
+            "kapampangan": "aspirante",
+            "filipino": "aspirante",
+            "english": "aspirant"
+        },
+        {
+            "id": "350",
+            "kapampangan": "aspirin",
+            "filipino": "aspirin",
+            "english": "aspirin"
+        },
+        {
+            "id": "351",
+            "kapampangan": "asteriko",
+            "filipino": "asteriko",
+            "english": "asterisk"
+        },
+        {
+            "id": "352",
+            "kapampangan": "astrolohiya",
+            "filipino": "astrolohiya",
+            "english": "astrology"
+        },
+        {
+            "id": "353",
+            "kapampangan": "astronomiya",
+            "filipino": "astronomiya",
+            "english": "astronomy"
+        },
+        {
+            "id": "354",
+            "kapampangan": "asul",
+            "filipino": "bughaw",
+            "english": "blue"
+        },
+        {
+            "id": "355",
+            "kapampangan": "asul",
+            "filipino": "asul",
+            "english": "blue"
+        },
+        {
+            "id": "356",
+            "kapampangan": "asunto",
+            "filipino": "kaso",
+            "english": "case"
+        },
+        {
+            "id": "357",
+            "kapampangan": "asupre",
+            "filipino": "asupre",
+            "english": "sulfur"
+        },
+        {
+            "id": "358",
+            "kapampangan": "asyas",
+            "filipino": "haligi",
+            "english": "pillar"
+        },
+        {
+            "id": "359",
+            "kapampangan": "asyenda",
+            "filipino": "taniman",
+            "english": "plantation"
+        },
+        {
+            "id": "360",
+            "kapampangan": "at saka",
+            "filipino": "at",
+            "english": "and"
+        },
+        {
+            "id": "361",
+            "kapampangan": "at saka pa",
+            "filipino": "bukod diyan",
+            "english": "besides"
+        },
+        {
+            "id": "362",
+            "kapampangan": "atake",
+            "filipino": "atake",
+            "english": "attack"
+        },
+        {
+            "id": "363",
+            "kapampangan": "atakyan",
+            "filipino": "atikihin",
+            "english": "attack"
+        },
+        {
+            "id": "364",
+            "kapampangan": "atakyan",
+            "filipino": "atakihin",
+            "english": "assail"
+        },
+        {
+            "id": "365",
+            "kapampangan": "atataya",
+            "filipino": "mataya",
+            "english": "calculable"
+        },
+        {
+            "id": "366",
+            "kapampangan": "atensyon",
+            "filipino": "atensyon",
+            "english": "attention"
+        },
+        {
+            "id": "367",
+            "kapampangan": "atentibo",
+            "filipino": "mapagpunyagi",
+            "english": "attentive"
+        },
+        {
+            "id": "368",
+            "kapampangan": "atian",
+            "filipino": "tiyan",
+            "english": "abdomen"
+        },
+        {
+            "id": "369",
+            "kapampangan": "atian",
+            "filipino": "tiyan",
+            "english": "paunch"
+        },
+        {
+            "id": "370",
+            "kapampangan": "ating aguiu",
+            "filipino": "may kakayahan",
+            "english": "eligible"
+        },
+        {
+            "id": "371",
+            "kapampangan": "ating agyu",
+            "filipino": "may kaya",
+            "english": "capable"
+        },
+        {
+            "id": "372",
+            "kapampangan": "ating api",
+            "filipino": "may apoy",
+            "english": "calciferous"
+        },
+        {
+            "id": "373",
+            "kapampangan": "ating atlung kule",
+            "filipino": "may talong kulay",
+            "english": "tricolor"
+        },
+        {
+            "id": "374",
+            "kapampangan": "ating atlung parte",
+            "filipino": "may tatlong bahagi",
+            "english": "triple"
+        },
+        {
+            "id": "375",
+            "kapampangan": "ating balu",
+            "filipino": "mabahala",
+            "english": "concern"
+        },
+        {
+            "id": "376",
+            "kapampangan": "ating iki",
+            "filipino": "may buntot",
+            "english": "caudate"
+        },
+        {
+            "id": "377",
+            "kapampangan": "ating kapasidad",
+            "filipino": "may kaya",
+            "english": "capable"
+        },
+        {
+            "id": "378",
+            "kapampangan": "ating lasa",
+            "filipino": "may lasa",
+            "english": "savor"
+        },
+        {
+            "id": "379",
+            "kapampangan": "ating peg-aralan",
+            "filipino": "sibilisado",
+            "english": "civilized"
+        },
+        {
+            "id": "380",
+            "kapampangan": "atleta",
+            "filipino": "manlalaro",
+            "english": "athlete"
+        },
+        {
+            "id": "381",
+            "kapampangan": "atlong parte",
+            "filipino": "tatluhan",
+            "english": "triple"
+        },
+        {
+            "id": "382",
+            "kapampangan": "atlu",
+            "filipino": "tatlo",
+            "english": "three"
+        },
+        {
+            "id": "383",
+            "kapampangan": "atlung color",
+            "filipino": "may tatlong kulay",
+            "english": "tricolor"
+        },
+        {
+            "id": "384",
+            "kapampangan": "atlung mikakambal",
+            "filipino": "tatlong magkakambal",
+            "english": "triplet"
+        },
+        {
+            "id": "385",
+            "kapampangan": "kambal",
+            "filipino": "kambal",
+            "english": "twin"
+        },
+        {
+            "id": "386",
+            "kapampangan": "atmospera",
+            "filipino": "atmospera",
+            "english": "atmosphere"
+        },
+        {
+            "id": "387",
+            "kapampangan": "atomika",
+            "filipino": "atomika",
+            "english": "atomic"
+        },
+        {
+            "id": "388",
+            "kapampangan": "atomo",
+            "filipino": "atomo",
+            "english": "atom"
+        },
+        {
+            "id": "389",
+            "kapampangan": "atrasado",
+            "filipino": "atrasado",
+            "english": "behind"
+        },
+        {
+            "id": "390",
+            "kapampangan": "atraso",
+            "filipino": "atraso",
+            "english": "backlog"
+        },
+        {
+            "id": "391",
+            "kapampangan": "atsara",
+            "filipino": "atsara",
+            "english": "pickle"
+        },
+        {
+            "id": "392",
+            "kapampangan": "atubangon",
+            "filipino": "harapin",
+            "english": "confront"
+        },
+        {
+            "id": "393",
+            "kapampangan": "atuknangan",
+            "filipino": "matutuluyan",
+            "english": "accommodation"
+        },
+        {
+            "id": "394",
+            "kapampangan": "atul",
+            "filipino": "paalala",
+            "english": "advice"
+        },
+        {
+            "id": "395",
+            "kapampangan": "atulan",
+            "filipino": "pagpayuhan",
+            "english": "advise"
+        },
+        {
+            "id": "396",
+            "kapampangan": "atyan",
+            "filipino": "tiyan",
+            "english": "stomach"
+        },
+        {
+            "id": "397",
+            "kapampangan": "atyu king oras",
+            "filipino": "maagap",
+            "english": "punctual"
+        },
+        {
+            "id": "398",
+            "kapampangan": "ausan",
+            "filipino": "tawagin",
+            "english": "call"
+        },
+        {
+            "id": "399",
+            "kapampangan": "autobiyograpiya",
+            "filipino": "talambuhay",
+            "english": "autobiography"
+        },
+        {
+            "id": "400",
+            "kapampangan": "awak",
+            "filipino": "uwak",
+            "english": "raven"
+        },
+        {
+            "id": "401",
+            "kapampangan": "awang",
+            "filipino": "bintana",
+            "english": "window"
+        },
+        {
+            "id": "402",
+            "kapampangan": "award",
+            "filipino": "gantimpalaan",
+            "english": "award"
+        },
+        {
+            "id": "403",
+            "kapampangan": "awdisyon",
+            "filipino": "awdisyon",
+            "english": "audition"
+        },
+        {
+            "id": "404",
+            "kapampangan": "awla",
+            "filipino": "hawla",
+            "english": "cage"
+        },
+        {
+            "id": "405",
+            "kapampangan": "awsan",
+            "filipino": "ipatawag",
+            "english": "summon"
+        },
+        {
+            "id": "406",
+            "kapampangan": "awsan",
+            "filipino": "tumawag",
+            "english": "call"
+        },
+        {
+            "id": "407",
+            "kapampangan": "awto",
+            "filipino": "taksi",
+            "english": "cab"
+        },
+        {
+            "id": "408",
+            "kapampangan": "awtomatiko",
+            "filipino": "awtomatiko",
+            "english": "automatic"
+        },
+        {
+            "id": "409",
+            "kapampangan": "awtopsiya",
+            "filipino": "awtopsiya",
+            "english": "autopsy"
+        },
+        {
+            "id": "410",
+            "kapampangan": "awtoridad",
+            "filipino": "otoridad",
+            "english": "authority"
+        },
+        {
+            "id": "411",
+            "kapampangan": "ayabut",
+            "filipino": "matamo",
+            "english": "achieve"
+        },
+        {
+            "id": "412",
+            "kapampangan": "ayagyu",
+            "filipino": "makaya",
+            "english": "afford"
+        },
+        {
+            "id": "413",
+            "kapampangan": "ayakwa",
+            "filipino": "matamo",
+            "english": "achieve"
+        },
+        {
+            "id": "414",
+            "kapampangan": "ayari king pamag-aral",
+            "filipino": "natapos",
+            "english": "attainment"
+        },
+        {
+            "id": "415",
+            "kapampangan": "ayatul",
+            "filipino": "maipapayo",
+            "english": "advisable"
+        },
+        {
+            "id": "416",
+            "kapampangan": "ayente",
+            "filipino": "ahente",
+            "english": "agent"
+        },
+        {
+            "id": "417",
+            "kapampangan": "ayente",
+            "filipino": "ahente",
+            "english": "salesman"
+        },
+        {
+            "id": "418",
+            "kapampangan": "ayop",
+            "filipino": "ibon",
+            "english": "bird"
+        },
+        {
+            "id": "419",
+            "kapampangan": "ayos",
+            "filipino": "ayos",
+            "english": "good"
+        },
+        {
+            "id": "420",
+            "kapampangan": "ayos at malinis",
+            "filipino": "maayos at malinis",
+            "english": "good and clean"
+        },
+        {
+            "id": "421",
+            "kapampangan": "ayuda",
+            "filipino": "tulong",
+            "english": "assistance"
+        },
+        {
+            "id": "422",
+            "kapampangan": "ayus",
+            "filipino": "anyo",
+            "english": "aspect"
+        },
+        {
+            "id": "423",
+            "kapampangan": "ayus",
+            "filipino": "tindig",
+            "english": "bearing"
+        },
+        {
+            "id": "424",
+            "kapampangan": "ayusan",
+            "filipino": "ayusin",
+            "english": "arrange"
+        },
+        {
+            "id": "425",
+            "kapampangan": "ayusan",
+            "filipino": "ayusin",
+            "english": "trim"
+        },
+        {
+            "id": "426",
+            "kapampangan": "ayusan",
+            "filipino": "ayusin",
+            "english": "systematize"
+        },
+        {
+            "id": "427",
+            "kapampangan": "ayusan",
+            "filipino": "palamutian",
+            "english": "trimming"
+        },
+        {
+            "id": "428",
+            "kapampangan": "ayusin nanaman",
+            "filipino": "ayusin muli",
+            "english": "readjust"
+        },
+        {
+            "id": "429",
+            "kapampangan": "baba",
+            "filipino": "baba",
+            "english": "chin"
+        },
+        {
+            "id": "430",
+            "kapampangan": "babaeng ikakasal",
+            "filipino": "babaeng ikakasal",
+            "english": "bride"
+        },
+        {
+            "id": "431",
+            "kapampangan": "babaeng palaaway",
+            "filipino": "babaing palaaway",
+            "english": "shrew"
+        },
+        {
+            "id": "432",
+            "kapampangan": "babagua",
+            "filipino": "gagamba",
+            "english": "spider"
+        },
+        {
+            "id": "433",
+            "kapampangan": "babagwan",
+            "filipino": "binabagyo",
+            "english": "stormy"
+        },
+        {
+            "id": "434",
+            "kapampangan": "babagyo",
+            "filipino": "mabagyo",
+            "english": "stormy"
+        },
+        {
+            "id": "435",
+            "kapampangan": "babala",
+            "filipino": "babala",
+            "english": "warning"
+        },
+        {
+            "id": "436",
+            "kapampangan": "babala",
+            "filipino": "pag-iingat",
+            "english": "caution"
+        },
+        {
+            "id": "437",
+            "kapampangan": "babasan",
+            "filipino": "babasahin",
+            "english": "will be read"
+        },
+        {
+            "id": "438",
+            "kapampangan": "babaying burara",
+            "filipino": "babaing burara",
+            "english": "slatern"
+        },
+        {
+            "id": "439",
+            "kapampangan": "babaying ikasal",
+            "filipino": "nobya",
+            "english": "bride"
+        },
+        {
+            "id": "440",
+            "kapampangan": "babi",
+            "filipino": "baboy",
+            "english": "pig"
+        },
+        {
+            "id": "441",
+            "kapampangan": "babing dikut",
+            "filipino": "babuy-ramo",
+            "english": "boar"
+        },
+        {
+            "id": "442",
+            "kapampangan": "babo",
+            "filipino": "itaas",
+            "english": "above"
+        },
+        {
+            "id": "443",
+            "kapampangan": "babo",
+            "filipino": "sa itaas",
+            "english": "atop"
+        },
+        {
+            "id": "444",
+            "kapampangan": "babo",
+            "filipino": "sa itaas",
+            "english": "up"
+        },
+        {
+            "id": "445",
+            "kapampangan": "badyet",
+            "filipino": "badyet",
+            "english": "budget'"
+        },
+        {
+            "id": "446",
+            "kapampangan": "bag",
+            "filipino": "bag",
+            "english": "bag"
+        },
+        {
+            "id": "447",
+            "kapampangan": "bagahe",
+            "filipino": "kargada",
+            "english": "baggage"
+        },
+        {
+            "id": "448",
+            "kapampangan": "bagamundo",
+            "filipino": "hampaslupa",
+            "english": "vagabond"
+        },
+        {
+            "id": "449",
+            "kapampangan": "bage telakad",
+            "filipino": "bagay na itinatayo",
+            "english": "structure"
+        },
+        {
+            "id": "450",
+            "kapampangan": "bage bage",
+            "filipino": "bagay",
+            "english": "thing"
+        },
+        {
+            "id": "451",
+            "kapampangan": "bagtasan",
+            "filipino": "bagtasin",
+            "english": "transverse"
+        },
+        {
+            "id": "452",
+            "kapampangan": "bagu magulo",
+            "filipino": "bago magkadigma",
+            "english": "prewar"
+        },
+        {
+            "id": "453",
+            "kapampangan": "bague",
+            "filipino": "bagay",
+            "english": "thing"
+        },
+        {
+            "id": "454",
+            "kapampangan": "baguhan",
+            "filipino": "baguhan",
+            "english": "new"
+        },
+        {
+            "id": "455",
+            "kapampangan": "baguhan",
+            "filipino": "baguhan",
+            "english": "newbie]"
+        },
+        {
+            "id": "456",
+            "kapampangan": "bagyo",
+            "filipino": "bagyo",
+            "english": "storm"
+        },
+        {
+            "id": "457",
+            "kapampangan": "bagyo",
+            "filipino": "bagyo",
+            "english": "typhoon"
+        },
+        {
+            "id": "458",
+            "kapampangan": "bagyo",
+            "filipino": "bagyong may kasamang malakas na ulan",
+            "english": "rainstorm"
+        },
+        {
+            "id": "459",
+            "kapampangan": "baha",
+            "filipino": "baha",
+            "english": "flood"
+        },
+        {
+            "id": "460",
+            "kapampangan": "bahaghari",
+            "filipino": "bahaghari",
+            "english": "rainbow"
+        },
+        {
+            "id": "461",
+            "kapampangan": "bahagi",
+            "filipino": "bahagi",
+            "english": "section"
+        },
+        {
+            "id": "462",
+            "kapampangan": "bahiran",
+            "filipino": "bahiran",
+            "english": "tint"
+        },
+        {
+            "id": "463",
+            "kapampangan": "baho",
+            "filipino": "baho",
+            "english": "bass"
+        },
+        {
+            "id": "464",
+            "kapampangan": "bahura",
+            "filipino": "bahura",
+            "english": "reef"
+        },
+        {
+            "id": "465",
+            "kapampangan": "baintau",
+            "filipino": "binata",
+            "english": "bachelor"
+        },
+        {
+            "id": "466",
+            "kapampangan": "baka",
+            "filipino": "baka",
+            "english": "cow"
+        },
+        {
+            "id": "467",
+            "kapampangan": "bakal",
+            "filipino": "bakal",
+            "english": "steel"
+        },
+        {
+            "id": "468",
+            "kapampangan": "bakante",
+            "filipino": "bakante",
+            "english": "vacant"
+        },
+        {
+            "id": "469",
+            "kapampangan": "bakas",
+            "filipino": "bakas",
+            "english": "trace"
+        },
+        {
+            "id": "470",
+            "kapampangan": "bakel",
+            "filipino": "hebilya",
+            "english": "buckle"
+        },
+        {
+            "id": "471",
+            "kapampangan": "bakit",
+            "filipino": "bakit",
+            "english": "why"
+        },
+        {
+            "id": "472",
+            "kapampangan": "bakpey",
+            "filipino": "bakpey",
+            "english": "back pay"
+        },
+        {
+            "id": "473",
+            "kapampangan": "bakterya",
+            "filipino": "bakterya",
+            "english": "bacteria"
+        },
+        {
+            "id": "474",
+            "kapampangan": "baku-baku",
+            "filipino": "baku-bako",
+            "english": "scraggly"
+        },
+        {
+            "id": "475",
+            "kapampangan": "bala",
+            "filipino": "bala",
+            "english": "ammo"
+        },
+        {
+            "id": "476",
+            "kapampangan": "balak",
+            "filipino": "plano",
+            "english": "plan"
+        },
+        {
+            "id": "477",
+            "kapampangan": "balakang",
+            "filipino": "balakang",
+            "english": "pelvis"
+        },
+        {
+            "id": "478",
+            "kapampangan": "balamu",
+            "filipino": "akala mo",
+            "english": "seeming"
+        },
+        {
+            "id": "479",
+            "kapampangan": "balamu",
+            "filipino": "sa tingin",
+            "english": "apparently"
+        },
+        {
+            "id": "480",
+            "kapampangan": "balan",
+            "filipino": "balaan",
+            "english": "warn"
+        },
+        {
+            "id": "481",
+            "kapampangan": "balang caduang banua",
+            "filipino": "tuwing ikalawang taon",
+            "english": "every two years"
+        },
+        {
+            "id": "482",
+            "kapampangan": "balang metung",
+            "filipino": "bawat isa",
+            "english": "everyone"
+        },
+        {
+            "id": "483",
+            "kapampangan": "balang metung",
+            "filipino": "bawat isa",
+            "english": "per"
+        },
+        {
+            "id": "484",
+            "kapampangan": "balang metung",
+            "filipino": "bawat isa",
+            "english": "apiece"
+        },
+        {
+            "id": "485",
+            "kapampangan": "balangkas",
+            "filipino": "balangkas",
+            "english": "contour"
+        },
+        {
+            "id": "486",
+            "kapampangan": "balangkas",
+            "filipino": "balangkas",
+            "english": "framework"
+        },
+        {
+            "id": "487",
+            "kapampangan": "balantuk",
+            "filipino": "arko",
+            "english": "arch"
+        },
+        {
+            "id": "488",
+            "kapampangan": "balas",
+            "filipino": "bala",
+            "english": "bullet"
+        },
+        {
+            "id": "489",
+            "kapampangan": "balas",
+            "filipino": "bala",
+            "english": "slug"
+        },
+        {
+            "id": "490",
+            "kapampangan": "balas",
+            "filipino": "buhangin",
+            "english": "sand"
+        },
+        {
+            "id": "491",
+            "kapampangan": "balasan",
+            "filipino": "balasahin",
+            "english": "shuffle"
+        },
+        {
+            "id": "492",
+            "kapampangan": "balasbasan",
+            "filipino": "paluin",
+            "english": "beat"
+        },
+        {
+            "id": "493",
+            "kapampangan": "balat",
+            "filipino": "balat",
+            "english": "rind"
+        },
+        {
+            "id": "494",
+            "kapampangan": "balat",
+            "filipino": "kabibi",
+            "english": "shell"
+        },
+        {
+            "id": "495",
+            "kapampangan": "balat",
+            "filipino": "balat",
+            "english": "skin"
+        },
+        {
+            "id": "496",
+            "kapampangan": "balat ning dutong",
+            "filipino": "balat ng kahoy",
+            "english": "bark"
+        },
+        {
+            "id": "497",
+            "kapampangan": "balat ning usa",
+            "filipino": "balat ng usa",
+            "english": "buckskin"
+        },
+        {
+            "id": "498",
+            "kapampangan": "balatan",
+            "filipino": "talupan",
+            "english": "pare"
+        },
+        {
+            "id": "499",
+            "kapampangan": "balbal",
+            "filipino": "sira",
+            "english": "broken"
+        },
+        {
+            "id": "500",
+            "kapampangan": "balbas",
+            "filipino": "balbas",
+            "english": "beard"
+        },
+        {
+            "id": "501",
+            "kapampangan": "balbasan",
+            "filipino": "balbasin",
+            "english": "barbate"
+        },
+        {
+            "id": "502",
+            "kapampangan": "bale at gabun",
+            "filipino": "ariang bahay at lupa",
+            "english": "real estate"
+        },
+        {
+            "id": "503",
+            "kapampangan": "bale panas",
+            "filipino": "punso",
+            "english": "ant hill"
+        },
+        {
+            "id": "504",
+            "kapampangan": "bale pasbul",
+            "filipino": "bantay pinto",
+            "english": "door"
+        },
+        {
+            "id": "505",
+            "kapampangan": "bale sugalan",
+            "filipino": "kasino",
+            "english": "casino"
+        },
+        {
+            "id": "506",
+            "kapampangan": "baliktaren",
+            "filipino": "baliktarin",
+            "english": "reverse"
+        },
+        {
+            "id": "507",
+            "kapampangan": "balisa",
+            "filipino": "pagkabalisa",
+            "english": "uneasy"
+        },
+        {
+            "id": "508",
+            "kapampangan": "balistika",
+            "filipino": "balistika",
+            "english": "ballistic"
+        },
+        {
+            "id": "509",
+            "kapampangan": "balita",
+            "filipino": "balita",
+            "english": "news"
+        },
+        {
+            "id": "510",
+            "kapampangan": "balkon",
+            "filipino": "balkon",
+            "english": "balcony"
+        },
+        {
+            "id": "511",
+            "kapampangan": "balota",
+            "filipino": "balota",
+            "english": "ballot"
+        },
+        {
+            "id": "512",
+            "kapampangan": "balsa",
+            "filipino": "balsa",
+            "english": "raft"
+        },
+        {
+            "id": "513",
+            "kapampangan": "balsam ",
+            "filipino": "balsamo",
+            "english": "balm"
+        },
+        {
+            "id": "514",
+            "kapampangan": "baltakan",
+            "filipino": "hilahin",
+            "english": "pull"
+        },
+        {
+            "id": "515",
+            "kapampangan": "balubad",
+            "filipino": "kasuy",
+            "english": "cashew"
+        },
+        {
+            "id": "516",
+            "kapampangan": "balugbug",
+            "filipino": "tainga",
+            "english": "ear"
+        },
+        {
+            "id": "517",
+            "kapampangan": "baluktot",
+            "filipino": "baluktot",
+            "english": "bent"
+        },
+        {
+            "id": "518",
+            "kapampangan": "baluktutan",
+            "filipino": "baluktutin",
+            "english": "bend]"
+        },
+        {
+            "id": "519",
+            "kapampangan": "balumbon ng papel",
+            "filipino": "balumbon ng papel",
+            "english": "scroll"
+        },
+        {
+            "id": "520",
+            "kapampangan": "balutan",
+            "filipino": "balutihan",
+            "english": "cover"
+        },
+        {
+            "id": "521",
+            "kapampangan": "balyena",
+            "filipino": "balyena",
+            "english": "whale"
+        },
+        {
+            "id": "522",
+            "kapampangan": "asu",
+            "filipino": "aso",
+            "english": "dog"
+        },
+        {
+            "id": "523",
+            "kapampangan": "pusa",
+            "filipino": "pusa",
+            "english": "cat"
+        },
+        {
+            "id": "524",
+            "kapampangan": "ahas",
+            "filipino": "ahas",
+            "english": "snake"
+        },
+        {
+            "id": "525",
+            "kapampangan": "bambuan",
+            "filipino": "bubuyog",
+            "english": "bee"
+        },
+        {
+            "id": "526",
+            "kapampangan": "banal",
+            "filipino": "banal",
+            "english": "sacred"
+        },
+        {
+            "id": "527",
+            "kapampangan": "banal na kasulatan",
+            "filipino": "bibliya",
+            "english": "bible"
+        },
+        {
+            "id": "528",
+            "kapampangan": "banal na kanta",
+            "filipino": "banal na awit ",
+            "english": "psalm"
+        },
+        {
+            "id": "529",
+            "kapampangan": "banal na lugar",
+            "filipino": "banal na pook",
+            "english": "sanctuary"
+        },
+        {
+            "id": "530",
+            "kapampangan": "banal na kasulatan",
+            "filipino": "banal na kasulatan",
+            "english": "holy bible"
+        },
+        {
+            "id": "531",
+            "kapampangan": "bandang",
+            "filipino": "tungo sa",
+            "english": "toward"
+        },
+        {
+            "id": "532",
+            "kapampangan": "banayad",
+            "filipino": "kalmado",
+            "english": "smooth"
+        },
+        {
+            "id": "533",
+            "kapampangan": "banda",
+            "filipino": "banda",
+            "english": "band"
+        },
+        {
+            "id": "534",
+            "kapampangan": "bandi",
+            "filipino": "pag-aari",
+            "english": "belongings"
+        },
+        {
+            "id": "535",
+            "kapampangan": "bandi nang",
+            "filipino": "pag-aari ni",
+            "english": "belong"
+        },
+        {
+            "id": "536",
+            "kapampangan": "bandian",
+            "filipino": "tiyak",
+            "english": "possess"
+        },
+        {
+            "id": "537",
+            "kapampangan": "bandido",
+            "filipino": "tulisan",
+            "english": "bandit"
+        },
+        {
+            "id": "538",
+            "kapampangan": "banding saliri",
+            "filipino": "mga ari-ariang pansarili",
+            "english": "paraphernalia"
+        },
+        {
+            "id": "539",
+            "kapampangan": "bandiyan",
+            "filipino": "angkinin",
+            "english": "claim"
+        },
+        {
+            "id": "540",
+            "kapampangan": "bandu",
+            "filipino": "alarma",
+            "english": "alarm"
+        },
+        {
+            "id": "541",
+            "kapampangan": "bangalan",
+            "filipino": "biyakin",
+            "english": "split"
+        },
+        {
+            "id": "542",
+            "kapampangan": "banggaan",
+            "filipino": "banggaan",
+            "english": "crash"
+        },
+        {
+            "id": "543",
+            "kapampangan": "bangin",
+            "filipino": "talampas",
+            "english": "cliff"
+        },
+        {
+            "id": "544",
+            "kapampangan": "bangka",
+            "filipino": "bangka",
+            "english": "boat"
+        },
+        {
+            "id": "545",
+            "kapampangan": "bangkarote",
+            "filipino": "bangkarote",
+            "english": "bankrupt"
+        },
+        {
+            "id": "546",
+            "kapampangan": "bangke",
+            "filipino": "bangkay",
+            "english": "corpse"
+        },
+        {
+            "id": "547",
+            "kapampangan": "bangkero",
+            "filipino": "bangkero",
+            "english": "banker"
+        },
+        {
+            "id": "548",
+            "kapampangan": "bangketa",
+            "filipino": "bangketa",
+            "english": "pavement"
+        },
+        {
+            "id": "549",
+            "kapampangan": "bangkitu",
+            "filipino": "bangkito",
+            "english": "stool"
+        },
+        {
+            "id": "550",
+            "kapampangan": "bangko",
+            "filipino": "silya",
+            "english": "chair"
+        },
+        {
+            "id": "551",
+            "kapampangan": "bangko",
+            "filipino": "bangko",
+            "english": "bank"
+        },
+        {
+            "id": "552",
+            "kapampangan": "banketa",
+            "filipino": "bangketa",
+            "english": "sidwalk"
+        },
+        {
+            "id": "553",
+            "kapampangan": "banlon",
+            "filipino": "banlaw",
+            "english": "rinse"
+        },
+        {
+            "id": "554",
+            "kapampangan": "banque",
+            "filipino": "bangkay",
+            "english": "corpse"
+        },
+        {
+            "id": "555",
+            "kapampangan": "banta",
+            "filipino": "banta",
+            "english": "threat"
+        },
+        {
+            "id": "556",
+            "kapampangan": "bantayug",
+            "filipino": "bantayug",
+            "english": "statue"
+        },
+        {
+            "id": "557",
+            "kapampangan": "bante",
+            "filipino": "bantay",
+            "english": "sentinel"
+        },
+        {
+            "id": "558",
+            "kapampangan": "banua",
+            "filipino": "taon",
+            "english": "year"
+        },
+        {
+            "id": "559",
+            "kapampangan": "banua-banua",
+            "filipino": "taunan",
+            "english": "yearly"
+        },
+        {
+            "id": "560",
+            "kapampangan": "banyo",
+            "filipino": "banyo",
+            "english": "bathroom"
+        },
+        {
+            "id": "561",
+            "kapampangan": "baog",
+            "filipino": "baog",
+            "english": "barren"
+        },
+        {
+            "id": "562",
+            "kapampangan": "bapa",
+            "filipino": "tiyo",
+            "english": "uncle"
+        },
+        {
+            "id": "563",
+            "kapampangan": "barako",
+            "filipino": "barako",
+            "english": "buck"
+        },
+        {
+            "id": "564",
+            "kapampangan": "barangay",
+            "filipino": "pamayanan",
+            "english": "community"
+        },
+        {
+            "id": "565",
+            "kapampangan": "barberu",
+            "filipino": "barbero",
+            "english": "barber"
+        },
+        {
+            "id": "566",
+            "kapampangan": "barbikyu",
+            "filipino": "barbikyu",
+            "english": "barbecue"
+        },
+        {
+            "id": "567",
+            "kapampangan": "barbun",
+            "filipino": "beranda",
+            "english": "porch"
+        },
+        {
+            "id": "568",
+            "kapampangan": "barena",
+            "filipino": "barena",
+            "english": "auger"
+        },
+        {
+            "id": "569",
+            "kapampangan": "bareta",
+            "filipino": "tarangka",
+            "english": "bar"
+        },
+        {
+            "id": "570",
+            "kapampangan": "barikada",
+            "filipino": "harang",
+            "english": "barricade"
+        },
+        {
+            "id": "571",
+            "kapampangan": "barilan",
+            "filipino": "barilin",
+            "english": "shoot"
+        },
+        {
+            "id": "572",
+            "kapampangan": "baritono",
+            "filipino": "baritono",
+            "english": "baritone"
+        },
+        {
+            "id": "573",
+            "kapampangan": "barnis",
+            "filipino": "pangpakintab",
+            "english": "varnish"
+        },
+        {
+            "id": "574",
+            "kapampangan": "barugan",
+            "filipino": "paluin",
+            "english": "beat"
+        },
+        {
+            "id": "575",
+            "kapampangan": "barumbado",
+            "filipino": "barumbado",
+            "english": "cad"
+        },
+        {
+            "id": "576",
+            "kapampangan": "baryo",
+            "filipino": "baryo",
+            "english": "barrio"
+        },
+        {
+            "id": "577",
+            "kapampangan": "basaen",
+            "filipino": "basahin",
+            "english": "read"
+        },
+        {
+            "id": "578",
+            "kapampangan": "basagulero",
+            "filipino": "palaaway",
+            "english": "quarrelsome"
+        },
+        {
+            "id": "579",
+            "kapampangan": "basan",
+            "filipino": "basahan",
+            "english": "rag"
+        },
+        {
+            "id": "580",
+            "kapampangan": "basehan",
+            "filipino": "maging batayan",
+            "english": "underlie"
+        },
+        {
+            "id": "581",
+            "kapampangan": "basijan",
+            "filipino": "saligan",
+            "english": "basis"
+        },
+        {
+            "id": "582",
+            "kapampangan": "basilika",
+            "filipino": "basilika",
+            "english": "basilica"
+        },
+        {
+            "id": "583",
+            "kapampangan": "baskal",
+            "filipino": "bungkos",
+            "english": "bundle"
+        },
+        {
+            "id": "584",
+            "kapampangan": "basket",
+            "filipino": "basket",
+            "english": "basket"
+        },
+        {
+            "id": "585",
+            "kapampangan": "basketbol",
+            "filipino": "basketbol",
+            "english": "basketball"
+        },
+        {
+            "id": "586",
+            "kapampangan": "bastardo",
+            "filipino": "bastardo",
+            "english": "bastard"
+        },
+        {
+            "id": "587",
+            "kapampangan": "baston",
+            "filipino": "tungkod",
+            "english": "cane"
+        },
+        {
+            "id": "588",
+            "kapampangan": "bastos",
+            "filipino": "bastos",
+            "english": "blatant"
+        },
+        {
+            "id": "589",
+            "kapampangan": "bastos",
+            "filipino": "bastos",
+            "english": "rude"
+        },
+        {
+            "id": "590",
+            "kapampangan": "bastun",
+            "filipino": "pamalo",
+            "english": "rod"
+        },
+        {
+            "id": "591",
+            "kapampangan": "basura",
+            "filipino": "basura",
+            "english": "trash"
+        },
+        {
+            "id": "592",
+            "kapampangan": "bata",
+            "filipino": "bata",
+            "english": "child"
+        },
+        {
+            "id": "593",
+            "kapampangan": "batal",
+            "filipino": "pugutan",
+            "english": "behead"
+        },
+        {
+            "id": "594",
+            "kapampangan": "batas",
+            "filipino": "batas",
+            "english": "law"
+        },
+        {
+            "id": "595",
+            "kapampangan": "batayan",
+            "filipino": "batayan",
+            "english": "background"
+        },
+        {
+            "id": "596",
+            "kapampangan": "batiin",
+            "filipino": "batiin",
+            "english": "congratulate"
+        },
+        {
+            "id": "597",
+            "kapampangan": "batik",
+            "filipino": "dungisan",
+            "english": "blemish"
+        },
+        {
+            "id": "598",
+            "kapampangan": "batis",
+            "filipino": "sapa",
+            "english": "stream"
+        },
+        {
+            "id": "599",
+            "kapampangan": "bato",
+            "filipino": "bato",
+            "english": "rock"
+        },
+        {
+            "id": "600",
+            "kapampangan": "battab",
+            "filipino": "battab",
+            "english": "bathtub"
+        },
+        {
+            "id": "601",
+            "kapampangan": "batyan",
+            "filipino": "batiin",
+            "english": "greet"
+        },
+        {
+            "id": "602",
+            "kapampangan": "bau",
+            "filipino": "halimuyak",
+            "english": "scent"
+        },
+        {
+            "id": "603",
+            "kapampangan": "baunser",
+            "filipino": "baunser",
+            "english": "bouncer'"
+        },
+        {
+            "id": "604",
+            "kapampangan": "bawasan",
+            "filipino": "pahupain",
+            "english": "lessen"
+        },
+        {
+            "id": "605",
+            "kapampangan": "bawian",
+            "filipino": "bawiin",
+            "english": "retake"
+        },
+        {
+            "id": "606",
+            "kapampangan": "bayad",
+            "filipino": "kabayaran",
+            "english": "payment"
+        },
+        {
+            "id": "607",
+            "kapampangan": "bayan",
+            "filipino": "bansa",
+            "english": "urban"
+        },
+        {
+            "id": "608",
+            "kapampangan": "bayaran pasibaya",
+            "filipino": "bayaran ulit",
+            "english": "repay"
+        },
+        {
+            "id": "609",
+            "kapampangan": "bayat",
+            "filipino": "bigat",
+            "english": "burden"
+        },
+        {
+            "id": "610",
+            "kapampangan": "bayaw",
+            "filipino": "bayaw",
+            "english": "brother in law"
+        },
+        {
+            "id": "611",
+            "kapampangan": "bayer",
+            "filipino": "bili",
+            "english": "buy"
+        },
+        {
+            "id": "612",
+            "kapampangan": "baylano",
+            "filipino": "baywang",
+            "english": "waist"
+        },
+        {
+            "id": "613",
+            "kapampangan": "bayo",
+            "filipino": "katulong",
+            "english": "apprentice"
+        },
+        {
+            "id": "614",
+            "kapampangan": "bayo babae",
+            "filipino": "hipag",
+            "english": "sister in law"
+        },
+        {
+            "id": "615",
+            "kapampangan": "bayu",
+            "filipino": "bago",
+            "english": "before"
+        },
+        {
+            "id": "616",
+            "kapampangan": "bayunglub",
+            "filipino": "baguhan",
+            "english": "beginner"
+        },
+        {
+            "id": "617",
+            "kapampangan": "baywan",
+            "filipino": "baguhin",
+            "english": "change"
+        },
+        {
+            "id": "618",
+            "kapampangan": "beisbol",
+            "filipino": "beisbol",
+            "english": "baseball"
+        },
+        {
+            "id": "619",
+            "kapampangan": "belu",
+            "filipino": "belo",
+            "english": "veil"
+        },
+        {
+            "id": "620",
+            "kapampangan": "benda",
+            "filipino": "benda",
+            "english": "bandage"
+        },
+        {
+            "id": "621",
+            "kapampangan": "bendicion",
+            "filipino": "basbas",
+            "english": "benediction"
+        },
+        {
+            "id": "622",
+            "kapampangan": "bendisyunan",
+            "filipino": "pagpalain",
+            "english": "bless"
+        },
+        {
+            "id": "623",
+            "kapampangan": "benepisyo",
+            "filipino": "benepisyo",
+            "english": "benefits"
+        },
+        {
+            "id": "624",
+            "kapampangan": "benepisyonaryo",
+            "filipino": "benepisyonaryo",
+            "english": "beneficiary"
+        },
+        {
+            "id": "625",
+            "kapampangan": "betag",
+            "filipino": "bitag",
+            "english": "snare"
+        },
+        {
+            "id": "626",
+            "kapampangan": "beuda",
+            "filipino": "balong babae",
+            "english": "widow"
+        },
+        {
+            "id": "627",
+            "kapampangan": "biasa",
+            "filipino": "matalino",
+            "english": "clever"
+        },
+        {
+            "id": "628",
+            "kapampangan": "biayan",
+            "filipino": "buhaying muli",
+            "english": "revive"
+        },
+        {
+            "id": "629",
+            "kapampangan": "bibingka",
+            "filipino": "bibingka",
+            "english": "cake"
+        },
+        {
+            "id": "630",
+            "kapampangan": "bibliya",
+            "filipino": "bibliya",
+            "english": "bible"
+        },
+        {
+            "id": "631",
+            "kapampangan": "biding",
+            "filipino": "subasta",
+            "english": "bidding"
+        },
+        {
+            "id": "632",
+            "kapampangan": "bigla",
+            "filipino": "bigla",
+            "english": "sudden"
+        },
+        {
+            "id": "633",
+            "kapampangan": "bihira",
+            "filipino": "bihira",
+            "english": "rare"
+        },
+        {
+            "id": "634",
+            "kapampangan": "biktima",
+            "filipino": "biktima",
+            "english": "victim"
+        },
+        {
+            "id": "635",
+            "kapampangan": "bilang",
+            "filipino": "kabuuan",
+            "english": "count"
+        },
+        {
+            "id": "636",
+            "kapampangan": "bilding",
+            "filipino": "gusali",
+            "english": "building"
+        },
+        {
+            "id": "637",
+            "kapampangan": "bilog",
+            "filipino": "bilog",
+            "english": "circle"
+        },
+        {
+            "id": "638",
+            "kapampangan": "bilyar",
+            "filipino": "bilyar",
+            "english": "billiar"
+        },
+        {
+            "id": "639",
+            "kapampangan": "bilyon",
+            "filipino": "bilyon",
+            "english": "billion"
+        },
+        {
+            "id": "640",
+            "kapampangan": "bilyonaryo",
+            "filipino": "bilyonaryo",
+            "english": "billionaira"
+        },
+        {
+            "id": "641",
+            "kapampangan": "binayad",
+            "filipino": "salaping binayad",
+            "english": "subscription"
+        },
+        {
+            "id": "642",
+            "kapampangan": "bingut",
+            "filipino": "sanggol",
+            "english": "baby"
+        },
+        {
+            "id": "643",
+            "kapampangan": "bins",
+            "filipino": "bins",
+            "english": "bean"
+        },
+        {
+            "id": "644",
+            "kapampangan": "bintang",
+            "filipino": "pinagsasabi",
+            "english": "allegation"
+        },
+        {
+            "id": "645",
+            "kapampangan": "binyag",
+            "filipino": "binyag",
+            "english": "baptism"
+        },
+        {
+            "id": "646",
+            "kapampangan": "binyagan",
+            "filipino": "binyagan",
+            "english": "baptize"
+        },
+        {
+            "id": "647",
+            "kapampangan": "bir",
+            "filipino": "bir",
+            "english": "beer"
+        },
+        {
+            "id": "648",
+            "kapampangan": "bisa",
+            "filipino": "bisa",
+            "english": "visa"
+        },
+        {
+            "id": "649",
+            "kapampangan": "bisekleta",
+            "filipino": "bisekleta",
+            "english": "bicycle"
+        },
+        {
+            "id": "650",
+            "kapampangan": "bisiro",
+            "filipino": "bisiro",
+            "english": "colt"
+        },
+        {
+            "id": "651",
+            "kapampangan": "bisita",
+            "filipino": "bisita",
+            "english": "visitor"
+        },
+        {
+            "id": "652",
+            "kapampangan": "bisitas",
+            "filipino": "kapilya",
+            "english": "chapel"
+        },
+        {
+            "id": "653",
+            "kapampangan": "biskuwit",
+            "filipino": "biskuwit",
+            "english": "biscuit"
+        },
+        {
+            "id": "654",
+            "kapampangan": "bitag",
+            "filipino": "pain",
+            "english": "bait"
+        },
+        {
+            "id": "655",
+            "kapampangan": "bitamina",
+            "filipino": "bitamina",
+            "english": "vitamin"
+        },
+        {
+            "id": "656",
+            "kapampangan": "bitis",
+            "filipino": "binti",
+            "english": "paa"
+        },
+        {
+            "id": "657",
+            "kapampangan": "biyahe",
+            "filipino": "maglayag",
+            "english": "voyage"
+        },
+        {
+            "id": "658",
+            "kapampangan": "biyu",
+            "filipino": "paningin",
+            "english": "sight"
+        },
+        {
+            "id": "659",
+            "kapampangan": "biyuru",
+            "filipino": "kawanihan",
+            "english": "bureau"
+        },
+        {
+            "id": "660",
+            "kapampangan": "blakbord",
+            "filipino": "pisara",
+            "english": "blackboard"
+        },
+        {
+            "id": "661",
+            "kapampangan": "blangket",
+            "filipino": "blangket",
+            "english": "blanket"
+        },
+        {
+            "id": "662",
+            "kapampangan": "blangko",
+            "filipino": "blangko",
+            "english": "blank"
+        },
+        {
+            "id": "663",
+            "kapampangan": "bloke",
+            "filipino": "bloke",
+            "english": "block"
+        },
+        {
+            "id": "664",
+            "kapampangan": "blowaut",
+            "filipino": "magpiging",
+            "english": "blow out"
+        },
+        {
+            "id": "665",
+            "kapampangan": "blumer",
+            "filipino": "blumer",
+            "english": "bloomer"
+        },
+        {
+            "id": "666",
+            "kapampangan": "bodega",
+            "filipino": "bodega",
+            "english": "warehouse"
+        },
+        {
+            "id": "667",
+            "kapampangan": "bodigard",
+            "filipino": "bantay",
+            "english": "body guard"
+        },
+        {
+            "id": "668",
+            "kapampangan": "bokabularyo",
+            "filipino": "talasalitaan",
+            "english": "vocabulary"
+        },
+        {
+            "id": "669",
+            "kapampangan": "boksing",
+            "filipino": "boksing",
+            "english": "boxing"
+        },
+        {
+            "id": "670",
+            "kapampangan": "boksingero",
+            "filipino": "boksingero",
+            "english": "boxer"
+        },
+        {
+            "id": "671",
+            "kapampangan": "bola",
+            "filipino": "bola",
+            "english": "ball"
+        },
+        {
+            "id": "672",
+            "kapampangan": "bola",
+            "filipino": "mundo",
+            "english": "sphere"
+        },
+        {
+            "id": "673",
+            "kapampangan": "boltahe",
+            "filipino": "boltahe",
+            "english": "voltage"
+        },
+        {
+            "id": "674",
+            "kapampangan": "bombilya",
+            "filipino": "bombilya",
+            "english": "bulb"
+        },
+        {
+            "id": "675",
+            "kapampangan": "bonus",
+            "filipino": "bonus",
+            "english": "bonus"
+        },
+        {
+            "id": "676",
+            "kapampangan": "bos",
+            "filipino": "amo",
+            "english": "boss"
+        },
+        {
+            "id": "677",
+            "kapampangan": "bota",
+            "filipino": "botas",
+            "english": "boot"
+        },
+        {
+            "id": "678",
+            "kapampangan": "botanika",
+            "filipino": "botanika",
+            "english": "botany"
+        },
+        {
+            "id": "679",
+            "kapampangan": "bote",
+            "filipino": "bote",
+            "english": "bottle"
+        },
+        {
+            "id": "680",
+            "kapampangan": "botonis",
+            "filipino": "buton",
+            "english": "button"
+        },
+        {
+            "id": "681",
+            "kapampangan": "botuhan",
+            "filipino": "halalan",
+            "english": "election"
+        },
+        {
+            "id": "682",
+            "kapampangan": "bowling",
+            "filipino": "bawling",
+            "english": "bowling"
+        },
+        {
+            "id": "683",
+            "kapampangan": "boy iskaut",
+            "filipino": "boy iskaut",
+            "english": "boy scout"
+        },
+        {
+            "id": "684",
+            "kapampangan": "boykoteo",
+            "filipino": "boykoteo",
+            "english": "boycott"
+        },
+        {
+            "id": "685",
+            "kapampangan": "bra",
+            "filipino": "bra",
+            "english": "bra"
+        },
+        {
+            "id": "686",
+            "kapampangan": "braket",
+            "filipino": "braket",
+            "english": "bracket"
+        },
+        {
+            "id": "687",
+            "kapampangan": "brandi",
+            "filipino": "brandi",
+            "english": "brandy"
+        },
+        {
+            "id": "688",
+            "kapampangan": "braso",
+            "filipino": "daga-dagaan",
+            "english": "biceps"
+        },
+        {
+            "id": "689",
+            "kapampangan": "breyser",
+            "filipino": "breyser",
+            "english": "brassierre"
+        },
+        {
+            "id": "690",
+            "kapampangan": "briping",
+            "filipino": "briping",
+            "english": "briefing"
+        },
+        {
+            "id": "691",
+            "kapampangan": "brodkas",
+            "filipino": "brodkas",
+            "english": "broadcast"
+        },
+        {
+            "id": "692",
+            "kapampangan": "bronkitis",
+            "filipino": "brongkitis",
+            "english": "bronchitis"
+        },
+        {
+            "id": "693",
+            "kapampangan": "bronsi",
+            "filipino": "tanso",
+            "english": "bronze"
+        },
+        {
+            "id": "694",
+            "kapampangan": "brutal",
+            "filipino": "malupit",
+            "english": "brutal"
+        },
+        {
+            "id": "695",
+            "kapampangan": "bua",
+            "filipino": "butasin",
+            "english": "puncture"
+        },
+        {
+            "id": "696",
+            "kapampangan": "komidyan",
+            "filipino": "komidyan",
+            "english": "comedian"
+        },
+        {
+            "id": "697",
+            "kapampangan": "bubungan",
+            "filipino": "bubong",
+            "english": "roof"
+        },
+        {
+            "id": "698",
+            "kapampangan": "buda",
+            "filipino": "buda",
+            "english": "buddha"
+        },
+        {
+            "id": "699",
+            "kapampangan": "bugasuc",
+            "filipino": "marahas",
+            "english": "violent"
+        },
+        {
+            "id": "700",
+            "kapampangan": "bugnutan",
+            "filipino": "bugnutin",
+            "english": "petulant"
+        },
+        {
+            "id": "701",
+            "kapampangan": "bugtungan",
+            "filipino": "bugtong",
+            "english": "riddle"
+        },
+        {
+            "id": "702",
+            "kapampangan": "bwak",
+            "filipino": "buhok",
+            "english": "hair"
+        },
+        {
+            "id": "703",
+            "kapampangan": "bukas",
+            "filipino": "bukas",
+            "english": "tomorrow"
+        },
+        {
+            "id": "704",
+            "kapampangan": "buklet",
+            "filipino": "buklet",
+            "english": "booklet"
+        },
+        {
+            "id": "705",
+            "kapampangan": "bukud",
+            "filipino": "bukod sa",
+            "english": "aside"
+        },
+        {
+            "id": "706",
+            "kapampangan": "bulalako",
+            "filipino": "bulalakaw",
+            "english": "shooting star"
+        },
+        {
+            "id": "707",
+            "kapampangan": "bulati",
+            "filipino": "bulati",
+            "english": "earthworm"
+        },
+        {
+            "id": "708",
+            "kapampangan": "bulbul",
+            "filipino": "balahibo",
+            "english": "bristle"
+        },
+        {
+            "id": "709",
+            "kapampangan": "buldit",
+            "filipino": "puwit",
+            "english": "anus"
+        },
+        {
+            "id": "710",
+            "kapampangan": "buldog",
+            "filipino": "buldog",
+            "english": "bulldog]"
+        },
+        {
+            "id": "711",
+            "kapampangan": "bulibard",
+            "filipino": "bulibard",
+            "english": "boulevard"
+        },
+        {
+            "id": "712",
+            "kapampangan": "buliten",
+            "filipino": "bulitin",
+            "english": "bulletin"
+        },
+        {
+            "id": "713",
+            "kapampangan": "bulkan",
+            "filipino": "bulkan",
+            "english": "volcano"
+        },
+        {
+            "id": "714",
+            "kapampangan": "bulungan",
+            "filipino": "bali-balita",
+            "english": "rumor"
+        },
+        {
+            "id": "715",
+            "kapampangan": "bumerang",
+            "filipino": "bumerang",
+            "english": "boomerang"
+        },
+        {
+            "id": "716",
+            "kapampangan": "bumukaka",
+            "filipino": "bumukaka",
+            "english": "straddle"
+        },
+        {
+            "id": "717",
+            "kapampangan": "bunga",
+            "filipino": "produkto",
+            "english": "product"
+        },
+        {
+            "id": "718",
+            "kapampangan": "bungo",
+            "filipino": "bungo",
+            "english": "skull"
+        },
+        {
+            "id": "719",
+            "kapampangan": "buntok",
+            "filipino": "ulo",
+            "english": "head"
+        },
+        {
+            "id": "720",
+            "kapampangan": "bunutan",
+            "filipino": "bunutin",
+            "english": "uproot"
+        },
+        {
+            "id": "721",
+            "kapampangan": "burahan",
+            "filipino": "kanselahin",
+            "english": "cancel"
+        },
+        {
+            "id": "722",
+            "kapampangan": "burara",
+            "filipino": "walang ingat",
+            "english": "sloppy"
+        },
+        {
+            "id": "723",
+            "kapampangan": "bus",
+            "filipino": "bus",
+            "english": "bus"
+        },
+        {
+            "id": "724",
+            "kapampangan": "busal",
+            "filipino": "busal",
+            "english": "corncub"
+        },
+        {
+            "id": "725",
+            "kapampangan": "busbusan",
+            "filipino": "maglagos",
+            "english": "pierce"
+        },
+        {
+            "id": "726",
+            "kapampangan": "busitan",
+            "filipino": "yamutin",
+            "english": "annoy"
+        },
+        {
+            "id": "727",
+            "kapampangan": "buslu",
+            "filipino": "basket",
+            "english": "basket"
+        },
+        {
+            "id": "728",
+            "kapampangan": "busto",
+            "filipino": "busto",
+            "english": "bust"
+        },
+        {
+            "id": "729",
+            "kapampangan": "butil",
+            "filipino": "butil",
+            "english": "bead"
+        },
+        {
+            "id": "730",
+            "kapampangan": "butul",
+            "filipino": "buto",
+            "english": "bone"
+        },
+        {
+            "id": "731",
+            "kapampangan": "buwis",
+            "filipino": "buwis",
+            "english": "tax"
+        },
+        {
+            "id": "732",
+            "kapampangan": "byustisyan",
+            "filipino": "byustisyan",
+            "english": "beautician"
+        },
+        {
+            "id": "733",
+            "kapampangan": "cabanalan",
+            "filipino": "kabanalan",
+            "english": "sanctity"
+        },
+        {
+            "id": "734",
+            "kapampangan": "kahilingan",
+            "filipino": "kahilingan",
+            "english": "request"
+        },
+        {
+            "id": "735",
+            "kapampangan": "cailangan",
+            "filipino": "kailangan",
+            "english": "need"
+        },
+        {
+            "id": "736",
+            "kapampangan": "calaban",
+            "filipino": "kalaban",
+            "english": "rival"
+        },
+        {
+            "id": "737",
+            "kapampangan": "caligtasan",
+            "filipino": "kaligtasan",
+            "english": "safety"
+        },
+        {
+            "id": "738",
+            "kapampangan": "cuanna pasibbayu",
+            "filipino": "angining muli",
+            "english": "reclaim"
+        },
+        {
+            "id": "739",
+            "kapampangan": "casabian",
+            "filipino": "kasabihan",
+            "english": "saying"
+        },
+        {
+            "id": "740",
+            "kapampangan": "catuliran",
+            "filipino": "dahilan",
+            "english": "reason"
+        },
+        {
+            "id": "741",
+            "kapampangan": "capamentunan",
+            "filipino": "mapagkukunan",
+            "english": "resource"
+        },
+        {
+            "id": "742",
+            "kapampangan": "capihan",
+            "filipino": "kapihan",
+            "english": "cape"
+        },
+        {
+            "id": "743",
+            "kapampangan": "capilan pamu",
+            "filipino": "di pa natatagalan",
+            "english": "recent"
+        },
+        {
+            "id": "744",
+            "kapampangan": "carwahe",
+            "filipino": "karwahe",
+            "english": "carriage"
+        },
+        {
+            "id": "745",
+            "kapampangan": "caugalian",
+            "filipino": "katangian",
+            "english": "characteristic"
+        },
+        {
+            "id": "746",
+            "kapampangan": "cautusan",
+            "filipino": "kautusan",
+            "english": "order"
+        },
+        {
+            "id": "747",
+            "kapampangan": "cueva",
+            "filipino": "yungib",
+            "english": "cave"
+        },
+        {
+            "id": "748",
+            "kapampangan": "cunejo",
+            "filipino": "kuneho",
+            "english": "rabbit"
+        },
+        {
+            "id": "749",
+            "kapampangan": "dakal",
+            "filipino": "marami",
+            "english": "several"
+        },
+        {
+            "id": "750",
+            "kapampangan": "dagdag",
+            "filipino": "dagdag",
+            "english": "additional"
+        },
+        {
+            "id": "751",
+            "kapampangan": "dagdag king tauli ning libro",
+            "filipino": "dagdag sa dulo ng aklat",
+            "english": "appendix"
+        },
+        {
+            "id": "752",
+            "kapampangan": "bagul",
+            "filipino": "laki",
+            "english": "size"
+        },
+        {
+            "id": "753",
+            "kapampangan": "dakal",
+            "filipino": "masagana",
+            "english": "abundant"
+        },
+        {
+            "id": "754",
+            "kapampangan": "dakal",
+            "filipino": "masagana",
+            "english": "plenty"
+        },
+        {
+            "id": "755",
+            "kapampangan": "dakpan",
+            "filipino": "bihagin",
+            "english": "captivate"
+        },
+        {
+            "id": "756",
+            "kapampangan": "dakpan",
+            "filipino": "dakpin",
+            "english": "arrest"
+        },
+        {
+            "id": "757",
+            "kapampangan": "dalan",
+            "filipino": "dalhin",
+            "english": "carry"
+        },
+        {
+            "id": "758",
+            "kapampangan": "dalampasigan",
+            "filipino": "aplaya",
+            "english": "beach"
+        },
+        {
+            "id": "759",
+            "kapampangan": "dalumdum",
+            "filipino": "kadiliman",
+            "english": "darkness"
+        },
+        {
+            "id": "760",
+            "kapampangan": "damas",
+            "filipino": "abay",
+            "english": "bridesmaid"
+        },
+        {
+            "id": "761",
+            "kapampangan": "damdam",
+            "filipino": "dinig",
+            "english": "audible"
+        },
+        {
+            "id": "762",
+            "kapampangan": "damulag",
+            "filipino": "tamaraw",
+            "english": "buffalo"
+        },
+        {
+            "id": "763",
+            "kapampangan": "damusakan",
+            "filipino": "yurakan",
+            "english": "trample"
+        },
+        {
+            "id": "764",
+            "kapampangan": "dangka",
+            "filipino": "kabanata",
+            "english": "chapter"
+        },
+        {
+            "id": "765",
+            "kapampangan": "danum",
+            "filipino": "tubig",
+            "english": "water"
+        },
+        {
+            "id": "766",
+            "kapampangan": "daong",
+            "filipino": "daong",
+            "english": "ark"
+        },
+        {
+            "id": "767",
+            "kapampangan": "dapat",
+            "filipino": "dapat",
+            "english": "should"
+        },
+        {
+            "id": "768",
+            "kapampangan": "dapug",
+            "filipino": "dapog",
+            "english": "bonfire"
+        },
+        {
+            "id": "769",
+            "kapampangan": "dapo",
+            "filipino": "buwaya",
+            "english": "alligator"
+        },
+        {
+            "id": "770",
+            "kapampangan": "dasan",
+            "filipino": "dukwangin",
+            "english": "reach"
+        },
+        {
+            "id": "771",
+            "kapampangan": "datang",
+            "filipino": "dumating",
+            "english": "arrive"
+        },
+        {
+            "id": "772",
+            "kapampangan": "daya",
+            "filipino": "dugo",
+            "english": "blood"
+        },
+        {
+            "id": "773",
+            "kapampangan": "dayu",
+            "filipino": "dayuhan",
+            "english": "foreign"
+        },
+        {
+            "id": "774",
+            "kapampangan": "defensa qng sarili",
+            "filipino": "pagtatanggol sa sarili",
+            "english": "self-defense"
+        },
+        {
+            "id": "775",
+            "kapampangan": "delate",
+            "filipino": "delata",
+            "english": "canned"
+        },
+        {
+            "id": "776",
+            "kapampangan": "dengan",
+            "filipino": "lahat",
+            "english": "all"
+        },
+        {
+            "id": "777",
+            "kapampangan": "depensa",
+            "filipino": "depensa",
+            "english": "defense"
+        },
+        {
+            "id": "778",
+            "kapampangan": "deretso",
+            "filipino": "walang hinto",
+            "english": "continuous"
+        },
+        {
+            "id": "779",
+            "kapampangan": "dila",
+            "filipino": "dila",
+            "english": "tongue"
+        },
+        {
+            "id": "780",
+            "kapampangan": "diligan",
+            "filipino": "wisikan",
+            "english": "spray"
+        },
+        {
+            "id": "781",
+            "kapampangan": "dimla",
+            "filipino": "ginaw",
+            "english": "cold"
+        },
+        {
+            "id": "782",
+            "kapampangan": "dinalan banwa",
+            "filipino": "siglo",
+            "english": "century"
+        },
+        {
+            "id": "783",
+            "kapampangan": "dinamo",
+            "filipino": "dinamo",
+            "english": "dynamo"
+        },
+        {
+            "id": "784",
+            "kapampangan": "dinan",
+            "filipino": "lagyan",
+            "english": "apply"
+        },
+        {
+            "id": "785",
+            "kapampangan": "dinanas",
+            "filipino": "dinanas",
+            "english": "undergo"
+        },
+        {
+            "id": "786",
+            "kapampangan": "kalat",
+            "filipino": "basura",
+            "english": "garbage"
+        },
+        {
+            "id": "787",
+            "kapampangan": "dinatan",
+            "filipino": "parumihin",
+            "english": "pollute"
+        },
+        {
+            "id": "788",
+            "kapampangan": "ding tau",
+            "filipino": "mga tao",
+            "english": "people"
+        },
+        {
+            "id": "789",
+            "kapampangan": "disan ng pakiramdam",
+            "filipino": "maparalitiko",
+            "english": "paralyze"
+        },
+        {
+            "id": "790",
+            "kapampangan": "disau",
+            "filipino": "natamo",
+            "english": "attainment"
+        },
+        {
+            "id": "791",
+            "kapampangan": "disisyon",
+            "filipino": "hatol",
+            "english": "judgment"
+        },
+        {
+            "id": "792",
+            "kapampangan": "diskanso",
+            "filipino": "paumanhin",
+            "english": "apology"
+        },
+        {
+            "id": "793",
+            "kapampangan": "ditak",
+            "filipino": "di sapat",
+            "english": "not enough"
+        },
+        {
+            "id": "794",
+            "kapampangan": "diyan",
+            "filipino": "diyan",
+            "english": "therein"
+        },
+        {
+            "id": "795",
+            "kapampangan": "dolyar",
+            "filipino": "dolyar",
+            "english": "buck"
+        },
+        {
+            "id": "796",
+            "kapampangan": "dosena",
+            "filipino": "dosena",
+            "english": "dozen"
+        },
+        {
+            "id": "797",
+            "kapampangan": "dragon",
+            "filipino": "dragon",
+            "english": "dragon"
+        },
+        {
+            "id": "798",
+            "kapampangan": "dumenguan",
+            "filipino": "lingguhan",
+            "english": "weekly"
+        },
+        {
+            "id": "799",
+            "kapampangan": "dumuko",
+            "filipino": "yumuko",
+            "english": "bow"
+        },
+        {
+            "id": "800",
+            "kapampangan": "dumurut",
+            "filipino": "umikot",
+            "english": "turn"
+        },
+        {
+            "id": "801",
+            "kapampangan": "durugan",
+            "filipino": "durugin",
+            "english": "shatter"
+        },
+        {
+            "id": "802",
+            "kapampangan": "dutung",
+            "filipino": "kahoy",
+            "english": "wood"
+        },
+        {
+            "id": "803",
+            "kapampangan": "duwag",
+            "filipino": "duwag",
+            "english": "coward"
+        },
+        {
+            "id": "804",
+            "kapampangan": "duwende",
+            "filipino": "unano",
+            "english": "dwarf"
+        },
+        {
+            "id": "805",
+            "kapampangan": "duyan",
+            "filipino": "duyan",
+            "english": "cradle"
+        },
+        {
+            "id": "806",
+            "kapampangan": "e bugasok",
+            "filipino": "mahinahon",
+            "english": "calm"
+        },
+        {
+            "id": "807",
+            "kapampangan": "e mal",
+            "filipino": "mura",
+            "english": "cheap"
+        },
+        {
+            "id": "808",
+            "kapampangan": "e malino",
+            "filipino": "malabo",
+            "english": "not clear"
+        },
+        {
+            "id": "809",
+            "kapampangan": "e manakit",
+            "filipino": "bulag",
+            "english": "blind"
+        },
+        {
+            "id": "810",
+            "kapampangan": "e maselese",
+            "filipino": "hindi maayos",
+            "english": "not fix"
+        },
+        {
+            "id": "811",
+            "kapampangan": "e bisa",
+            "filipino": "bantulot",
+            "english": "unwilling"
+        },
+        {
+            "id": "812",
+            "kapampangan": "ebun",
+            "filipino": "itlog",
+            "english": "egg"
+        },
+        {
+            "id": "813",
+            "kapampangan": "e biasa",
+            "filipino": "di bihasa",
+            "english": "unskilled"
+        },
+        {
+            "id": "814",
+            "kapampangan": "e inaasahan",
+            "filipino": "di inaasahan",
+            "english": "unforeseen"
+        },
+        {
+            "id": "815",
+            "kapampangan": "e kailangan",
+            "filipino": "di kailangan",
+            "english": "unnecessary"
+        },
+        {
+            "id": "816",
+            "kapampangan": "e kakilala",
+            "filipino": "di kilala",
+            "english": "unfamiliar"
+        },
+        {
+            "id": "817",
+            "kapampangan": "e kakilala",
+            "filipino": "dayuhan",
+            "english": "stranger"
+        },
+        {
+            "id": "818",
+            "kapampangan": "e karapat dapat",
+            "filipino": "di karapat dapat",
+            "english": "unworthy"
+        },
+        {
+            "id": "819",
+            "kapampangan": "e katutuan",
+            "filipino": "di totoo",
+            "english": "untrue"
+        },
+        {
+            "id": "820",
+            "kapampangan": "ekwador",
+            "filipino": "ekwador",
+            "english": "equator"
+        },
+        {
+            "id": "821",
+            "kapampangan": "elebeytor",
+            "filipino": "elebeytor",
+            "english": "elevator"
+        },
+        {
+            "id": "822",
+            "kapampangan": "elektriko",
+            "filipino": "elektriko",
+            "english": "electric"
+        },
+        {
+            "id": "823",
+            "kapampangan": "elepante",
+            "filipino": "elepante",
+            "english": "elephant"
+        },
+        {
+            "id": "824",
+            "kapampangan": "e magbiru",
+            "filipino": "seryoso",
+            "english": "serious"
+        },
+        {
+            "id": "825",
+            "kapampangan": "ema",
+            "filipino": "alimango",
+            "english": "crab"
+        },
+        {
+            "id": "826",
+            "kapampangan": "e malaus",
+            "filipino": "di matutuloy",
+            "english": "canceled"
+        },
+        {
+            "id": "827",
+            "kapampangan": "empanada",
+            "filipino": "empanada",
+            "english": "pie"
+        },
+        {
+            "id": "828",
+            "kapampangan": "emperador",
+            "filipino": "emperador",
+            "english": "emperor"
+        },
+        {
+            "id": "829",
+            "kapampangan": "e pareho",
+            "filipino": "hindi pareho",
+            "english": "unequal"
+        },
+        {
+            "id": "830",
+            "kapampangan": "epasane",
+            "filipino": "baguhan",
+            "english": "amateur"
+        },
+        {
+            "id": "831",
+            "kapampangan": "e patag",
+            "filipino": "di pantay",
+            "english": "unstable"
+        },
+        {
+            "id": "832",
+            "kapampangan": "e patag",
+            "filipino": "magaspang",
+            "english": "rough"
+        },
+        {
+            "id": "833",
+            "kapampangan": "eran",
+            "filipino": "hagdan",
+            "english": "stair"
+        },
+        {
+            "id": "834",
+            "kapampangan": "ersisyo",
+            "filipino": "ehersisyo",
+            "english": "exercise"
+        },
+        {
+            "id": "835",
+            "kapampangan": "eskwela",
+            "filipino": "paaralan",
+            "english": "school"
+        },
+        {
+            "id": "836",
+            "kapampangan": "espada",
+            "filipino": "espada",
+            "english": "sword"
+        },
+        {
+            "id": "837",
+            "kapampangan": "lalus na",
+            "filipino": "lalo na",
+            "english": "especially"
+        },
+        {
+            "id": "838",
+            "kapampangan": "espeyalista",
+            "filipino": "dalubhasa",
+            "english": "specialist"
+        },
+        {
+            "id": "839",
+            "kapampangan": "estatistika",
+            "filipino": "estatistika",
+            "english": "statistics"
+        },
+        {
+            "id": "840",
+            "kapampangan": "estudyante",
+            "filipino": "estudyante",
+            "english": "student"
+        },
+        {
+            "id": "841",
+            "kapampangan": "etu-to",
+            "filipino": "mali",
+            "english": "false"
+        },
+        {
+            "id": "842",
+            "kapampangan": "e tutuwa",
+            "filipino": "hindi tumatanda",
+            "english": "not aging"
+        },
+        {
+            "id": "845",
+            "kapampangan": "new",
+            "filipino": "new1",
+            "english": "new2"
+        },
+        {
+            "id": "846",
+            "kapampangan": "new1",
+            "filipino": "new2",
+            "english": "new3"
+        },
+        {
+            "id": "847",
+            "kapampangan": "dalan",
+            "filipino": "daan",
+            "english": "road"
+        },
+        {
+            "id": "848",
+            "kapampangan": "tatak",
+            "filipino": "etiketa",
+            "english": "label"
+        },
+        {
+            "id": "849",
+            "kapampangan": "obra",
+            "filipino": "trabaho",
+            "english": "labor"
+        },
+        {
+            "id": "850",
+            "kapampangan": "makipagobra",
+            "filipino": "trabahador",
+            "english": "laborer"
+        },
+        {
+            "id": "851",
+            "kapampangan": "kakulangan",
+            "filipino": "kakulangan",
+            "english": "lack"
+        },
+        {
+            "id": "852",
+            "kapampangan": "matipid magsalita",
+            "filipino": "matipid magsalita",
+            "english": "laconic"
+        },
+        {
+            "id": "853",
+            "kapampangan": "barnis",
+            "filipino": "barnis",
+            "english": "lacquer"
+        },
+        {
+            "id": "854",
+            "kapampangan": "anak a lalaki",
+            "filipino": "anak na lalake",
+            "english": "lad"
+        },
+        {
+            "id": "855",
+            "kapampangan": "eran",
+            "filipino": "hagdan",
+            "english": "ladder"
+        },
+        {
+            "id": "856",
+            "kapampangan": "sapak",
+            "filipino": "puno",
+            "english": "laden"
+        },
+        {
+            "id": "857",
+            "kapampangan": "sanduk",
+            "filipino": "sandok",
+            "english": "ladle"
+        },
+        {
+            "id": "858",
+            "kapampangan": "babai",
+            "filipino": "babae",
+            "english": "lady"
+        },
+        {
+            "id": "859",
+            "kapampangan": "malakwan",
+            "filipino": "maiwan",
+            "english": "lag"
+        },
+        {
+            "id": "860",
+            "kapampangan": "laug",
+            "filipino": "lawa",
+            "english": "lake"
+        },
+        {
+            "id": "861",
+            "kapampangan": "tupang malati",
+            "filipino": "kordero",
+            "english": "lamb"
+        },
+        {
+            "id": "862",
+            "kapampangan": "lumpu",
+            "filipino": "lumpo",
+            "english": "lame"
+        },
+        {
+            "id": "863",
+            "kapampangan": "manangis",
+            "filipino": "panaghoy",
+            "english": "lament"
+        },
+        {
+            "id": "864",
+            "kapampangan": "lampara",
+            "filipino": "lampara",
+            "english": "lamp"
+        },
+        {
+            "id": "865",
+            "kapampangan": "tandus",
+            "filipino": "matulis",
+            "english": "lance"
+        },
+        {
+            "id": "866",
+            "kapampangan": "gabun",
+            "filipino": "lupa",
+            "english": "land"
+        },
+        {
+            "id": "867",
+            "kapampangan": "makiput a dalan",
+            "filipino": "masikip na daan",
+            "english": "lane"
+        },
+        {
+            "id": "868",
+            "kapampangan": "makibandi king gabun",
+            "filipino": "may-ari ng lupa",
+            "english": "landlord"
+        },
+        {
+            "id": "869",
+            "kapampangan": "matamle",
+            "filipino": "matamlay",
+            "english": "languid"
+        },
+        {
+            "id": "870",
+            "kapampangan": "kandungan",
+            "filipino": "kandungan",
+            "english": "lap"
+        },
+        {
+            "id": "871",
+            "kapampangan": "maragul",
+            "filipino": "malaki",
+            "english": "large"
+        },
+        {
+            "id": "872",
+            "kapampangan": "paluka",
+            "filipino": "pilikmata",
+            "english": "lash"
+        },
+        {
+            "id": "873",
+            "kapampangan": "dalaga",
+            "filipino": "dalaga",
+            "english": "lass"
+        },
+        {
+            "id": "874",
+            "kapampangan": "tawli",
+            "filipino": "huli",
+            "english": "last"
+        },
+        {
+            "id": "875",
+            "kapampangan": "matibe",
+            "filipino": "matibay",
+            "english": "lasting"
+        },
+        {
+            "id": "876",
+            "kapampangan": "mitauli",
+            "filipino": "na huli",
+            "english": "late"
+        },
+        {
+            "id": "877",
+            "kapampangan": "kapilan pamu",
+            "filipino": "kamakailan",
+            "english": "lately"
+        },
+        {
+            "id": "878",
+            "kapampangan": "makasalikut",
+            "filipino": "nakatago",
+            "english": "latent"
+        },
+        {
+            "id": "879",
+            "kapampangan": "pota",
+            "filipino": "mamaya",
+            "english": "later"
+        },
+        {
+            "id": "880",
+            "kapampangan": "pekatawli",
+            "filipino": "pinakahuli",
+            "english": "latest"
+        },
+        {
+            "id": "881",
+            "kapampangan": "puriyan",
+            "filipino": "purihin",
+            "english": "laud"
+        },
+        {
+            "id": "882",
+            "kapampangan": "kapuri-puri",
+            "filipino": "kapuri-puri",
+            "english": "laudable"
+        },
+        {
+            "id": "883",
+            "kapampangan": "mayli",
+            "filipino": "tawa",
+            "english": "laugh"
+        },
+        {
+            "id": "884",
+            "kapampangan": "makatula",
+            "filipino": "nakakatawa",
+            "english": "laughable"
+        },
+        {
+            "id": "885",
+            "kapampangan": "mamipi",
+            "filipino": "maglaba",
+            "english": "launder"
+        },
+        {
+            "id": "886",
+            "kapampangan": "pipamipyan",
+            "filipino": "labahan",
+            "english": "laundry"
+        },
+        {
+            "id": "887",
+            "kapampangan": "pipanwasan",
+            "filipino": "hugasan",
+            "english": "lavatory"
+        },
+        {
+            "id": "888",
+            "kapampangan": "tuntunan",
+            "filipino": "batas",
+            "english": "law"
+        },
+        {
+            "id": "889",
+            "kapampangan": "makatuntun",
+            "filipino": "legal",
+            "english": "lawful"
+        },
+        {
+            "id": "890",
+            "kapampangan": "ibili",
+            "filipino": "ilagay",
+            "english": "lay"
+        },
+        {
+            "id": "891",
+            "kapampangan": "matamad",
+            "filipino": "tamad",
+            "english": "lazy"
+        },
+        {
+            "id": "892",
+            "kapampangan": "manimuna",
+            "filipino": "pinuno",
+            "english": "leader"
+        },
+        {
+            "id": "893",
+            "kapampangan": "mumuna",
+            "filipino": "nangunguna",
+            "english": "leading"
+        },
+        {
+            "id": "894",
+            "kapampangan": "bulung",
+            "filipino": "dahon",
+            "english": "leaf"
+        },
+        {
+            "id": "895",
+            "kapampangan": "tulu",
+            "filipino": "tagas",
+            "english": "leak"
+        },
+        {
+            "id": "896",
+            "kapampangan": "magsandal",
+            "filipino": "sumandal",
+            "english": "lean"
+        },
+        {
+            "id": "897",
+            "kapampangan": "luksu",
+            "filipino": "tumalon",
+            "english": "leap"
+        },
+        {
+            "id": "898",
+            "kapampangan": "sanayan",
+            "filipino": "pag-aralan",
+            "english": "learn"
+        },
+        {
+            "id": "899",
+            "kapampangan": "biyasa",
+            "filipino": "marunong",
+            "english": "learned"
+        },
+        {
+            "id": "900",
+            "kapampangan": "manupa",
+            "filipino": "pag-upa",
+            "english": "lease"
+        },
+        {
+            "id": "901",
+            "kapampangan": "lalung malati",
+            "filipino": "pinakamababa",
+            "english": "least"
+        },
+        {
+            "id": "902",
+            "kapampangan": "balat",
+            "filipino": "balat",
+            "english": "leather"
+        },
+        {
+            "id": "903",
+            "kapampangan": "mako",
+            "filipino": "umalis",
+            "english": "leave"
+        },
+        {
+            "id": "904",
+            "kapampangan": "linta",
+            "filipino": "linta",
+            "english": "leech"
+        },
+        {
+            "id": "905",
+            "kapampangan": "irap",
+            "filipino": "sulyap",
+            "english": "leer"
+        },
+        {
+            "id": "906",
+            "kapampangan": "kayli",
+            "filipino": "kaliwa",
+            "english": "left"
+        },
+        {
+            "id": "907",
+            "kapampangan": "butit",
+            "filipino": "binti",
+            "english": "leg"
+        },
+        {
+            "id": "908",
+            "kapampangan": "pamana",
+            "filipino": "legasiya",
+            "english": "legacy"
+        },
+        {
+            "id": "909",
+            "kapampangan": "makatuntun",
+            "filipino": "legal",
+            "english": "legal"
+        },
+        {
+            "id": "910",
+            "kapampangan": "alamat",
+            "filipino": "alamat",
+            "english": "legend"
+        },
+        {
+            "id": "912",
+            "kapampangan": "gawang tuntunan",
+            "filipino": "magbatas",
+            "english": "legislate"
+        },
+        {
+            "id": "913",
+            "kapampangan": "tune",
+            "filipino": "tunay",
+            "english": "legitimate"
+        },
+        {
+            "id": "914",
+            "kapampangan": "butul",
+            "filipino": "butil",
+            "english": "legume"
+        },
+        {
+            "id": "915",
+            "kapampangan": "oras paynawa",
+            "filipino": "oras ng pagpapahinga",
+            "english": "leisure"
+        },
+        {
+            "id": "916",
+            "kapampangan": "banayad",
+            "filipino": "mahinahon",
+            "english": "leisurely"
+        },
+        {
+            "id": "917",
+            "kapampangan": "iparam",
+            "filipino": "ipahiram",
+            "english": "lend"
+        },
+        {
+            "id": "918",
+            "kapampangan": "kekaban",
+            "filipino": "haba",
+            "english": "length"
+        },
+        {
+            "id": "919",
+            "kapampangan": "ikaba",
+            "filipino": "pahabain",
+            "english": "lengthen"
+        },
+        {
+            "id": "920",
+            "kapampangan": "mapanupaya",
+            "filipino": "mapagpatawad",
+            "english": "lenient"
+        },
+        {
+            "id": "921",
+            "kapampangan": "kulang",
+            "filipino": "kulang",
+            "english": "less"
+        },
+        {
+            "id": "922",
+            "kapampangan": "bawasnan",
+            "filipino": "bawasan",
+            "english": "lessen"
+        },
+        {
+            "id": "923",
+            "kapampangan": "lisyun",
+            "filipino": "aralin",
+            "english": "lesson"
+        },
+        {
+            "id": "924",
+            "kapampangan": "paburen",
+            "filipino": "pahintulutan",
+            "english": "let"
+        },
+        {
+            "id": "925",
+            "kapampangan": "sulat",
+            "filipino": "sulat",
+            "english": "letter"
+        },
+        {
+            "id": "926",
+            "kapampangan": "pante",
+            "filipino": "antas",
+            "english": "level"
+        },
+        {
+            "id": "927",
+            "kapampangan": "malibi",
+            "filipino": "malibog",
+            "english": "lewd"
+        },
+        {
+            "id": "928",
+            "kapampangan": "mapalyari",
+            "filipino": "responsable",
+            "english": "liable"
+        },
+        {
+            "id": "929",
+            "kapampangan": "malaram",
+            "filipino": "sinungaling",
+            "english": "liar"
+        },
+        {
+            "id": "930",
+            "kapampangan": "malam",
+            "filipino": "mapagbigay",
+            "english": "liberal"
+        },
+        {
+            "id": "931",
+            "kapampangan": "katimawan",
+            "filipino": "kalayaan",
+            "english": "liberty"
+        },
+        {
+            "id": "932",
+            "kapampangan": "kapaintulutan",
+            "filipino": "lisensya",
+            "english": "license"
+        },
+        {
+            "id": "933",
+            "kapampangan": "dilatan",
+            "filipino": "dilaan",
+            "english": "lick"
+        },
+        {
+            "id": "934",
+            "kapampangan": "takap",
+            "filipino": "takip",
+            "english": "lid"
+        },
+        {
+            "id": "935",
+            "kapampangan": "kalaraman",
+            "filipino": "kasinungalingan",
+            "english": "lie"
+        },
+        {
+            "id": "936",
+            "kapampangan": "bie",
+            "filipino": "buhay",
+            "english": "life"
+        },
+        {
+            "id": "937",
+            "kapampangan": "mete",
+            "filipino": "walang buhay",
+            "english": "lifeless"
+        },
+        {
+            "id": "938",
+            "kapampangan": "itas",
+            "filipino": "itaas",
+            "english": "lift"
+        },
+        {
+            "id": "939",
+            "kapampangan": "sulu",
+            "filipino": "ilaw",
+            "english": "light"
+        },
+        {
+            "id": "940",
+            "kapampangan": "kildap",
+            "filipino": "kidlat",
+            "english": "lightning"
+        },
+        {
+            "id": "941",
+            "kapampangan": "kalupa",
+            "filipino": "katulad",
+            "english": "like"
+        },
+        {
+            "id": "942",
+            "kapampangan": "buri",
+            "filipino": "gusto",
+            "english": "like"
+        },
+        {
+            "id": "943",
+            "kapampangan": "malyari",
+            "filipino": "maaari",
+            "english": "likely"
+        },
+        {
+            "id": "944",
+            "kapampangan": "kalupa",
+            "filipino": "pagkakapareho",
+            "english": "likeness"
+        },
+        {
+            "id": "945",
+            "kapampangan": "atimurin",
+            "filipino": "gayundin",
+            "english": "likewise"
+        },
+        {
+            "id": "946",
+            "kapampangan": "liryu",
+            "filipino": "liryo",
+            "english": "lily"
+        },
+        {
+            "id": "947",
+            "kapampangan": "malambut",
+            "filipino": "malambot",
+            "english": "limber"
+        },
+        {
+            "id": "948",
+            "kapampangan": "dalayap",
+            "filipino": "dayap",
+            "english": "lime"
+        },
+        {
+            "id": "949",
+            "kapampangan": "angganan",
+            "filipino": "hangganan",
+            "english": "limit"
+        },
+        {
+            "id": "950",
+            "kapampangan": "malino",
+            "filipino": "malinaw",
+            "english": "limpid"
+        },
+        {
+            "id": "951",
+            "kapampangan": "gulis",
+            "filipino": "linya",
+            "english": "line"
+        },
+        {
+            "id": "952",
+            "kapampangan": "magpakalwat",
+            "filipino": "magtagal",
+            "english": "linger"
+        },
+        {
+            "id": "953",
+            "kapampangan": "labi",
+            "filipino": "labi",
+            "english": "lip"
+        },
+        {
+            "id": "954",
+            "kapampangan": "makiramdam",
+            "filipino": "makinig",
+            "english": "listen"
+        },
+        {
+            "id": "955",
+            "kapampangan": "malati",
+            "filipino": "maliit",
+            "english": "little"
+        },
+        {
+            "id": "956",
+            "kapampangan": "kumabie",
+            "filipino": "mabuhay",
+            "english": "live"
+        },
+        {
+            "id": "957",
+            "kapampangan": "maliksi",
+            "filipino": "masigla",
+            "english": "lively"
+        },
+        {
+            "id": "958",
+            "kapampangan": "pasayan",
+            "filipino": "pagandahin",
+            "english": "liven"
+        },
+        {
+            "id": "959",
+            "kapampangan": "ate",
+            "filipino": "atay",
+            "english": "liver"
+        },
+        {
+            "id": "960",
+            "kapampangan": "mabye",
+            "filipino": "buhay",
+            "english": "living"
+        },
+        {
+            "id": "961",
+            "kapampangan": "lupisak",
+            "filipino": "butiki",
+            "english": "lizard"
+        },
+        {
+            "id": "962",
+            "kapampangan": "tinape",
+            "filipino": "tinapay",
+            "english": "loaf"
+        },
+        {
+            "id": "963",
+            "kapampangan": "utang",
+            "filipino": "utang",
+            "english": "loan"
+        },
+        {
+            "id": "964",
+            "kapampangan": "kandadu",
+            "filipino": "kandado",
+            "english": "lock"
+        },
+        {
+            "id": "965",
+            "kapampangan": "matas",
+            "filipino": "mataas",
+            "english": "lofty"
+        },
+        {
+            "id": "966",
+            "kapampangan": "trosu",
+            "filipino": "troso",
+            "english": "log"
+        },
+        {
+            "id": "967",
+            "kapampangan": "magsarili",
+            "filipino": "magsarili",
+            "english": "lone"
+        },
+        {
+            "id": "968",
+            "kapampangan": "makaba",
+            "filipino": "mabaha",
+            "english": "long"
+        },
+        {
+            "id": "969",
+            "kapampangan": "lawan",
+            "filipino": "tignan",
+            "english": "look"
+        },
+        {
+            "id": "970",
+            "kapampangan": "salamin",
+            "filipino": "salamin",
+            "english": "looking-glass"
+        },
+        {
+            "id": "971",
+            "kapampangan": "malwalas",
+            "filipino": "maluwag",
+            "english": "loose"
+        },
+        {
+            "id": "972",
+            "kapampangan": "ginu",
+            "filipino": "panginoon",
+            "english": "lord"
+        },
+        {
+            "id": "973",
+            "kapampangan": "masigla",
+            "filipino": "maingay",
+            "english": "loud"
+        },
+        {
+            "id": "974",
+            "kapampangan": "kutu",
+            "filipino": "kuto",
+            "english": "louse"
+        },
+        {
+            "id": "975",
+            "kapampangan": "lugud",
+            "filipino": "pagmamahal",
+            "english": "love"
+        },
+        {
+            "id": "976",
+            "kapampangan": "kapalsintan",
+            "filipino": "magkasintahan",
+            "english": "lover"
+        },
+        {
+            "id": "977",
+            "kapampangan": "maburi",
+            "filipino": "mapagmahal",
+            "english": "loving"
+        },
+        {
+            "id": "978",
+            "kapampangan": "mababa",
+            "filipino": "mababa",
+            "english": "low"
+        },
+        {
+            "id": "979",
+            "kapampangan": "ibaba",
+            "filipino": "ibaba",
+            "english": "lower"
+        },
+        {
+            "id": "980",
+            "kapampangan": "mababa lub",
+            "filipino": "mababa loob",
+            "english": "lowly"
+        },
+        {
+            "id": "981",
+            "kapampangan": "kati",
+            "filipino": "hupa",
+            "english": "low-water"
+        },
+        {
+            "id": "982",
+            "kapampangan": "tapat",
+            "filipino": "tapat",
+            "english": "loyal"
+        },
+        {
+            "id": "983",
+            "kapampangan": "katapatan",
+            "filipino": "katapatan",
+            "english": "loyalty"
+        },
+        {
+            "id": "984",
+            "kapampangan": "suwerti",
+            "filipino": "swerte",
+            "english": "luck"
+        },
+        {
+            "id": "985",
+            "kapampangan": "masuwerti",
+            "filipino": "masuwerte",
+            "english": "lucky"
+        },
+        {
+            "id": "986",
+            "kapampangan": "apakinabangan",
+            "filipino": "kapaki-pakinabang",
+            "english": "lucrative"
+        },
+        {
+            "id": "987",
+            "kapampangan": "mituknang",
+            "filipino": "pagtigil",
+            "english": "lull"
+        },
+        {
+            "id": "988",
+            "kapampangan": "dutung",
+            "filipino": "kahoy",
+            "english": "lumber"
+        },
+        {
+            "id": "989",
+            "kapampangan": "magtotrosu",
+            "filipino": "taga putol ng kahoy",
+            "english": "lumberjack"
+        },
+        {
+            "id": "990",
+            "kapampangan": "tableria",
+            "filipino": "tindahan ng kahoy",
+            "english": "lumberyard"
+        },
+        {
+            "id": "991",
+            "kapampangan": "bantug a tau",
+            "filipino": "kilalang tao",
+            "english": "luminary"
+        },
+        {
+            "id": "992",
+            "kapampangan": "makinang",
+            "filipino": "makinang",
+            "english": "luminous"
+        },
+        {
+            "id": "993",
+            "kapampangan": "bukul",
+            "filipino": "bukol",
+            "english": "lump"
+        },
+        {
+            "id": "994",
+            "kapampangan": "kamuritan",
+            "filipino": "kabaliwan",
+            "english": "lunacy"
+        },
+        {
+            "id": "995",
+            "kapampangan": "tungkol king bulan",
+            "filipino": "pang buwan",
+            "english": "lunar"
+        },
+        {
+            "id": "996",
+            "kapampangan": "sira buntuk",
+            "filipino": "sira ulo",
+            "english": "lunatic"
+        },
+        {
+            "id": "997",
+            "kapampangan": "panugtwan",
+            "filipino": "tanghalian",
+            "english": "lunch"
+        },
+        {
+            "id": "998",
+            "kapampangan": "baga",
+            "filipino": "baga",
+            "english": "lung"
+        },
+        {
+            "id": "999",
+            "kapampangan": "sumure",
+            "filipino": "tagilid",
+            "english": "lurch"
+        },
+        {
+            "id": "1000",
+            "kapampangan": "magayuma",
+            "filipino": "pang-akit",
+            "english": "lure"
+        },
+        {
+            "id": "1001",
+            "kapampangan": "salikut",
+            "filipino": "magtago",
+            "english": "lurk"
+        },
+        {
+            "id": "1002",
+            "kapampangan": "manyaman a itsura",
+            "filipino": "masarap",
+            "english": "luscious"
+        },
+        {
+            "id": "1003",
+            "kapampangan": "malabung",
+            "filipino": "masagana",
+            "english": "lush"
+        },
+        {
+            "id": "1004",
+            "kapampangan": "kalibian",
+            "filipino": "pagnanasa",
+            "english": "lust"
+        },
+        {
+            "id": "1005",
+            "kapampangan": "malibi",
+            "filipino": "mapagnasa",
+            "english": "lustful"
+        },
+        {
+            "id": "1006",
+            "kapampangan": "kinang",
+            "filipino": "kinang",
+            "english": "luster"
+        },
+        {
+            "id": "1007",
+            "kapampangan": "makislap",
+            "filipino": "makislap",
+            "english": "lustrous"
+        },
+        {
+            "id": "1008",
+            "kapampangan": "masikan",
+            "filipino": "malakas",
+            "english": "lusty"
+        },
+        {
+            "id": "1009",
+            "kapampangan": "maluhu",
+            "filipino": "maluho",
+            "english": "luxury"
+        },
+        {
+            "id": "1010",
+            "kapampangan": "maglaram",
+            "filipino": "nagsisinungaling",
+            "english": "lying"
+        },
+        {
+            "id": "1011",
+            "kapampangan": "sabwatan",
+            "filipino": "intriga",
+            "english": "machination"
+        },
+        {
+            "id": "1012",
+            "kapampangan": "makina",
+            "filipino": "makina",
+            "english": "machine"
+        },
+        {
+            "id": "1013",
+            "kapampangan": "mamulang",
+            "filipino": "loko-loko",
+            "english": "mad"
+        },
+        {
+            "id": "1014",
+            "kapampangan": "megawa",
+            "filipino": "nagawa",
+            "english": "made"
+        },
+        {
+            "id": "1015",
+            "kapampangan": "salamangka",
+            "filipino": "mahika",
+            "english": "magic"
+        },
+        {
+            "id": "1016",
+            "kapampangan": "abe king bale",
+            "filipino": "kasambahay",
+            "english": "maid"
+        },
+        {
+            "id": "1017",
+            "kapampangan": "pun",
+            "filipino": "pangunahin",
+            "english": "main"
+        },
+        {
+            "id": "1018",
+            "kapampangan": "alagaan",
+            "filipino": "panatilihin",
+            "english": "maintain"
+        },
+        {
+            "id": "1019",
+            "kapampangan": "gawa",
+            "filipino": "gawa",
+            "english": "make"
+        },
+        {
+            "id": "1020",
+            "kapampangan": "lalaki",
+            "filipino": "lalake",
+            "english": "male"
+        },
+        {
+            "id": "1021",
+            "kapampangan": "dewakan",
+            "filipino": "kasamaan ng loob",
+            "english": "malice"
+        },
+        {
+            "id": "1022",
+            "kapampangan": "salupsupan",
+            "filipino": "masamang intensyon",
+            "english": "malicious"
+        },
+        {
+            "id": "1023",
+            "kapampangan": "manibala",
+            "filipino": "mangasiwa",
+            "english": "manage"
+        },
+        {
+            "id": "1024",
+            "kapampangan": "mamahala",
+            "filipino": "tagapamahala",
+            "english": "manager"
+        },
+        {
+            "id": "1025",
+            "kapampangan": "panabakan",
+            "filipino": "sibakin",
+            "english": "mangle"
+        },
+        {
+            "id": "1026",
+            "kapampangan": "ibulalag",
+            "filipino": "ipahayag",
+            "english": "manifest"
+        },
+        {
+            "id": "1027",
+            "kapampangan": "patune",
+            "filipino": "pagpapahayag",
+            "english": "manifestation"
+        },
+        {
+            "id": "1028",
+            "kapampangan": "sari-sari",
+            "filipino": "iba-iba",
+            "english": "manifold"
+        },
+        {
+            "id": "1029",
+            "kapampangan": "timil",
+            "filipino": "manipula",
+            "english": "manipulate"
+        },
+        {
+            "id": "1030",
+            "kapampangan": "gawang gamat",
+            "filipino": "gawang kamay",
+            "english": "manufacturer"
+        },
+        {
+            "id": "1031",
+            "kapampangan": "pataba",
+            "filipino": "pataba",
+            "english": "manure"
+        },
+        {
+            "id": "1032",
+            "kapampangan": "dakal",
+            "filipino": "marami",
+            "english": "many"
+        },
+        {
+            "id": "1033",
+            "kapampangan": "kabayung babai",
+            "filipino": "babaeng kabayo",
+            "english": "mare"
+        },
+        {
+            "id": "1034",
+            "kapampangan": "tanda",
+            "filipino": "marka",
+            "english": "mark"
+        },
+        {
+            "id": "1035",
+            "kapampangan": "palengki",
+            "filipino": "merkado",
+            "english": "market"
+        },
+        {
+            "id": "1036",
+            "kapampangan": "pamiyasawa",
+            "filipino": "kasal",
+            "english": "marriage"
+        },
+        {
+            "id": "1037",
+            "kapampangan": "makiyasawa",
+            "filipino": "mag-asawa",
+            "english": "marry"
+        },
+        {
+            "id": "1038",
+            "kapampangan": "misa",
+            "filipino": "misa",
+            "english": "mass"
+        },
+        {
+            "id": "1039",
+            "kapampangan": "patayan",
+            "filipino": "pagpaslang",
+            "english": "massacre"
+        },
+        {
+            "id": "1040",
+            "kapampangan": "kasapuegu",
+            "filipino": "posporo",
+            "english": "match"
+        },
+        {
+            "id": "1041",
+            "kapampangan": "piparisan",
+            "filipino": "pantay",
+            "english": "match"
+        },
+        {
+            "id": "1042",
+            "kapampangan": "alang kasukad",
+            "filipino": "walang kapantay",
+            "english": "matchless"
+        },
+        {
+            "id": "1043",
+            "kapampangan": "kayabe",
+            "filipino": "kasamahan",
+            "english": "mate"
+        },
+        {
+            "id": "1044",
+            "kapampangan": "gamit",
+            "filipino": "gamit",
+            "english": "material"
+        },
+        {
+            "id": "1045",
+            "kapampangan": "matupad",
+            "filipino": "matupad",
+            "english": "materialize"
+        },
+        {
+            "id": "1046",
+            "kapampangan": "maka ima",
+            "filipino": "maka ina",
+            "english": "maternal"
+        },
+        {
+            "id": "1047",
+            "kapampangan": "babaing talasawa",
+            "filipino": "babaeng may asawa",
+            "english": "matron"
+        },
+        {
+            "id": "1048",
+            "kapampangan": "bage",
+            "filipino": "bagay",
+            "english": "matter"
+        },
+        {
+            "id": "1049",
+            "kapampangan": "matua",
+            "filipino": "matanda",
+            "english": "mature"
+        },
+        {
+            "id": "1050",
+            "kapampangan": "pamugbugan",
+            "filipino": "gulpi",
+            "english": "maul"
+        },
+        {
+            "id": "1051",
+            "kapampangan": "malyari",
+            "filipino": "mangyari",
+            "english": "may"
+        },
+        {
+            "id": "1052",
+            "kapampangan": "aku",
+            "filipino": "ako",
+            "english": "me"
+        },
+        {
+            "id": "1053",
+            "kapampangan": "pastulan",
+            "filipino": "pastulan",
+            "english": "meadow"
+        },
+        {
+            "id": "1054",
+            "kapampangan": "ditak",
+            "filipino": "kaunti",
+            "english": "meager"
+        },
+        {
+            "id": "1055",
+            "kapampangan": "bastus",
+            "filipino": "bastos",
+            "english": "mean"
+        },
+        {
+            "id": "1056",
+            "kapampangan": "panyukad",
+            "filipino": "panukat",
+            "english": "measure"
+        },
+        {
+            "id": "1057",
+            "kapampangan": "karni",
+            "filipino": "karne",
+            "english": "meat"
+        },
+        {
+            "id": "1058",
+            "kapampangan": "makiyalam",
+            "filipino": "makialam",
+            "english": "meddle"
+        },
+        {
+            "id": "1059",
+            "kapampangan": "panulu",
+            "filipino": "gamot",
+            "english": "medicine"
+        },
+        {
+            "id": "1060",
+            "kapampangan": "mikit",
+            "filipino": "magkita",
+            "english": "meet"
+        },
+        {
+            "id": "1061",
+            "kapampangan": "katipunan",
+            "filipino": "pulong",
+            "english": "meeting"
+        },
+        {
+            "id": "1062",
+            "kapampangan": "mapanupaya",
+            "filipino": "malumanay",
+            "english": "mellow"
+        },
+        {
+            "id": "1063",
+            "kapampangan": "milun",
+            "filipino": "melon",
+            "english": "melon"
+        },
+        {
+            "id": "1064",
+            "kapampangan": "lasawan",
+            "filipino": "tunawin",
+            "english": "melt"
+        },
+        {
+            "id": "1065",
+            "kapampangan": "kasapi",
+            "filipino": "kasapi",
+            "english": "member"
+        },
+        {
+            "id": "1066",
+            "kapampangan": "memorya",
+            "filipino": "alaala",
+            "english": "memory"
+        },
+        {
+            "id": "1067",
+            "kapampangan": "tapalan",
+            "filipino": "ayusin",
+            "english": "mend"
+        },
+        {
+            "id": "1068",
+            "kapampangan": "sabyan",
+            "filipino": "banggitin",
+            "english": "mention"
+        },
+        {
+            "id": "1069",
+            "kapampangan": "magkalakal",
+            "filipino": "mangangalakal",
+            "english": "merchant"
+        },
+        {
+            "id": "1070",
+            "kapampangan": "lunus",
+            "filipino": "awa",
+            "english": "mercy"
+        },
+        {
+            "id": "1071",
+            "kapampangan": "kayapan",
+            "filipino": "kabutihan",
+            "english": "merit"
+        },
+        {
+            "id": "1072",
+            "kapampangan": "matula",
+            "filipino": "maligaya",
+            "english": "merry"
+        },
+        {
+            "id": "1073",
+            "kapampangan": "kalibudtan",
+            "filipino": "gitna",
+            "english": "middle"
+        },
+        {
+            "id": "1074",
+            "kapampangan": "kapitangan bengi",
+            "filipino": "hatinggabi",
+            "english": "midnight"
+        },
+        {
+            "id": "1075",
+            "kapampangan": "mapalyari",
+            "filipino": "maaari",
+            "english": "might"
+        },
+        {
+            "id": "1076",
+            "kapampangan": "masikan",
+            "filipino": "malakas",
+            "english": "mighty"
+        },
+        {
+            "id": "1077",
+            "kapampangan": "dayu",
+            "filipino": "dayo",
+            "english": "migrant"
+        },
+        {
+            "id": "1078",
+            "kapampangan": "dumayu keng aliwang labuad",
+            "filipino": "mangibang-bansa",
+            "english": "migrate"
+        },
+        {
+            "id": "1079",
+            "kapampangan": "malumeme",
+            "filipino": "banayad",
+            "english": "mild"
+        },
+        {
+            "id": "1080",
+            "kapampangan": "matapang",
+            "filipino": "matapang",
+            "english": "militant"
+        },
+        {
+            "id": "1081",
+            "kapampangan": "gatas",
+            "filipino": "gatas",
+            "english": "milk"
+        },
+        {
+            "id": "1082",
+            "kapampangan": "gilingan",
+            "filipino": "gilingan",
+            "english": "mill"
+        },
+        {
+            "id": "1083",
+            "kapampangan": "apusan",
+            "filipino": "gayahin",
+            "english": "mimic"
+        },
+        {
+            "id": "1084",
+            "kapampangan": "isip",
+            "filipino": "isip",
+            "english": "mind"
+        },
+        {
+            "id": "1085",
+            "kapampangan": "kaku",
+            "filipino": "sa akin",
+            "english": "mine"
+        },
+        {
+            "id": "1086",
+            "kapampangan": "magmimina",
+            "filipino": "minero",
+            "english": "miner"
+        },
+        {
+            "id": "1087",
+            "kapampangan": "salamin",
+            "filipino": "salamin",
+            "english": "mirror"
+        },
+        {
+            "id": "1088",
+            "kapampangan": "kalokwan",
+            "filipino": "kalokohan",
+            "english": "mischief"
+        },
+        {
+            "id": "1089",
+            "kapampangan": "pakakalulu",
+            "filipino": "napakahirap",
+            "english": "miserable"
+        },
+        {
+            "id": "1090",
+            "kapampangan": "marok a bili",
+            "filipino": "nagkakamali ng lugar",
+            "english": "misplace"
+        },
+        {
+            "id": "1091",
+            "kapampangan": "maglaram",
+            "filipino": "nagsisinungaling",
+            "english": "misrepresent"
+        },
+        {
+            "id": "1092",
+            "kapampangan": "dalaga",
+            "filipino": "dalagita",
+            "english": "miss"
+        },
+        {
+            "id": "1093",
+            "kapampangan": "magkamali",
+            "filipino": "pagkakamali",
+            "english": "mistake"
+        },
+        {
+            "id": "1094",
+            "kapampangan": "mali ing paningid",
+            "filipino": "maling pagkaunawa",
+            "english": "misunderstand"
+        },
+        {
+            "id": "1095",
+            "kapampangan": "e pamikasundu",
+            "filipino": "hindi pagkakaintindihan",
+            "english": "misunderstanding"
+        },
+        {
+            "id": "1096",
+            "kapampangan": "gamit keng maling palaran",
+            "filipino": "gamit sa maling paraan",
+            "english": "misuse"
+        },
+        {
+            "id": "1097",
+            "kapampangan": "masamut",
+            "filipino": "haluin",
+            "english": "mix"
+        },
+        {
+            "id": "1098",
+            "kapampangan": "pangimut",
+            "filipino": "paraan",
+            "english": "mode"
+        },
+        {
+            "id": "1099",
+            "kapampangan": "lumupa",
+            "filipino": "hulma",
+            "english": "model"
+        },
+        {
+            "id": "1100",
+            "kapampangan": "mamasamasa",
+            "filipino": "mamasa-masa",
+            "english": "moist"
+        },
+        {
+            "id": "1101",
+            "kapampangan": "basa",
+            "filipino": "basa",
+            "english": "moisture"
+        },
+        {
+            "id": "1102",
+            "kapampangan": "pera",
+            "filipino": "pera",
+            "english": "money"
+        },
+        {
+            "id": "1103",
+            "kapampangan": "matsin",
+            "filipino": "unggoy",
+            "english": "monkey"
+        },
+        {
+            "id": "1104",
+            "kapampangan": "pikakatakutan",
+            "filipino": "halimaw",
+            "english": "monster"
+        },
+        {
+            "id": "1105",
+            "kapampangan": "bulan",
+            "filipino": "buwan",
+            "english": "moon"
+        },
+        {
+            "id": "1106",
+            "kapampangan": "basan",
+            "filipino": "basahan",
+            "english": "mop"
+        },
+        {
+            "id": "1107",
+            "kapampangan": "madakal",
+            "filipino": "marami",
+            "english": "more"
+        },
+        {
+            "id": "1108",
+            "kapampangan": "bukud",
+            "filipino": "bukod",
+            "english": "moreover"
+        },
+        {
+            "id": "1109",
+            "kapampangan": "abak",
+            "filipino": "umaga",
+            "english": "morning"
+        },
+        {
+            "id": "1110",
+            "kapampangan": "yamuk",
+            "filipino": "lamok",
+            "english": "mosquito"
+        },
+        {
+            "id": "1111",
+            "kapampangan": "lumut",
+            "filipino": "lumot",
+            "english": "moss"
+        },
+        {
+            "id": "1112",
+            "kapampangan": "dakal a dakal",
+            "filipino": "maraming marami",
+            "english": "most"
+        },
+        {
+            "id": "1113",
+            "kapampangan": "ima",
+            "filipino": "ina",
+            "english": "mother"
+        },
+        {
+            "id": "1114",
+            "kapampangan": "katwangan a babai",
+            "filipino": "biyanang babae",
+            "english": "mother-in-law"
+        },
+        {
+            "id": "1115",
+            "kapampangan": "kilus",
+            "filipino": "galaw",
+            "english": "motion"
+        },
+        {
+            "id": "1116",
+            "kapampangan": "alang kimut",
+            "filipino": "walang galaw",
+            "english": "motionless"
+        },
+        {
+            "id": "1117",
+            "kapampangan": "bunduk",
+            "filipino": "bundok",
+            "english": "mountain"
+        },
+        {
+            "id": "1118",
+            "kapampangan": "kabundukan",
+            "filipino": "kabundukan",
+            "english": "mountain"
+        },
+        {
+            "id": "1119",
+            "kapampangan": "tau king bundok",
+            "filipino": "mang-aakyat bundok",
+            "english": "mountaineer"
+        },
+        {
+            "id": "1120",
+            "kapampangan": "bulubundukin",
+            "filipino": "bulubundukin",
+            "english": "mountainous"
+        },
+        {
+            "id": "1121",
+            "kapampangan": "pagpaldasan",
+            "filipino": "magdalamhati",
+            "english": "mourn"
+        },
+        {
+            "id": "1122",
+            "kapampangan": "manangis",
+            "filipino": "nagdadalamhati",
+            "english": "mourner"
+        },
+        {
+            "id": "1123",
+            "kapampangan": "dagis",
+            "filipino": "daga",
+            "english": "mouse"
+        },
+        {
+            "id": "1124",
+            "kapampangan": "bigoti",
+            "filipino": "bigote",
+            "english": "moustache"
+        },
+        {
+            "id": "1125",
+            "kapampangan": "asbuk",
+            "filipino": "bibig",
+            "english": "mouth"
+        },
+        {
+            "id": "1126",
+            "kapampangan": "kimutan",
+            "filipino": "gumalaw",
+            "english": "move"
+        },
+        {
+            "id": "1127",
+            "kapampangan": "dakal",
+            "filipino": "marami",
+            "english": "much"
+        },
+        {
+            "id": "1128",
+            "kapampangan": "burak",
+            "filipino": "putik",
+            "english": "mud"
+        },
+        {
+            "id": "1129",
+            "kapampangan": "maburak",
+            "filipino": "maputik",
+            "english": "muddy"
+        },
+        {
+            "id": "1130",
+            "kapampangan": "pakaisipan",
+            "filipino": "pag-isipan nang mabuti",
+            "english": "mull"
+        },
+        {
+            "id": "1131",
+            "kapampangan": "parakalan",
+            "filipino": "magparami",
+            "english": "multiply"
+        },
+        {
+            "id": "1132",
+            "kapampangan": "tahimik",
+            "filipino": "tahimik",
+            "english": "mum"
+        },
+        {
+            "id": "1133",
+            "kapampangan": "bubulung",
+            "filipino": "bumubulong",
+            "english": "mumble"
+        },
+        {
+            "id": "1134",
+            "kapampangan": "langutan",
+            "filipino": "nguyain",
+            "english": "munch"
+        },
+        {
+            "id": "1135",
+            "kapampangan": "pamakamate",
+            "filipino": "pagpatay",
+            "english": "murder"
+        },
+        {
+            "id": "1136",
+            "kapampangan": "makamate",
+            "filipino": "mamamatay-tao",
+            "english": "murderer"
+        },
+        {
+            "id": "1137",
+            "kapampangan": "sitsitan",
+            "filipino": "bulong",
+            "english": "murmur"
+        },
+        {
+            "id": "1138",
+            "kapampangan": "malabug",
+            "filipino": "malabo",
+            "english": "murky"
+        },
+        {
+            "id": "1139",
+            "kapampangan": "dapat",
+            "filipino": "dapat",
+            "english": "must"
+        },
+        {
+            "id": "1140",
+            "kapampangan": "pipi",
+            "filipino": "pipe",
+            "english": "mute"
+        },
+        {
+            "id": "1141",
+            "kapampangan": "kaku",
+            "filipino": "akin",
+            "english": "my"
+        },
+        {
+            "id": "1142",
+            "kapampangan": "aku kabud",
+            "filipino": "sarili ko",
+            "english": "myself"
+        },
+        {
+            "id": "1143",
+            "kapampangan": "misteryu",
+            "filipino": "misteryo",
+            "english": "mystery"
+        },
+        {
+            "id": "1144",
+            "kapampangan": "alamat",
+            "filipino": "alamat",
+            "english": "myth"
+        },
+        {
+            "id": "1145",
+            "kapampangan": "dakpan",
+            "filipino": "hulihin",
+            "english": "nab"
+        },
+        {
+            "id": "1146",
+            "kapampangan": "kuku",
+            "filipino": "kuko",
+            "english": "nail"
+        },
+        {
+            "id": "1147",
+            "kapampangan": "paku",
+            "filipino": "pako",
+            "english": "nail"
+        },
+        {
+            "id": "1148",
+            "kapampangan": "lubas",
+            "filipino": "hubad",
+            "english": "naked"
+        },
+        {
+            "id": "1149",
+            "kapampangan": "lagyu",
+            "filipino": "pangalan",
+            "english": "name"
+        },
+        {
+            "id": "1150",
+            "kapampangan": "makitid",
+            "filipino": "makitid",
+            "english": "narrow"
+        },
+        {
+            "id": "1151",
+            "kapampangan": "balayan a tibwan",
+            "filipino": "bansa",
+            "english": "nation"
+        },
+        {
+            "id": "1152",
+            "kapampangan": "tubu",
+            "filipino": "katutubo",
+            "english": "native"
+        },
+        {
+            "id": "1153",
+            "kapampangan": "malikut",
+            "filipino": "malikot",
+            "english": "naughty"
+        },
+        {
+            "id": "1154",
+            "kapampangan": "maglayag",
+            "filipino": "maglayag",
+            "english": "navigate"
+        },
+        {
+            "id": "1155",
+            "kapampangan": "malapit",
+            "filipino": "malapit",
+            "english": "near"
+        },
+        {
+            "id": "1156",
+            "kapampangan": "makalapit",
+            "filipino": "malapit",
+            "english": "nearby"
+        },
+        {
+            "id": "1157",
+            "kapampangan": "masikap",
+            "filipino": "masikap",
+            "english": "neat"
+        },
+        {
+            "id": "1158",
+            "kapampangan": "kaministilan",
+            "filipino": "kinakailangan",
+            "english": "necessary"
+        },
+        {
+            "id": "1159",
+            "kapampangan": "kailangan",
+            "filipino": "pangangailangan",
+            "english": "necessity"
+        },
+        {
+            "id": "1160",
+            "kapampangan": "batal",
+            "filipino": "leeg",
+            "english": "neck"
+        },
+        {
+            "id": "1161",
+            "kapampangan": "kailangan",
+            "filipino": "kailangan",
+            "english": "need"
+        },
+        {
+            "id": "1162",
+            "kapampangan": "karayum",
+            "filipino": "karayom",
+            "english": "needle"
+        },
+        {
+            "id": "1163",
+            "kapampangan": "kakulangan",
+            "filipino": "kakulangan",
+            "english": "neglect"
+        },
+        {
+            "id": "1164",
+            "kapampangan": "siping bale",
+            "filipino": "kapitbahay",
+            "english": "neighbor"
+        },
+        {
+            "id": "1165",
+            "kapampangan": "sanuman",
+            "filipino": "ni isa",
+            "english": "neither"
+        },
+        {
+            "id": "1166",
+            "kapampangan": "pamangkin a lalaki",
+            "filipino": "pamangkin na lalake",
+            "english": "nephew"
+        },
+        {
+            "id": "1167",
+            "kapampangan": "sale",
+            "filipino": "pugad",
+            "english": "nest"
+        },
+        {
+            "id": "1168",
+            "kapampangan": "lambat",
+            "filipino": "lambat",
+            "english": "net"
+        },
+        {
+            "id": "1169",
+            "kapampangan": "kapilan man",
+            "filipino": "kailan man",
+            "english": "never"
+        },
+        {
+            "id": "1170",
+            "kapampangan": "bayu",
+            "filipino": "bago",
+            "english": "new"
+        },
+        {
+            "id": "1171",
+            "kapampangan": "pangunakan a babai",
+            "filipino": "pamangkin na babae",
+            "english": "niece"
+        },
+        {
+            "id": "1172",
+            "kapampangan": "kuriput",
+            "filipino": "kuripot",
+            "english": "niggard"
+        },
+        {
+            "id": "1173",
+            "kapampangan": "mapagkait",
+            "filipino": "mapagkait",
+            "english": "niggardly"
+        },
+        {
+            "id": "1174",
+            "kapampangan": "bengi",
+            "filipino": "gabi",
+            "english": "night"
+        },
+        {
+            "id": "1175",
+            "kapampangan": "maliksi",
+            "filipino": "maliksi",
+            "english": "nimble"
+        },
+        {
+            "id": "1176",
+            "kapampangan": "utang",
+            "filipino": "utong",
+            "english": "nipple"
+        },
+        {
+            "id": "1177",
+            "kapampangan": "ali",
+            "filipino": "hindi",
+            "english": "no"
+        },
+        {
+            "id": "1178",
+            "kapampangan": "wagas",
+            "filipino": "wagas",
+            "english": "noble"
+        },
+        {
+            "id": "1179",
+            "kapampangan": "alang ninuman",
+            "filipino": "walang sino man",
+            "english": "nobody"
+        },
+        {
+            "id": "1180",
+            "kapampangan": "inge",
+            "filipino": "ingay",
+            "english": "noise"
+        },
+        {
+            "id": "1181",
+            "kapampangan": "mainge",
+            "filipino": "maingay",
+            "english": "noisy"
+        },
+        {
+            "id": "1182",
+            "kapampangan": "ala man",
+            "filipino": "wala man",
+            "english": "none"
+        },
+        {
+            "id": "1183",
+            "kapampangan": "ugtung aldo",
+            "filipino": "tanghali",
+            "english": "noon"
+        },
+        {
+            "id": "1184",
+            "kapampangan": "pangulu",
+            "filipino": "hilaga",
+            "english": "north"
+        },
+        {
+            "id": "1185",
+            "kapampangan": "arung",
+            "filipino": "ilong",
+            "english": "nose"
+        },
+        {
+            "id": "1186",
+            "kapampangan": "ali",
+            "filipino": "hindi",
+            "english": "not"
+        },
+        {
+            "id": "1187",
+            "kapampangan": "kilala",
+            "filipino": "tanyag",
+            "english": "notable"
+        },
+        {
+            "id": "1188",
+            "kapampangan": "ala",
+            "filipino": "wala",
+            "english": "nothing"
+        },
+        {
+            "id": "1189",
+            "kapampangan": "balita",
+            "filipino": "paunawa",
+            "english": "notice"
+        },
+        {
+            "id": "1190",
+            "kapampangan": "mayalata",
+            "filipino": "makikita",
+            "english": "noticeable"
+        },
+        {
+            "id": "1191",
+            "kapampangan": "balitanan",
+            "filipino": "ipagbigay-alam",
+            "english": "notify"
+        },
+        {
+            "id": "1192",
+            "kapampangan": "pamalagyu",
+            "filipino": "pangngalan",
+            "english": "noun"
+        },
+        {
+            "id": "1193",
+            "kapampangan": "ngeni",
+            "filipino": "ngayon",
+            "english": "now"
+        },
+        {
+            "id": "1194",
+            "kapampangan": "ngening kasalukuyan",
+            "filipino": "ngayong kasalukuyan",
+            "english": "nowadays"
+        },
+        {
+            "id": "1195",
+            "kapampangan": "alang imalan",
+            "filipino": "walang saplot",
+            "english": "nude"
+        },
+        {
+            "id": "1196",
+            "kapampangan": "alang pakiramdam",
+            "filipino": "walang pakiramdam",
+            "english": "numb"
+        },
+        {
+            "id": "1197",
+            "kapampangan": "bilang",
+            "filipino": "numero",
+            "english": "number"
+        },
+        {
+            "id": "1198",
+            "kapampangan": "e mabilang",
+            "filipino": "hindi mabilang",
+            "english": "numerous"
+        },
+        {
+            "id": "1199",
+            "kapampangan": "manese",
+            "filipino": "nars",
+            "english": "nurse"
+        },
+        {
+            "id": "1200",
+            "kapampangan": "Galus",
+            "filipino": "Kamot",
+            "english": "Itch"
+        },
+        {
+            "id": "1201",
+            "kapampangan": "Gamat",
+            "filipino": "Gamay",
+            "english": "Hand"
+        },
+        {
+            "id": "1202",
+            "kapampangan": "Gulasyo",
+            "filipino": "Sumigaw ",
+            "english": "Yell"
+        },
+        {
+            "id": "1203",
+            "kapampangan": "Gulut",
+            "filipino": "Likod ",
+            "english": "Bac"
+        },
+        {
+            "id": "1204",
+            "kapampangan": "Gumulung ",
+            "filipino": "Gapang",
+            "english": "Crawl"
+        },
+        {
+            "id": "1205",
+            "kapampangan": "Ibwat",
+            "filipino": "Buhatin",
+            "english": "Carry"
+        },
+        {
+            "id": "1206",
+            "kapampangan": "Ibye ",
+            "filipino": "Ibigay",
+            "english": "To give "
+        },
+        {
+            "id": "1207",
+            "kapampangan": "Ika ",
+            "filipino": "Ikaw ",
+            "english": "You"
+        },
+        {
+            "id": "1208",
+            "kapampangan": "Ila",
+            "filipino": "Sila ",
+            "english": "Them "
+        },
+        {
+            "id": "1209",
+            "kapampangan": "Ilug",
+            "filipino": "Ilog",
+            "english": "River "
+        },
+        {
+            "id": "1211",
+            "kapampangan": "Imi",
+            "filipino": "Umihi",
+            "english": "Urinate\/pee"
+        },
+        {
+            "id": "1212",
+            "kapampangan": "Ing ",
+            "filipino": "Ang ",
+            "english": "The"
+        },
+        {
+            "id": "1213",
+            "kapampangan": "Ini",
+            "filipino": "Ito",
+            "english": "This"
+        },
+        {
+            "id": "1214",
+            "kapampangan": "Ipan",
+            "filipino": "Ngipin",
+            "english": "Toot"
+        },
+        {
+            "id": "1215",
+            "kapampangan": "Ipas",
+            "filipino": "Ipis",
+            "english": "Cockroach"
+        },
+        {
+            "id": "1216",
+            "kapampangan": "Irap",
+            "filipino": "Pilikmata ",
+            "english": "Eyelash"
+        },
+        {
+            "id": "1217",
+            "kapampangan": "Ita",
+            "filipino": "Singit",
+            "english": "Groin"
+        },
+        {
+            "id": "1218",
+            "kapampangan": "Kabaldugan",
+            "filipino": "Kahulugan",
+            "english": "Meaning"
+        },
+        {
+            "id": "1219",
+            "kapampangan": "Kabang",
+            "filipino": "Habang ",
+            "english": "While "
+        },
+        {
+            "id": "1220",
+            "kapampangan": "Kabiran ",
+            "filipino": "Hilahin ",
+            "english": "Pull"
+        },
+        {
+            "id": "1221",
+            "kapampangan": "Kabud",
+            "filipino": "Agad",
+            "english": "Immediately "
+        },
+        {
+            "id": "1222",
+            "kapampangan": "Kakewan",
+            "filipino": "Gubat ",
+            "english": "Forest\/jungle "
+        },
+        {
+            "id": "1223",
+            "kapampangan": "Kakung ",
+            "filipino": "Akin",
+            "english": "Mine\/my"
+        },
+        {
+            "id": "1224",
+            "kapampangan": "Kalang ",
+            "filipino": "Kalan ",
+            "english": "Stove "
+        },
+        {
+            "id": "1225",
+            "kapampangan": "Kalupa",
+            "filipino": "Kamukha",
+            "english": "Alike "
+        },
+        {
+            "id": "1226",
+            "kapampangan": "Kanaku",
+            "filipino": "Sa akin ",
+            "english": "To me "
+        },
+        {
+            "id": "1227",
+            "kapampangan": "Kanwan ",
+            "filipino": "Noo",
+            "english": "Forehead "
+        },
+        {
+            "id": "1228",
+            "kapampangan": "Kapatad",
+            "filipino": "Kapatid ",
+            "english": "Sibling "
+        },
+        {
+            "id": "1229",
+            "kapampangan": "Kapilan ",
+            "filipino": "Kailan ",
+            "english": "When "
+        },
+        {
+            "id": "1230",
+            "kapampangan": "Karela",
+            "filipino": "Kanilang",
+            "english": "Their "
+        },
+        {
+            "id": "1231",
+            "kapampangan": "Kawe",
+            "filipino": "Langoy",
+            "english": "Swim"
+        },
+        {
+            "id": "1232",
+            "kapampangan": "Kaya ",
+            "filipino": "Sa kanya ",
+            "english": "To her\/him"
+        },
+        {
+            "id": "1233",
+            "kapampangan": "Kayang",
+            "filipino": "Kanyang ",
+            "english": "His\/her "
+        },
+        {
+            "id": "1234",
+            "kapampangan": "Nokarin ya papunta ini?",
+            "filipino": "Saan papunta ito?",
+            "english": "Where is it going?"
+        },
+        {
+            "id": "1235",
+            "kapampangan": "Alang anuman",
+            "filipino": "Walang anuman",
+            "english": "You're welcome"
+        },
+        {
+            "id": "1236",
+            "kapampangan": "Dakal a salamat",
+            "filipino": "Maraming salamat",
+            "english": "Thank you so much"
+        },
+        {
+            "id": "1237",
+            "kapampangan": "Nokarin ka munta?",
+            "filipino": "Saan ka pupunta?",
+            "english": "Where are you going?"
+        },
+        {
+            "id": "1238",
+            "kapampangan": "Mekeni",
+            "filipino": "Halika rito",
+            "english": "Come here"
+        },
+        {
+            "id": "1239",
+            "kapampangan": "Mangan tana",
+            "filipino": "Kain na tayo",
+            "english": "Let's eat"
+        },
+        {
+            "id": "1240",
+            "kapampangan": "Manyaman",
+            "filipino": "Masarap",
+            "english": "Delicious"
+        },
+        {
+            "id": "1241",
+            "kapampangan": "Mimingat ka",
+            "filipino": "Mag-iingat ka",
+            "english": "Take care"
+        },
+        {
+            "id": "1242",
+            "kapampangan": "Tiga nokarin ka?",
+            "filipino": "Tiga saan ka?",
+            "english": "Where are you from?"
+        },
+        {
+            "id": "1243",
+            "kapampangan": "Magkanu ini?",
+            "filipino": "Magkano ito?",
+            "english": "How much is this?"
+        },
+        {
+            "id": "1244",
+            "kapampangan": "Kailangan ku ing saup",
+            "filipino": "Kailangan ko ng tulong",
+            "english": "I need help"
+        },
+        {
+            "id": "1245",
+            "kapampangan": "Pilan naka banwa?",
+            "filipino": "Ilang taon ka na?",
+            "english": "How old are you?"
+        },
+        {
+            "id": "1246",
+            "kapampangan": "Nanu ing lagyu mu?",
+            "filipino": "Ano ang pangalan mo?",
+            "english": "What is your name?"
+        },
+        {
+            "id": "1247",
+            "kapampangan": "Mayap a abak",
+            "filipino": "Magandang umaga",
+            "english": "Good morning"
+        }
+    ]
+}

@@ -1,0 +1,284 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "user_id": "1",
+            "kapampangan_id": "4",
+            "from_text": "",
+            "to_text": "",
+            "created_at": "2024-09-07 03:00:24"
+        },
+        {
+            "id": "2",
+            "user_id": "0",
+            "kapampangan_id": "0",
+            "from_text": "abo",
+            "to_text": " ash",
+            "created_at": "2024-09-07 03:14:01"
+        },
+        {
+            "id": "3",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abba",
+            "to_text": " _ ",
+            "created_at": "2024-09-07 03:33:43"
+        },
+        {
+            "id": "4",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abba",
+            "to_text": " _ ",
+            "created_at": "2024-09-07 03:33:49"
+        },
+        {
+            "id": "5",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abo",
+            "to_text": " abo",
+            "created_at": "2024-09-07 03:34:04"
+        },
+        {
+            "id": "6",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abala",
+            "to_text": " abala",
+            "created_at": "2024-09-07 03:34:45"
+        },
+        {
+            "id": "7",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "ash",
+            "to_text": " abo",
+            "created_at": "2024-09-07 03:35:03"
+        },
+        {
+            "id": "8",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "ash",
+            "to_text": " abo",
+            "created_at": "2024-09-07 03:35:42"
+        },
+        {
+            "id": "9",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "paa",
+            "to_text": " _  _ ",
+            "created_at": "2024-09-07 03:36:09"
+        },
+        {
+            "id": "10",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "paa",
+            "to_text": " adwa bitis adwa bitis",
+            "created_at": "2024-09-07 03:36:52"
+        },
+        {
+            "id": "11",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "aso",
+            "to_text": " aso",
+            "created_at": "2024-09-07 03:58:08"
+        },
+        {
+            "id": "12",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "eran",
+            "to_text": " lustayin",
+            "created_at": "2024-09-07 03:58:38"
+        },
+        {
+            "id": "13",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "babai",
+            "to_text": " anak na babae",
+            "created_at": "2024-09-07 03:59:17"
+        },
+        {
+            "id": "14",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "aso",
+            "to_text": " aso",
+            "created_at": "2024-09-07 04:01:01"
+        },
+        {
+            "id": "15",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "dog",
+            "to_text": " buldog",
+            "created_at": "2024-09-07 04:01:19"
+        },
+        {
+            "id": "16",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "stare",
+            "to_text": " _ ",
+            "created_at": "2024-09-07 04:01:54"
+        },
+        {
+            "id": "17",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "Stair",
+            "to_text": " eran",
+            "created_at": "2024-09-07 04:02:06"
+        },
+        {
+            "id": "18",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "batas",
+            "to_text": " batas",
+            "created_at": "2024-09-07 04:22:22"
+        },
+        {
+            "id": "19",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "law",
+            "to_text": " batas",
+            "created_at": "2024-09-07 04:22:28"
+        },
+        {
+            "id": "20",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "",
+            "to_text": " kumakain",
+            "created_at": "2024-09-07 04:22:49"
+        },
+        {
+            "id": "21",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "",
+            "to_text": " kumakain",
+            "created_at": "2024-09-07 04:23:03"
+        },
+        {
+            "id": "22",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "",
+            "to_text": " kumakain",
+            "created_at": "2024-09-07 04:23:19"
+        },
+        {
+            "id": "23",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "aso",
+            "to_text": " aso",
+            "created_at": "2024-09-07 13:23:32"
+        },
+        {
+            "id": "24",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "aso",
+            "to_text": " dog",
+            "created_at": "2024-09-07 13:23:43"
+        },
+        {
+            "id": "25",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abak",
+            "to_text": " abakada",
+            "created_at": "2024-09-08 02:15:02"
+        },
+        {
+            "id": "26",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "abak",
+            "to_text": " alphabet",
+            "created_at": "2024-09-08 02:15:17"
+        },
+        {
+            "id": "27",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "Abak",
+            "to_text": " alphabet",
+            "created_at": "2024-09-08 02:15:32"
+        },
+        {
+            "id": "28",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "Kalang",
+            "to_text": " Kalan ",
+            "created_at": "2024-09-08 02:15:44"
+        },
+        {
+            "id": "29",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "aso",
+            "to_text": " aso",
+            "created_at": "2024-09-09 03:24:16"
+        },
+        {
+            "id": "30",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "hello",
+            "to_text": " _ ",
+            "created_at": "2024-09-09 14:07:45"
+        },
+        {
+            "id": "31",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "hello",
+            "to_text": " _ ",
+            "created_at": "2024-09-09 14:08:09"
+        },
+        {
+            "id": "32",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "sana",
+            "to_text": " mahirati",
+            "created_at": "2024-09-12 10:34:27"
+        },
+        {
+            "id": "33",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "",
+            "to_text": " kumakain",
+            "created_at": "2024-09-12 10:35:14"
+        },
+        {
+            "id": "34",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "Sana",
+            "to_text": " mahirati",
+            "created_at": "2024-09-12 10:35:18"
+        },
+        {
+            "id": "35",
+            "user_id": null,
+            "kapampangan_id": null,
+            "from_text": "Sana",
+            "to_text": " aguman",
+            "created_at": "2024-09-12 10:35:25"
+        }
+    ]
+}

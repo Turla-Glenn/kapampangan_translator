@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "id": "1234",
+      "kapampangan": "Nokarin ya papunta ini?",
+      "filipino": "Saan papunta ito?",
+      "english": "Where is it going?"
+    },
+    {
+      "id": "1235",
+      "kapampangan": "Alang anuman",
+      "filipino": "Walang anuman",
+      "english": "You're welcome"
+    },
+    {
+      "id": "1236",
+      "kapampangan": "Dakal a salamat",
+      "filipino": "Maraming salamat",
+      "english": "Thank you so much"
+    },
+    {
+      "id": "1237",
+      "kapampangan": "Nokarin ka munta?",
+      "filipino": "Saan ka pupunta?",
+      "english": "Where are you going?"
+    },
+    {
+      "id": "1238",
+      "kapampangan": "Mekeni",
+      "filipino": "Halika rito",
+      "english": "Come here"
+    },
+    {
+      "id": "1239",
+      "kapampangan": "Mangan tana",
+      "filipino": "Kain na tayo",
+      "english": "Let's eat"
+    },
+    {
+      "id": "1240",
+      "kapampangan": "Manyaman",
+      "filipino": "Masarap",
+      "english": "Delicious"
+    },
+    {
+      "id": "1241",
+      "kapampangan": "Mimingat ka",
+      "filipino": "Mag-iingat ka",
+      "english": "Take care"
+    },
+    {
+      "id": "1242",
+      "kapampangan": "Tiga nokarin ka?",
+      "filipino": "Tiga saan ka?",
+      "english": "Where are you from?"
+    },
+    {
+      "id": "1243",
+      "kapampangan": "Magkanu ini?",
+      "filipino": "Magkano ito?",
+      "english": "How much is this?"
+    },
+    {
+      "id": "1244",
+      "kapampangan": "Kailangan ku ing saup",
+      "filipino": "Kailangan ko ng tulong",
+      "english": "I need help"
+    },
+    {
+      "id": "1245",
+      "kapampangan": "Pilan naka banwa?",
+      "filipino": "Ilang taon ka na?",
+      "english": "How old are you?"
+    },
+    {
+      "id": "1246",
+      "kapampangan": "Nanu ing lagyu mu?",
+      "filipino": "Ano ang pangalan mo?",
+      "english": "What is your name?"
+    },
+    {
+      "id": "1247",
+      "kapampangan": "Mayap a abak",
+      "filipino": "Magandang umaga",
+      "english": "Good morning"
+    }
+  ]
+}
