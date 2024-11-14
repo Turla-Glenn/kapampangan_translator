@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kapampangan_translator/screens/dictionary_screen.dart';
-import 'package:kapampangan_translator/screens/history_screen.dart';
 import 'package:kapampangan_translator/screens/phrasebook_screen.dart';
+import 'package:kapampangan_translator/screens/history_page.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -49,7 +49,7 @@ class AppDrawer extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => HistoryScreen()),
+                MaterialPageRoute(builder: (context) => HistoryPage()),
               );
             },
           ),

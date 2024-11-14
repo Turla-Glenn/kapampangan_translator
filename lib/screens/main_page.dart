@@ -4,22 +4,37 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_tts/flutter_tts.dart';
 import 'camera_page.dart';
 import 'microphone_page.dart';
-import '../widgets/app_drawer.dart'; // Import the drawer widget
+import '../widgets/app_drawer.dart';
+import '../services/history_service.dart';
+import '../models/history_item.dart';
 
 class MainPage extends StatefulWidget {
+  final double titleVerticalOffset;
+  final double titleHorizontalOffset;
+  final double subtitleHorizontalOffset;
+
+  MainPage({
+    this.titleVerticalOffset = 5.0,
+    this.titleHorizontalOffset = 25.0,
+    this.subtitleHorizontalOffset = 40.0,
+  });
+
   @override
   _MainPageState createState() => _MainPageState();
 }
 
 class _MainPageState extends State<MainPage> {
-  String fromLanguage = 'English';
+  List<String> languages = ['Detect language', 'English', 'Kapampangan', 'Filipino'];
+  String fromLanguage = 'Detect language';
   String toLanguage = 'Kapampangan';
   TextEditingController inputController = TextEditingController();
   String translatedText = "";
 
   Map<String, String> kapampanganToEnglish = {};
   Map<String, String> englishToKapampangan = {};
-  FlutterTts flutterTts = FlutterTts(); // Initialize the FlutterTTS instance
+  Map<String, String> kapampanganToFilipino = {};
+  Map<String, String> filipinoToKapampangan = {};
+  FlutterTts flutterTts = FlutterTts();
 
   @override
   void initState() {
@@ -34,32 +49,94 @@ class _MainPageState extends State<MainPage> {
     for (var item in jsonResult['data']) {
       kapampanganToEnglish[item['kapampangan'].toLowerCase()] = item['english'];
       englishToKapampangan[item['english'].toLowerCase()] = item['kapampangan'];
+      kapampanganToFilipino[item['kapampangan'].toLowerCase()] = item['filipino'];
+      filipinoToKapampangan[item['filipino'].toLowerCase()] = item['kapampangan'];
     }
   }
 
-  void switchLanguages() {
-    setState(() {
-      String temp = fromLanguage;
-      fromLanguage = toLanguage;
-      toLanguage = temp;
-      inputController.clear();
-      translatedText = "";
-    });
-  }
-
-  void translateText() {
+  void detectLanguageAndTranslate() {
     String inputText = inputController.text.trim().toLowerCase();
+
+    // Reset the translated text before processing
+    setState(() {
+      translatedText = '';
+    });
+
     if (inputText.isNotEmpty) {
       setState(() {
-        if (fromLanguage == 'Kapampangan') {
-          translatedText = kapampanganToEnglish[inputText] ?? 'No translation found';
-        } else if (fromLanguage == 'English') {
-          translatedText = englishToKapampangan[inputText] ?? 'No translation found';
+        if (fromLanguage == 'Detect language') {
+          // Detect the language and set valid translation pairs
+          if (englishToKapampangan.containsKey(inputText)) {
+            fromLanguage = 'English';
+            toLanguage = 'Kapampangan'; // Only show English to Kapampangan
+          } else if (kapampanganToEnglish.containsKey(inputText)) {
+            fromLanguage = 'Kapampangan';
+            toLanguage = 'English'; // Default to Kapampangan to English
+          } else if (filipinoToKapampangan.containsKey(inputText)) {
+            fromLanguage = 'Filipino';
+            toLanguage = 'Kapampangan'; // Only show Filipino to Kapampangan
+          }
+          translatedText = getTranslation(inputText);
+        } else {
+          // Use selected languages
+          translatedText = getTranslation(inputText);
         }
       });
+
+      // Save the final translated text to history only if it's valid
+      if (translatedText != 'No translation found' && translatedText.isNotEmpty) {
+        HistoryItem historyItem = HistoryItem(
+          action: 'Text Translation',
+          inputText: inputText,  // Save only the original input
+          outputText: translatedText,  // Save only the final translated text
+          sourceLanguage: fromLanguage,
+          targetLanguage: toLanguage,
+          timestamp: DateTime.now(),
+        );
+
+        HistoryService().saveHistory(historyItem);  // Save the translated history
+      }
     } else {
       setState(() {
-        translatedText = 'Please enter some text to translate';
+        translatedText = ''; // Clear any previously shown translation when input is empty
+      });
+    }
+  }
+
+  String getTranslation(String inputText) {
+    if (fromLanguage == 'English' && toLanguage == 'Kapampangan') {
+      return englishToKapampangan[inputText] ?? 'No translation found';
+    } else if (fromLanguage == 'Kapampangan' && toLanguage == 'English') {
+      return kapampanganToEnglish[inputText] ?? 'No translation found';
+    } else if (fromLanguage == 'Filipino' && toLanguage == 'Kapampangan') {
+      return filipinoToKapampangan[inputText] ?? 'No translation found';
+    } else if (fromLanguage == 'Kapampangan' && toLanguage == 'Filipino') {
+      return kapampanganToFilipino[inputText] ?? 'No translation found';
+    } else {
+      return 'No translation found';
+    }
+  }
+
+  List<String> getAvailableTranslations() {
+    // Return only valid options for `toLanguage` based on `fromLanguage`
+    if (fromLanguage == 'English') {
+      return ['Kapampangan'];
+    } else if (fromLanguage == 'Kapampangan') {
+      return ['English', 'Filipino'];
+    } else if (fromLanguage == 'Filipino') {
+      return ['Kapampangan'];
+    } else {
+      // Default case when fromLanguage is "Detect language"
+      return languages.where((lang) => lang != 'Detect language').toList();
+    }
+  }
+
+  void updateToLanguageOptions() {
+    List<String> validTranslations = getAvailableTranslations();
+    if (!validTranslations.contains(toLanguage)) {
+      // If current `toLanguage` is not in valid options, set to first valid option
+      setState(() {
+        toLanguage = validTranslations.first;
       });
     }
   }
@@ -72,42 +149,52 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
+    // Ensure toLanguage is valid for the current fromLanguage
+    updateToLanguageOptions();
+
     return Scaffold(
       backgroundColor: Color(0xFFEDEAFD),
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         toolbarHeight: 90,
-        title: Center(
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                'Kapampangan',
-                style: TextStyle(
-                  fontSize: 40,
-                  fontFamily: 'Cursive',
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
+        title: Align(
+          alignment: Alignment.centerLeft,
+          child: Transform.translate(
+            offset: Offset(widget.titleHorizontalOffset, widget.titleVerticalOffset),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Kapampangan',
+                  style: TextStyle(
+                    fontSize: 40,
+                    fontFamily: 'Cursive',
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-              ),
-              Text(
-                'Translator',
-                style: TextStyle(
-                  fontSize: 24,
-                  fontFamily: 'Cursive',
-                  color: Colors.black,
+                Transform.translate(
+                  offset: Offset(widget.subtitleHorizontalOffset, 0),
+                  child: Text(
+                    'Translator',
+                    style: TextStyle(
+                      fontSize: 24,
+                      fontFamily: 'Cursive',
+                      color: Colors.black,
+                    ),
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
-      drawer: AppDrawer(), // Use the AppDrawer here
+      drawer: AppDrawer(),
       body: GestureDetector(
         onHorizontalDragEnd: (details) {
           if (details.primaryVelocity! > 0) {
-            Scaffold.of(context).openDrawer(); // Open the drawer on a right swipe
+            Scaffold.of(context).openDrawer();
           }
         },
         child: Padding(
@@ -118,25 +205,51 @@ class _MainPageState extends State<MainPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    fromLanguage,
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  DropdownButton<String>(
+                    value: fromLanguage,
+                    onChanged: (String? newValue) {
+                      setState(() {
+                        fromLanguage = newValue!;
+                        // Clear the input field and reset the translation when language changes
+                        inputController.clear();
+                        translatedText = '';
+                        updateToLanguageOptions();
+                      });
+                    },
+                    items: languages.map<DropdownMenuItem<String>>((String value) {
+                      return DropdownMenuItem<String>(
+                        value: value,
+                        child: Text(value),
+                      );
+                    }).toList(),
                   ),
-                  SizedBox(width: 10),
                   IconButton(
                     icon: Icon(Icons.swap_horiz, color: Colors.black),
-                    onPressed: switchLanguages,
+                    onPressed: () {
+                      setState(() {
+                        // Swap languages and adjust `toLanguage` options based on the new `fromLanguage`
+                        String tempLanguage = fromLanguage;
+                        fromLanguage = toLanguage;
+                        toLanguage = tempLanguage;
+                        inputController.clear();  // Reset the input field
+                        translatedText = '';  // Reset the translated text
+                        updateToLanguageOptions();
+                      });
+                    },
                   ),
-                  SizedBox(width: 10),
-                  Text(
-                    toLanguage,
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                    ),
+                  DropdownButton<String>(
+                    value: toLanguage,
+                    onChanged: (String? newValue) {
+                      setState(() {
+                        toLanguage = newValue!;
+                      });
+                    },
+                    items: getAvailableTranslations().map<DropdownMenuItem<String>>((String value) {
+                      return DropdownMenuItem<String>(
+                        value: value,
+                        child: Text(value),
+                      );
+                    }).toList(),
                   ),
                 ],
               ),
@@ -156,10 +269,10 @@ class _MainPageState extends State<MainPage> {
                           controller: inputController,
                           maxLines: null,
                           onChanged: (value) {
-                            translateText();
+                            detectLanguageAndTranslate();
                           },
                           decoration: InputDecoration(
-                            hintText: "Enter text in $fromLanguage",
+                            hintText: "Enter text to detect language and translate",
                             border: InputBorder.none,
                           ),
                         ),
@@ -182,6 +295,8 @@ class _MainPageState extends State<MainPage> {
                                   builder: (context) => CameraPage(
                                     kapampanganToEnglish: kapampanganToEnglish,
                                     englishToKapampangan: englishToKapampangan,
+                                    kapampanganToFilipino: kapampanganToFilipino,
+                                    filipinoToKapampangan: filipinoToKapampangan,
                                   ),
                                 ),
                               );
@@ -196,6 +311,8 @@ class _MainPageState extends State<MainPage> {
                                   builder: (context) => MicrophonePage(
                                     kapampanganToEnglish: kapampanganToEnglish,
                                     englishToKapampangan: englishToKapampangan,
+                                    kapampanganToFilipino: kapampanganToFilipino,
+                                    filipinoToKapampangan: filipinoToKapampangan,
                                   ),
                                 ),
                               );

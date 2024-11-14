@@ -11,7 +11,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 4), () {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => MainPage()),
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Color(0xFFEDEAFD), // Light purple background
       body: Center(
         child: Image.asset(
-          'assets/images/conversation.gif',
+          'assets/images/log.gif',
           width: 150,
           height: 150,
         ),

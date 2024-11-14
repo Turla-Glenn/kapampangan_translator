@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:speech_to_text/speech_to_text.dart' as stt;
-import 'package:flutter/services.dart' show Clipboard, ClipboardData;
+import '../services/history_service.dart';
+import '../models/history_item.dart';
 
 class MicrophonePage extends StatefulWidget {
   final Map<String, String> kapampanganToEnglish;
   final Map<String, String> englishToKapampangan;
+  final Map<String, String> kapampanganToFilipino;
+  final Map<String, String> filipinoToKapampangan;
 
   MicrophonePage({
     required this.kapampanganToEnglish,
     required this.englishToKapampangan,
+    required this.kapampanganToFilipino,
+    required this.filipinoToKapampangan,
   });
 
   @override
@@ -21,7 +26,10 @@ class _MicrophonePageState extends State<MicrophonePage> {
   String _spokenText = 'Tap the mic to start listening';
   String _translatedText = '';
   String detectedLanguage = 'Detect language';
-  String targetLanguage = 'Kapampangan';
+
+  // Default languages
+  String targetLanguage = 'Kapampangan';   // Target language
+  String fromLanguage = 'English';          // From language (source language)
 
   @override
   void initState() {
@@ -50,37 +58,41 @@ class _MicrophonePageState extends State<MicrophonePage> {
   }
 
   void _translateSpokenText(String inputText) {
-    String translation;
+    String translation = '';
     inputText = inputText.toLowerCase().trim();
 
     if (inputText.isNotEmpty) {
-      if (_isLanguageEnglish(inputText)) {
-        setState(() {
-          detectedLanguage = 'English';
-          targetLanguage = 'Kapampangan';
-        });
+      // Handle translation logic for all language pairs
+      if (fromLanguage == 'English' && targetLanguage == 'Kapampangan') {
         translation = widget.englishToKapampangan[inputText] ?? 'No translation found';
-      } else {
-        setState(() {
-          detectedLanguage = 'Kapampangan';
-          targetLanguage = 'English';
-        });
+      } else if (fromLanguage == 'Kapampangan' && targetLanguage == 'English') {
         translation = widget.kapampanganToEnglish[inputText] ?? 'No translation found';
+      } else if (fromLanguage == 'Filipino' && targetLanguage == 'Kapampangan') {
+        translation = widget.filipinoToKapampangan[inputText] ?? 'No translation found';
+      } else if (fromLanguage == 'Kapampangan' && targetLanguage == 'Filipino') {
+        translation = widget.kapampanganToFilipino[inputText] ?? 'No translation found';
       }
 
       setState(() {
         _translatedText = translation;
       });
+
+      // Save the recognized speech and translation to history
+      HistoryItem historyItem = HistoryItem(
+        action: 'Speech Recognition',
+        inputText: inputText,
+        outputText: _translatedText,
+        sourceLanguage: fromLanguage,
+        targetLanguage: targetLanguage,
+        timestamp: DateTime.now(),
+      );
+
+      HistoryService().saveHistory(historyItem);  // Save history
     } else {
       setState(() {
         _translatedText = 'Please speak something to translate';
       });
     }
-  }
-
-  bool _isLanguageEnglish(String text) {
-    // Simple language check based on known words.
-    return widget.englishToKapampangan.containsKey(text);
   }
 
   @override
@@ -106,61 +118,79 @@ class _MicrophonePageState extends State<MicrophonePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          // Language Selection Dropdowns
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  detectedLanguage,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                DropdownButton<String>(
+                  value: fromLanguage,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      fromLanguage = newValue!;
+                      // Reset the translated text when language is changed
+                      _spokenText = 'Tap the mic to start listening';
+                      _translatedText = '';
+                    });
+                  },
+                  items: ['English', 'Kapampangan', 'Filipino'].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
                 ),
-                SizedBox(width: 10),
-                Icon(Icons.swap_horiz, color: Colors.black),
-                SizedBox(width: 10),
-                Text(
-                  targetLanguage,
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                IconButton(
+                  icon: Icon(Icons.swap_horiz, color: Colors.black),
+                  onPressed: () {
+                    setState(() {
+                      // Swap languages and reset text
+                      String tempLanguage = fromLanguage;
+                      fromLanguage = targetLanguage;
+                      targetLanguage = tempLanguage;
+                      _spokenText = 'Tap the mic to start listening';
+                      _translatedText = '';
+                    });
+                  },
+                ),
+                DropdownButton<String>(
+                  value: targetLanguage,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      targetLanguage = newValue!;
+                    });
+                  },
+                  items: ['Kapampangan', 'Filipino', 'English'].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
                 ),
               ],
             ),
           ),
           SizedBox(height: 20),
-          // Recognized and Translated Text
+
+          // Spoken Text Display
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  child: Text(
-                    _spokenText,
-                    style: TextStyle(fontSize: 16, color: Colors.black87),
-                  ),
-                ),
-                SizedBox(height: 15),
-                Container(
-                  alignment: Alignment.centerRight,
-                  child: IconButton(
-                    icon: Icon(Icons.clear, color: Colors.grey),
-                    onPressed: () {
-                      setState(() {
-                        _spokenText = '';
-                        _translatedText = '';
-                      });
-                    },
-                  ),
-                ),
-              ],
+            child: Container(
+              padding: EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                _spokenText,
+                style: TextStyle(fontSize: 16, color: Colors.black87),
+              ),
             ),
           ),
           SizedBox(height: 20),
-          // Display the translation
+
+          // Translated Text Display
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Container(
@@ -178,6 +208,7 @@ class _MicrophonePageState extends State<MicrophonePage> {
             ),
           ),
           SizedBox(height: 20),
+
           // Microphone Button
           Padding(
             padding: const EdgeInsets.only(top: 20),

@@ -3,15 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:flutter/services.dart' show Clipboard, ClipboardData;
+import '../services/history_service.dart';
+import '../models/history_item.dart';
 
 class CameraPage extends StatefulWidget {
   final Map<String, String> kapampanganToEnglish;
   final Map<String, String> englishToKapampangan;
+  final Map<String, String> kapampanganToFilipino;
+  final Map<String, String> filipinoToKapampangan;
 
   CameraPage({
     required this.kapampanganToEnglish,
     required this.englishToKapampangan,
+    required this.kapampanganToFilipino,
+    required this.filipinoToKapampangan,
   });
 
   @override
@@ -25,6 +30,9 @@ class _CameraPageState extends State<CameraPage> {
   String _translatedText = '';
   late TextRecognizer textRecognizer;
   bool _isTranslating = false;
+
+  String fromLanguage = 'English';
+  String toLanguage = 'Kapampangan';
 
   @override
   void initState() {
@@ -62,6 +70,19 @@ class _CameraPageState extends State<CameraPage> {
         _extractedText = recognizedText.text.isNotEmpty ? recognizedText.text : 'No text recognized';
         _translateCapturedText(_extractedText);
       });
+
+      // Save the recognized text to history if it's valid
+      if (_translatedText != 'No translation found' && _translatedText.isNotEmpty) {
+        HistoryItem historyItem = HistoryItem(
+          action: 'Camera Scan',
+          inputText: _extractedText,
+          outputText: _translatedText,
+          sourceLanguage: fromLanguage,
+          targetLanguage: toLanguage,
+          timestamp: DateTime.now(),
+        );
+        HistoryService().saveHistory(historyItem);  // Save history
+      }
     } catch (e) {
       setState(() {
         _extractedText = 'Error capturing image: $e';
@@ -84,6 +105,19 @@ class _CameraPageState extends State<CameraPage> {
           _extractedText = recognizedText.text.isNotEmpty ? recognizedText.text : 'No text recognized';
           _translateCapturedText(_extractedText);
         });
+
+        // Save the recognized text to history if it's valid
+        if (_translatedText != 'No translation found' && _translatedText.isNotEmpty) {
+          HistoryItem historyItem = HistoryItem(
+            action: 'Image Gallery Scan',
+            inputText: _extractedText,
+            outputText: _translatedText,
+            sourceLanguage: fromLanguage,
+            targetLanguage: toLanguage,
+            timestamp: DateTime.now(),
+          );
+          HistoryService().saveHistory(historyItem);  // Save history
+        }
       } catch (e) {
         setState(() {
           _extractedText = 'Error processing image: $e';
@@ -98,10 +132,16 @@ class _CameraPageState extends State<CameraPage> {
     inputText = inputText.toLowerCase().trim();
 
     if (inputText.isNotEmpty) {
-      if (_isLanguageEnglish(inputText)) {
+      if (fromLanguage == 'English' && toLanguage == 'Kapampangan') {
         translation = widget.englishToKapampangan[inputText] ?? 'No translation found';
-      } else {
+      } else if (fromLanguage == 'Kapampangan' && toLanguage == 'English') {
         translation = widget.kapampanganToEnglish[inputText] ?? 'No translation found';
+      } else if (fromLanguage == 'Filipino' && toLanguage == 'Kapampangan') {
+        translation = widget.filipinoToKapampangan[inputText] ?? 'No translation found';
+      } else if (fromLanguage == 'Kapampangan' && toLanguage == 'Filipino') {
+        translation = widget.kapampanganToFilipino[inputText] ?? 'No translation found';
+      } else {
+        translation = 'No translation found';
       }
 
       setState(() {
@@ -114,18 +154,6 @@ class _CameraPageState extends State<CameraPage> {
         _isTranslating = false;
       });
     }
-  }
-
-  bool _isLanguageEnglish(String text) {
-    // Simple language check based on known words.
-    return widget.englishToKapampangan.containsKey(text);
-  }
-
-  void _copyToClipboard(String text) {
-    Clipboard.setData(ClipboardData(text: text));
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Copied to clipboard')),
-    );
   }
 
   @override
@@ -151,6 +179,60 @@ class _CameraPageState extends State<CameraPage> {
       ),
       body: Column(
         children: [
+          // Language selection dropdowns
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                DropdownButton<String>(
+                  value: fromLanguage,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      fromLanguage = newValue!;
+                      _extractedText = 'No text recognized';  // Reset recognized text
+                      _translatedText = '';  // Reset translated text
+                    });
+                  },
+                  items: ['English', 'Kapampangan', 'Filipino'].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                ),
+                IconButton(
+                  icon: Icon(Icons.swap_horiz, color: Colors.black),
+                  onPressed: () {
+                    setState(() {
+                      // Swap languages
+                      String tempLanguage = fromLanguage;
+                      fromLanguage = toLanguage;
+                      toLanguage = tempLanguage;
+                      _extractedText = 'No text recognized';  // Reset recognized text
+                      _translatedText = '';  // Reset translated text
+                    });
+                  },
+                ),
+                DropdownButton<String>(
+                  value: toLanguage,
+                  onChanged: (String? newValue) {
+                    setState(() {
+                      toLanguage = newValue!;
+                    });
+                  },
+                  items: ['Kapampangan', 'Filipino', 'English'].map<DropdownMenuItem<String>>((String value) {
+                    return DropdownMenuItem<String>(
+                      value: value,
+                      child: Text(value),
+                    );
+                  }).toList(),
+                ),
+              ],
+            ),
+          ),
+
+          // Camera Preview
           if (_isCameraInitialized)
             Expanded(
               flex: 3,
@@ -174,7 +256,8 @@ class _CameraPageState extends State<CameraPage> {
               ),
             ),
           SizedBox(height: 20),
-          // Recognized and Translated Text
+
+          // Display recognized text
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
             child: Column(
@@ -211,20 +294,19 @@ class _CameraPageState extends State<CameraPage> {
             ),
           ),
           SizedBox(height: 20),
-          // Copy Buttons and Capture Button Row
+
+          // Capture and select image buttons
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 40),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Capture button
                 FloatingActionButton(
                   onPressed: _isTranslating ? null : _captureAndRecognizeText,
                   backgroundColor: Colors.pink,
                   child: Icon(Icons.camera_alt, color: Colors.white, size: 30),
                 ),
                 SizedBox(width: 30),
-                // Gallery button
                 IconButton(
                   icon: Icon(Icons.photo, color: Colors.purple[200], size: 40),
                   onPressed: _chooseFromGallery,
