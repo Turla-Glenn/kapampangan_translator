@@ -20,20 +20,25 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
 
   // Load JSON data from the assets
   Future<void> _loadDictionaryData() async {
-    final String response = await rootBundle.loadString('assets/kapampangan_table_kapampangan.json');
-    final data = await json.decode(response);
-    setState(() {
-      _dictionaryData = data['data'];
-      _filteredDictionaryData = _dictionaryData;  // Initially show all data
-    });
+    final String response = await rootBundle.loadString('assets/kapampangan_words.json');
+    final Map<String, dynamic> data = json.decode(response); // Decode as Map
+    if (data.containsKey('data') && data['data'] is List) {
+      setState(() {
+        _dictionaryData = data['data']; // Access the 'data' key
+        _filteredDictionaryData = _dictionaryData; // Initially show all data
+      });
+    } else {
+      print('Error: JSON does not contain a valid "data" key.');
+    }
   }
 
   // Filter the dictionary based on the search query
   void _filterDictionary(String query) {
     List<dynamic> filteredResults = _dictionaryData.where((entry) {
-      return entry['kapampangan'].toString().toLowerCase().contains(query.toLowerCase()) ||
-          entry['filipino'].toString().toLowerCase().contains(query.toLowerCase()) ||
-          entry['english'].toString().toLowerCase().contains(query.toLowerCase());
+      return entry['kapampangan_word'].toString().toLowerCase().contains(query.toLowerCase()) ||
+          entry['noun'].toString().toLowerCase().contains(query.toLowerCase()) ||
+          entry['descriptive'].toString().toLowerCase().contains(query.toLowerCase()) ||
+          entry['verb'].toString().toLowerCase().contains(query.toLowerCase());
     }).toList();
 
     setState(() {
@@ -64,25 +69,48 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
     return RichText(text: TextSpan(style: TextStyle(color: Colors.black), children: spans));
   }
 
+  // Display non-empty fields
+  Widget _displayField(String label, String value) {
+    if (value.isEmpty) {
+      return SizedBox.shrink(); // Do not show anything if value is empty
+    }
+    return Padding(
+      padding: const EdgeInsets.only(top: 4.0),
+      child: Text(
+        '$label: $value',
+        style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dictionary'),
+        title: Text('Kapampangan Dictionary'),
+        backgroundColor: Colors.blueAccent,
+        elevation: 4.0,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Search TextField
-            TextField(
-              onChanged: (text) => _filterDictionary(text),
-              decoration: InputDecoration(
-                labelText: 'Search',
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(10),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                border: Border.all(color: Colors.blueAccent),
+              ),
+              child: TextField(
+                onChanged: (text) => _filterDictionary(text),
+                decoration: InputDecoration(
+                  labelText: 'Search for words...',
+                  labelStyle: TextStyle(color: Colors.blueAccent),
+                  border: InputBorder.none,
+                  prefixIcon: Icon(Icons.search, color: Colors.blueAccent),
+                  contentPadding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
                 ),
-                prefixIcon: Icon(Icons.search),
               ),
             ),
             SizedBox(height: 20),
@@ -90,19 +118,26 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
             // Display filtered dictionary data
             Expanded(
               child: _filteredDictionaryData.isEmpty
-                  ? Center(child: Text('No results found'))
+                  ? Center(child: Text('No results found', style: TextStyle(fontSize: 18, color: Colors.grey)))
                   : ListView.builder(
                 itemCount: _filteredDictionaryData.length,
                 itemBuilder: (context, index) {
                   var entry = _filteredDictionaryData[index];
                   return Card(
+                    margin: EdgeInsets.symmetric(vertical: 8),
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
                     child: ListTile(
-                      title: _highlightText(entry['kapampangan'], _searchQuery),
+                      contentPadding: EdgeInsets.all(16),
+                      title: _highlightText(entry['kapampangan_word'], _searchQuery),
                       subtitle: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text('Filipino: ${entry['filipino']}'),
-                          Text('English: ${entry['english']}'),
+                          _displayField('Noun', entry['noun']),
+                          _displayField('Descriptive', entry['descriptive']),
+                          _displayField('Verb', entry['verb']),
                         ],
                       ),
                     ),

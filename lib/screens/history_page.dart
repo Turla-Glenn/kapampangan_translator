@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/history_service.dart';
 import '../models/history_item.dart';
+import 'package:flutter/services.dart'; // For clipboard operations
 
 class HistoryPage extends StatefulWidget {
   @override
@@ -13,14 +14,21 @@ class _HistoryPageState extends State<HistoryPage> {
   @override
   void initState() {
     super.initState();
-    _history = HistoryService().getHistory();
+    _history = fetchSortedHistory();
+  }
+
+  // Fetch history sorted in reverse chronological order
+  Future<List<HistoryItem>> fetchSortedHistory() async {
+    List<HistoryItem> history = await HistoryService().getHistory();
+    history.sort((a, b) => b.timestamp.compareTo(a.timestamp)); // Sort by timestamp descending
+    return history;
   }
 
   // Delete individual history item
   void deleteHistory(HistoryItem historyItem) async {
     await HistoryService().deleteHistoryItem(historyItem);
     setState(() {
-      _history = HistoryService().getHistory();
+      _history = fetchSortedHistory(); // Refresh sorted history
     });
   }
 
@@ -28,7 +36,16 @@ class _HistoryPageState extends State<HistoryPage> {
   void deleteAllHistory() async {
     await HistoryService().clearHistory();
     setState(() {
-      _history = HistoryService().getHistory();
+      _history = fetchSortedHistory(); // Refresh sorted history
+    });
+  }
+
+  // Copy to clipboard
+  void copyToClipboard(String text) {
+    Clipboard.setData(ClipboardData(text: text)).then((_) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Copied to clipboard!')),
+      );
     });
   }
 
@@ -37,6 +54,7 @@ class _HistoryPageState extends State<HistoryPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('History'),
+        backgroundColor: Colors.blueAccent,
         actions: [
           // Delete All button
           IconButton(
@@ -88,18 +106,45 @@ class _HistoryPageState extends State<HistoryPage> {
             itemCount: history.length,
             itemBuilder: (context, index) {
               final item = history[index];
-              return ListTile(
-                title: Text('${item.action}'),
-                subtitle: Text('${item.inputText} → ${item.outputText}'),
-                trailing: IconButton(
-                  icon: Icon(Icons.delete),
-                  onPressed: () {
-                    // Delete individual history entry
-                    deleteHistory(item);
-                  },
+              return Card(
+                margin: EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                elevation: 4,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
                 ),
-                isThreeLine: true,
-                contentPadding: EdgeInsets.all(10),
+                child: ListTile(
+                  contentPadding: EdgeInsets.all(16),
+                  title: Text(
+                    '${item.action}',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      color: Colors.blueAccent,
+                    ),
+                  ),
+                  subtitle: Text(
+                    '${item.inputText} → ${item.outputText}',
+                    style: TextStyle(fontSize: 14, color: Colors.black54),
+                  ),
+                  trailing: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: Icon(Icons.copy, color: Colors.green),
+                        onPressed: () {
+                          copyToClipboard('${item.inputText} → ${item.outputText}');
+                        },
+                      ),
+                      IconButton(
+                        icon: Icon(Icons.delete, color: Colors.red),
+                        onPressed: () {
+                          // Delete individual history entry
+                          deleteHistory(item);
+                        },
+                      ),
+                    ],
+                  ),
+                ),
               );
             },
           );

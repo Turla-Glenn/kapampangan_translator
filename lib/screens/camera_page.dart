@@ -1,5 +1,6 @@
-import 'dart:io';
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:camera/camera.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 import 'package:image_picker/image_picker.dart';
@@ -7,18 +8,6 @@ import '../services/history_service.dart';
 import '../models/history_item.dart';
 
 class CameraPage extends StatefulWidget {
-  final Map<String, String> kapampanganToEnglish;
-  final Map<String, String> englishToKapampangan;
-  final Map<String, String> kapampanganToFilipino;
-  final Map<String, String> filipinoToKapampangan;
-
-  CameraPage({
-    required this.kapampanganToEnglish,
-    required this.englishToKapampangan,
-    required this.kapampanganToFilipino,
-    required this.filipinoToKapampangan,
-  });
-
   @override
   _CameraPageState createState() => _CameraPageState();
 }
@@ -34,11 +23,33 @@ class _CameraPageState extends State<CameraPage> {
   String fromLanguage = 'English';
   String toLanguage = 'Kapampangan';
 
+  Map<String, String> kapampanganToEnglish = {};
+  Map<String, String> englishToKapampangan = {};
+  Map<String, String> kapampanganToFilipino = {};
+  Map<String, String> filipinoToKapampangan = {};
+
   @override
   void initState() {
     super.initState();
     initializeCamera();
     textRecognizer = GoogleMlKit.vision.textRecognizer();
+    loadTranslationData();
+  }
+
+  // Load translation data from JSON
+  Future<void> loadTranslationData() async {
+    try {
+      String data = await rootBundle.loadString('assets/kapampangan_table_kapampangan.json');
+      final jsonResult = json.decode(data);
+      for (var item in jsonResult['data']) {
+        kapampanganToEnglish[item['kapampangan'].toLowerCase()] = item['english'];
+        englishToKapampangan[item['english'].toLowerCase()] = item['kapampangan'];
+        kapampanganToFilipino[item['kapampangan'].toLowerCase()] = item['filipino'];
+        filipinoToKapampangan[item['filipino'].toLowerCase()] = item['kapampangan'];
+      }
+    } catch (e) {
+      print('Error loading translation data: $e');
+    }
   }
 
   Future<void> initializeCamera() async {
@@ -71,7 +82,6 @@ class _CameraPageState extends State<CameraPage> {
         _translateCapturedText(_extractedText);
       });
 
-      // Save the recognized text to history if it's valid
       if (_translatedText != 'No translation found' && _translatedText.isNotEmpty) {
         HistoryItem historyItem = HistoryItem(
           action: 'Camera Scan',
@@ -81,7 +91,7 @@ class _CameraPageState extends State<CameraPage> {
           targetLanguage: toLanguage,
           timestamp: DateTime.now(),
         );
-        HistoryService().saveHistory(historyItem);  // Save history
+        HistoryService().saveHistory(historyItem);
       }
     } catch (e) {
       setState(() {
@@ -106,7 +116,6 @@ class _CameraPageState extends State<CameraPage> {
           _translateCapturedText(_extractedText);
         });
 
-        // Save the recognized text to history if it's valid
         if (_translatedText != 'No translation found' && _translatedText.isNotEmpty) {
           HistoryItem historyItem = HistoryItem(
             action: 'Image Gallery Scan',
@@ -116,7 +125,7 @@ class _CameraPageState extends State<CameraPage> {
             targetLanguage: toLanguage,
             timestamp: DateTime.now(),
           );
-          HistoryService().saveHistory(historyItem);  // Save history
+          HistoryService().saveHistory(historyItem);
         }
       } catch (e) {
         setState(() {
@@ -128,32 +137,82 @@ class _CameraPageState extends State<CameraPage> {
   }
 
   void _translateCapturedText(String inputText) {
-    String translation;
+    String translation = '';
     inputText = inputText.toLowerCase().trim();
 
-    if (inputText.isNotEmpty) {
-      if (fromLanguage == 'English' && toLanguage == 'Kapampangan') {
-        translation = widget.englishToKapampangan[inputText] ?? 'No translation found';
-      } else if (fromLanguage == 'Kapampangan' && toLanguage == 'English') {
-        translation = widget.kapampanganToEnglish[inputText] ?? 'No translation found';
-      } else if (fromLanguage == 'Filipino' && toLanguage == 'Kapampangan') {
-        translation = widget.filipinoToKapampangan[inputText] ?? 'No translation found';
-      } else if (fromLanguage == 'Kapampangan' && toLanguage == 'Filipino') {
-        translation = widget.kapampanganToFilipino[inputText] ?? 'No translation found';
-      } else {
-        translation = 'No translation found';
+    // Try phrase-based translation first
+    if (_checkLanguageAlignment(inputText)) {
+      if (fromLanguage == 'Kapampangan') {
+        translation = toLanguage == 'English'
+            ? kapampanganToEnglish[inputText] ?? ''
+            : kapampanganToFilipino[inputText] ?? '';
+      } else if (fromLanguage == 'English') {
+        translation = toLanguage == 'Kapampangan'
+            ? englishToKapampangan[inputText] ?? ''
+            : '';
+      } else if (fromLanguage == 'Filipino') {
+        translation = filipinoToKapampangan[inputText] ?? '';
       }
-
-      setState(() {
-        _translatedText = translation;
-        _isTranslating = false;
-      });
-    } else {
-      setState(() {
-        _translatedText = 'Please enter some text to translate';
-        _isTranslating = false;
-      });
     }
+
+    // Fallback to word-by-word translation if phrase translation fails
+    if (translation.isEmpty) {
+      translation = _translateWordByWord(inputText);
+    }
+
+    setState(() {
+      _translatedText = translation.isNotEmpty ? translation : 'No translation found';
+      _isTranslating = false;
+    });
+  }
+
+  String _translateWordByWord(String sentence) {
+    List<String> words = sentence.split(RegExp(r'\s+')); // Split the text into words
+    List<String> translatedWords = [];
+
+    bool allWordsNotFound = true;
+
+    for (var word in words) {
+      String translatedWord = _getTranslationForWord(word);
+      if (translatedWord != 'No translation found') {
+        translatedWords.add(translatedWord);
+        allWordsNotFound = false;
+      }
+    }
+
+    // If all words are not found, return a single "No translation found"
+    if (allWordsNotFound) {
+      return 'No translation found';
+    }
+
+    // Combine words back into a sentence if at least one word is translated
+    return translatedWords.join(' ');
+  }
+
+  String _getTranslationForWord(String word) {
+    word = word.toLowerCase();
+    if (fromLanguage == 'English' && toLanguage == 'Kapampangan') {
+      return englishToKapampangan[word] ?? 'No translation found';
+    } else if (fromLanguage == 'Kapampangan' && toLanguage == 'English') {
+      return kapampanganToEnglish[word] ?? 'No translation found';
+    } else if (fromLanguage == 'Filipino' && toLanguage == 'Kapampangan') {
+      return filipinoToKapampangan[word] ?? 'No translation found';
+    } else if (fromLanguage == 'Kapampangan' && toLanguage == 'Filipino') {
+      return kapampanganToFilipino[word] ?? 'No translation found';
+    }
+    return 'No translation found';
+  }
+
+  bool _checkLanguageAlignment(String inputText) {
+    inputText = inputText.trim().toLowerCase();
+    if (fromLanguage == 'English' && englishToKapampangan.containsKey(inputText)) {
+      return true;
+    } else if (fromLanguage == 'Kapampangan' && (kapampanganToEnglish.containsKey(inputText) || kapampanganToFilipino.containsKey(inputText))) {
+      return true;
+    } else if (fromLanguage == 'Filipino' && filipinoToKapampangan.containsKey(inputText)) {
+      return true;
+    }
+    return false;
   }
 
   @override
@@ -163,159 +222,140 @@ class _CameraPageState extends State<CameraPage> {
     super.dispose();
   }
 
+  List<String> _getToLanguageOptions() {
+    if (fromLanguage == 'English' || fromLanguage == 'Filipino') {
+      return ['Kapampangan'];
+    } else if (fromLanguage == 'Kapampangan') {
+      return ['English', 'Filipino'];
+    }
+    return [];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFEDEAFD),
+      backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+        backgroundColor: Color(0xFF3F51B5),
+        elevation: 2,
         leading: IconButton(
-          icon: Icon(Icons.arrow_back, color: Colors.purple[200]),
+          icon: Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () {
             Navigator.pop(context);
           },
         ),
+        title: Text('Camera Translation', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
       ),
-      body: Column(
-        children: [
-          // Language selection dropdowns
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                DropdownButton<String>(
-                  value: fromLanguage,
-                  onChanged: (String? newValue) {
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  _buildLanguageDropdown(fromLanguage, '', (newValue) {
                     setState(() {
                       fromLanguage = newValue!;
-                      _extractedText = 'No text recognized';  // Reset recognized text
-                      _translatedText = '';  // Reset translated text
+                      _extractedText = 'No text recognized';
+                      _translatedText = '';
+                      toLanguage = _getToLanguageOptions().first;
                     });
-                  },
-                  items: ['English', 'Kapampangan', 'Filipino'].map<DropdownMenuItem<String>>((String value) {
-                    return DropdownMenuItem<String>(
-                      value: value,
-                      child: Text(value),
-                    );
-                  }).toList(),
-                ),
-                IconButton(
-                  icon: Icon(Icons.swap_horiz, color: Colors.black),
-                  onPressed: () {
-                    setState(() {
-                      // Swap languages
-                      String tempLanguage = fromLanguage;
-                      fromLanguage = toLanguage;
-                      toLanguage = tempLanguage;
-                      _extractedText = 'No text recognized';  // Reset recognized text
-                      _translatedText = '';  // Reset translated text
-                    });
-                  },
-                ),
-                DropdownButton<String>(
-                  value: toLanguage,
-                  onChanged: (String? newValue) {
+                  }, ['English', 'Kapampangan', 'Filipino']),
+                  IconButton(
+                    icon: Icon(Icons.swap_horiz, color: Colors.black),
+                    onPressed: () {
+                      setState(() {
+                        String tempLanguage = fromLanguage;
+                        fromLanguage = toLanguage;
+                        toLanguage = tempLanguage;
+                        _extractedText = 'No text recognized';
+                        _translatedText = '';
+                      });
+                    },
+                  ),
+                  _buildLanguageDropdown(toLanguage, '', (newValue) {
                     setState(() {
                       toLanguage = newValue!;
                     });
-                  },
-                  items: ['Kapampangan', 'Filipino', 'English'].map<DropdownMenuItem<String>>((String value) {
-                    return DropdownMenuItem<String>(
-                      value: value,
-                      child: Text(value),
-                    );
-                  }).toList(),
-                ),
-              ],
+                  }, _getToLanguageOptions()),
+                ],
+              ),
             ),
-          ),
-
-          // Camera Preview
-          if (_isCameraInitialized)
-            Expanded(
-              flex: 3,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+            if (_isCameraInitialized)
+              Expanded(
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: CameraPreview(_cameraController!),
                 ),
-              ),
-            )
-          else
-            Container(
-              height: 300,
-              color: Colors.black12,
-              child: Center(
+              )
+            else
+              Center(
                 child: Text(
                   'Initializing Camera...',
                   style: TextStyle(fontSize: 18, color: Colors.black54),
                 ),
               ),
-            ),
-          SizedBox(height: 20),
-
-          // Display recognized text
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Recognized Text:',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-                SizedBox(height: 5),
-                Container(
-                  padding: EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: Colors.grey[200],
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Text(_extractedText, style: TextStyle(fontSize: 16)),
-                ),
-                SizedBox(height: 15),
-                Text(
-                  'Translated Text:',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                ),
-                SizedBox(height: 5),
-                Container(
-                  padding: EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: Colors.grey[200],
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Text(_translatedText, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
-                ),
-              ],
-            ),
-          ),
-          SizedBox(height: 20),
-
-          // Capture and select image buttons
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 40),
-            child: Row(
+            SizedBox(height: 20),
+            _buildTextCard('Recognized Text:', _extractedText),
+            SizedBox(height: 10),
+            _buildTextCard('Translated Text:', _translatedText),
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 FloatingActionButton(
                   onPressed: _isTranslating ? null : _captureAndRecognizeText,
-                  backgroundColor: Colors.pink,
-                  child: Icon(Icons.camera_alt, color: Colors.white, size: 30),
+                  backgroundColor: Colors.teal,
+                  child: Icon(Icons.camera_alt, color: Colors.white),
                 ),
-                SizedBox(width: 30),
-                IconButton(
-                  icon: Icon(Icons.photo, color: Colors.purple[200], size: 40),
-                  onPressed: _chooseFromGallery,
+                SizedBox(width: 20),
+                FloatingActionButton(
+                  onPressed: _isTranslating ? null : _chooseFromGallery,
+                  backgroundColor: Colors.pinkAccent,
+                  child: Icon(Icons.photo, color: Colors.white),
                 ),
               ],
             ),
-          ),
-          SizedBox(height: 20),
-        ],
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildLanguageDropdown(String currentValue, String label, ValueChanged<String?> onChanged, List<String> options) {
+    return Column(
+      children: [
+        Text(label, style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+        DropdownButton<String>(
+          value: currentValue,
+          onChanged: onChanged,
+          items: options.map<DropdownMenuItem<String>>((String value) {
+            return DropdownMenuItem<String>(
+              value: value,
+              child: Text(value),
+            );
+          }).toList(),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildTextCard(String title, String content) {
+    return Card(
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+      elevation: 5,
+      child: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(title, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold, color: Colors.black54)),
+            SizedBox(height: 8),
+            Text(content, style: TextStyle(fontSize: 14, color: Colors.black87)),
+          ],
+        ),
       ),
     );
   }

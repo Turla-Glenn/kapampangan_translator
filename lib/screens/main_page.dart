@@ -7,6 +7,7 @@ import 'microphone_page.dart';
 import '../widgets/app_drawer.dart';
 import '../services/history_service.dart';
 import '../models/history_item.dart';
+import 'package:flutter/services.dart' show Clipboard, ClipboardData;
 
 class MainPage extends StatefulWidget {
   final double titleVerticalOffset;
@@ -15,7 +16,7 @@ class MainPage extends StatefulWidget {
 
   MainPage({
     this.titleVerticalOffset = 5.0,
-    this.titleHorizontalOffset = 25.0,
+    this.titleHorizontalOffset = 55.0,
     this.subtitleHorizontalOffset = 40.0,
   });
 
@@ -24,11 +25,15 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  List<String> languages = ['Detect language', 'English', 'Kapampangan', 'Filipino'];
-  String fromLanguage = 'Detect language';
+  List<String> languages = ['English', 'Kapampangan', 'Filipino'];
+  String fromLanguage = 'Kapampangan'; // Default to Kapampangan
   String toLanguage = 'Kapampangan';
   TextEditingController inputController = TextEditingController();
   String translatedText = "";
+  String originalInputText = ""; // Store the original Kapampangan input
+  bool isTextInputted = false;
+
+  List<String> suggestedWords = [];  // List to hold suggested words
 
   Map<String, String> kapampanganToEnglish = {};
   Map<String, String> englishToKapampangan = {};
@@ -42,6 +47,7 @@ class _MainPageState extends State<MainPage> {
     loadTranslationData();
   }
 
+  // Loading Translation Data
   Future<void> loadTranslationData() async {
     String data = await rootBundle.loadString('assets/kapampangan_table_kapampangan.json');
     final jsonResult = json.decode(data);
@@ -54,71 +60,23 @@ class _MainPageState extends State<MainPage> {
     }
   }
 
-  void detectLanguageAndTranslate() {
-    String inputText = inputController.text.trim().toLowerCase();
-
-    // Reset the translated text before processing
-    setState(() {
-      translatedText = '';
-    });
-
-    if (inputText.isNotEmpty) {
-      setState(() {
-        if (fromLanguage == 'Detect language') {
-          // Detect the language and set valid translation pairs
-          if (englishToKapampangan.containsKey(inputText)) {
-            fromLanguage = 'English';
-            toLanguage = 'Kapampangan'; // Only show English to Kapampangan
-          } else if (kapampanganToEnglish.containsKey(inputText)) {
-            fromLanguage = 'Kapampangan';
-            toLanguage = 'English'; // Default to Kapampangan to English
-          } else if (filipinoToKapampangan.containsKey(inputText)) {
-            fromLanguage = 'Filipino';
-            toLanguage = 'Kapampangan'; // Only show Filipino to Kapampangan
-          }
-          translatedText = getTranslation(inputText);
-        } else {
-          // Use selected languages
-          translatedText = getTranslation(inputText);
-        }
-      });
-
-      // Save the final translated text to history only if it's valid
-      if (translatedText != 'No translation found' && translatedText.isNotEmpty) {
-        HistoryItem historyItem = HistoryItem(
-          action: 'Text Translation',
-          inputText: inputText,  // Save only the original input
-          outputText: translatedText,  // Save only the final translated text
-          sourceLanguage: fromLanguage,
-          targetLanguage: toLanguage,
-          timestamp: DateTime.now(),
-        );
-
-        HistoryService().saveHistory(historyItem);  // Save the translated history
-      }
-    } else {
-      setState(() {
-        translatedText = ''; // Clear any previously shown translation when input is empty
-      });
-    }
-  }
-
   String getTranslation(String inputText) {
+    String normalizedInput = _normalizeInput(inputText);
+
     if (fromLanguage == 'English' && toLanguage == 'Kapampangan') {
-      return englishToKapampangan[inputText] ?? 'No translation found';
+      return englishToKapampangan[normalizedInput] ?? 'No translation found';
     } else if (fromLanguage == 'Kapampangan' && toLanguage == 'English') {
-      return kapampanganToEnglish[inputText] ?? 'No translation found';
+      return kapampanganToEnglish[normalizedInput] ?? 'No translation found';
     } else if (fromLanguage == 'Filipino' && toLanguage == 'Kapampangan') {
-      return filipinoToKapampangan[inputText] ?? 'No translation found';
+      return filipinoToKapampangan[normalizedInput] ?? 'No translation found';
     } else if (fromLanguage == 'Kapampangan' && toLanguage == 'Filipino') {
-      return kapampanganToFilipino[inputText] ?? 'No translation found';
+      return kapampanganToFilipino[normalizedInput] ?? 'No translation found';
     } else {
       return 'No translation found';
     }
   }
 
   List<String> getAvailableTranslations() {
-    // Return only valid options for `toLanguage` based on `fromLanguage`
     if (fromLanguage == 'English') {
       return ['Kapampangan'];
     } else if (fromLanguage == 'Kapampangan') {
@@ -126,15 +84,13 @@ class _MainPageState extends State<MainPage> {
     } else if (fromLanguage == 'Filipino') {
       return ['Kapampangan'];
     } else {
-      // Default case when fromLanguage is "Detect language"
-      return languages.where((lang) => lang != 'Detect language').toList();
+      return languages;
     }
   }
 
   void updateToLanguageOptions() {
     List<String> validTranslations = getAvailableTranslations();
     if (!validTranslations.contains(toLanguage)) {
-      // If current `toLanguage` is not in valid options, set to first valid option
       setState(() {
         toLanguage = validTranslations.first;
       });
@@ -147,13 +103,105 @@ class _MainPageState extends State<MainPage> {
     await flutterTts.speak(text);
   }
 
+  // Normalize input by removing punctuation and converting to lowercase
+  String _normalizeInput(String inputText) {
+    String normalizedText = inputText.replaceAll(RegExp(r'[^a-zA-Z0-9\s]'), '').toLowerCase();
+    return normalizedText;
+  }
+
+  void handleInputChange(String value) {
+    setState(() {
+      isTextInputted = value.isNotEmpty;
+      if (value.isNotEmpty) {
+        if (kapampanganToEnglish.containsKey(_normalizeInput(value))) {
+          fromLanguage = 'Kapampangan';
+        } else if (englishToKapampangan.containsKey(_normalizeInput(value))) {
+          fromLanguage = 'English';
+        } else if (filipinoToKapampangan.containsKey(_normalizeInput(value))) {
+          fromLanguage = 'Filipino';
+        }
+
+        // Fetch word suggestions based on the input
+        _fetchSuggestedWords(value);
+      }
+
+      if (value.isEmpty) {
+        fromLanguage = 'Kapampangan'; // Default to Kapampangan
+        translatedText = '';
+        suggestedWords.clear(); // Clear suggestions
+      }
+
+      originalInputText = value;
+    });
+  }
+
+  // Function to fetch suggested words based on the input
+  void _fetchSuggestedWords(String input) {
+    List<String> words = [];
+    if (fromLanguage == 'Kapampangan') {
+      words = kapampanganToEnglish.keys
+          .where((word) => word.contains(input.toLowerCase()))
+          .toList();
+    } else if (fromLanguage == 'English') {
+      words = englishToKapampangan.keys
+          .where((word) => word.contains(input.toLowerCase()))
+          .toList();
+    } else if (fromLanguage == 'Filipino') {
+      words = filipinoToKapampangan.keys
+          .where((word) => word.contains(input.toLowerCase()))
+          .toList();
+    }
+
+    setState(() {
+      suggestedWords = words.take(5).toList(); // Limit suggestions to 5
+    });
+  }
+
+  // This function will be triggered when switching languages
+  void switchLanguages() {
+    setState(() {
+      String tempLanguage = fromLanguage;
+      fromLanguage = toLanguage;
+      toLanguage = tempLanguage;
+
+      String tempText = inputController.text;
+      inputController.text = translatedText;
+      translatedText = getTranslation(tempText.trim().toLowerCase());
+    });
+  }
+
+  // Function to translate a sentence
+  String translateSentence(String sentence) {
+    // Normalize input and check for exact match in phrases
+    String normalizedSentence = _normalizeInput(sentence);
+
+    // Check if the input matches any of the suggested phrases
+    if (kapampanganToEnglish.containsKey(normalizedSentence) ||
+        englishToKapampangan.containsKey(normalizedSentence) ||
+        kapampanganToFilipino.containsKey(normalizedSentence) ||
+        filipinoToKapampangan.containsKey(normalizedSentence)) {
+      return getTranslation(normalizedSentence); // Return phrase translation
+    }
+
+    // If no match is found, proceed to word-by-word translation
+    List<String> words = sentence.split(RegExp(r'\s+'));
+    List<String> translatedWords = [];
+
+    for (var word in words) {
+      String normalizedWord = _normalizeInput(word);
+      String translatedWord = getTranslation(normalizedWord);
+      translatedWords.add(translatedWord);
+    }
+
+    return translatedWords.join(' ');
+  }
+
   @override
   Widget build(BuildContext context) {
-    // Ensure toLanguage is valid for the current fromLanguage
     updateToLanguageOptions();
 
     return Scaffold(
-      backgroundColor: Color(0xFFEDEAFD),
+      backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -166,23 +214,11 @@ class _MainPageState extends State<MainPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Kapampangan',
+                  'KaTagLish',
                   style: TextStyle(
-                    fontSize: 40,
-                    fontFamily: 'Cursive',
+                    fontSize: 30,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
-                  ),
-                ),
-                Transform.translate(
-                  offset: Offset(widget.subtitleHorizontalOffset, 0),
-                  child: Text(
-                    'Translator',
-                    style: TextStyle(
-                      fontSize: 24,
-                      fontFamily: 'Cursive',
-                      color: Colors.black,
-                    ),
                   ),
                 ),
               ],
@@ -210,9 +246,9 @@ class _MainPageState extends State<MainPage> {
                     onChanged: (String? newValue) {
                       setState(() {
                         fromLanguage = newValue!;
-                        // Clear the input field and reset the translation when language changes
-                        inputController.clear();
-                        translatedText = '';
+                        // Keep input text as it is, only change the translation
+                        inputController.text = originalInputText;
+                        translatedText = ''; // Clear translated text
                         updateToLanguageOptions();
                       });
                     },
@@ -225,23 +261,16 @@ class _MainPageState extends State<MainPage> {
                   ),
                   IconButton(
                     icon: Icon(Icons.swap_horiz, color: Colors.black),
-                    onPressed: () {
-                      setState(() {
-                        // Swap languages and adjust `toLanguage` options based on the new `fromLanguage`
-                        String tempLanguage = fromLanguage;
-                        fromLanguage = toLanguage;
-                        toLanguage = tempLanguage;
-                        inputController.clear();  // Reset the input field
-                        translatedText = '';  // Reset the translated text
-                        updateToLanguageOptions();
-                      });
-                    },
+                    onPressed: switchLanguages, // Swap languages
                   ),
                   DropdownButton<String>(
                     value: toLanguage,
                     onChanged: (String? newValue) {
                       setState(() {
                         toLanguage = newValue!;
+                        // Keep input text as it is, only change the translation
+                        inputController.text = originalInputText;
+                        translatedText = ''; // Clear translated text
                       });
                     },
                     items: getAvailableTranslations().map<DropdownMenuItem<String>>((String value) {
@@ -254,106 +283,129 @@ class _MainPageState extends State<MainPage> {
                 ],
               ),
               SizedBox(height: 10),
-              Expanded(
-                flex: 1,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  padding: EdgeInsets.all(16),
-                  child: Column(
-                    children: [
-                      Expanded(
-                        child: TextField(
-                          controller: inputController,
-                          maxLines: null,
-                          onChanged: (value) {
-                            detectLanguageAndTranslate();
-                          },
-                          decoration: InputDecoration(
-                            hintText: "Enter text to detect language and translate",
-                            border: InputBorder.none,
-                          ),
-                        ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(15),
+                ),
+                padding: EdgeInsets.all(16),
+                child: Column(
+                  children: [
+                    TextField(
+                      controller: inputController,
+                      maxLines: null,
+                      onChanged: handleInputChange,
+                      decoration: InputDecoration(
+                        hintText: "Enter text to translate",
+                        labelText: fromLanguage, // Show the input language here
+                        border: InputBorder.none,
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          IconButton(
-                            icon: Icon(Icons.volume_up, color: Colors.grey),
-                            onPressed: () {
-                              speakText(inputController.text);
-                            },
-                          ),
-                          IconButton(
-                            icon: Icon(Icons.camera_alt, color: Colors.grey),
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => CameraPage(
-                                    kapampanganToEnglish: kapampanganToEnglish,
-                                    englishToKapampangan: englishToKapampangan,
-                                    kapampanganToFilipino: kapampanganToFilipino,
-                                    filipinoToKapampangan: filipinoToKapampangan,
-                                  ),
-                                ),
-                              );
-                            },
-                          ),
-                          IconButton(
-                            icon: Icon(Icons.mic, color: Colors.grey),
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => MicrophonePage(
-                                    kapampanganToEnglish: kapampanganToEnglish,
-                                    englishToKapampangan: englishToKapampangan,
-                                    kapampanganToFilipino: kapampanganToFilipino,
-                                    filipinoToKapampangan: filipinoToKapampangan,
-                                  ),
-                                ),
-                              );
-                            },
-                          ),
-                        ],
+                    ),
+                    SizedBox(height: 10),
+                    // Display suggested words horizontally with horizontal scroll
+                    SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child: Row(
+                        children: suggestedWords.map((word) {
+                          return Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                            child: ElevatedButton(
+                              onPressed: () {
+                                setState(() {
+                                  inputController.text = word; // Replace the input text with the suggested word
+                                  suggestedWords.clear(); // Clear suggestions after selection
+                                  isTextInputted = true; // Ensure the Translate button remains visible
+                                });
+                              },
+                              child: Text(word),
+                            ),
+                          );
+                        }).toList(),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               ),
+              // Translate button - visible when text is inputted
+              if (isTextInputted)
+                ElevatedButton(
+                  onPressed: () {
+                    String inputText = inputController.text.trim().toLowerCase();
+                    setState(() {
+                      translatedText = translateSentence(inputText);
+                    });
+
+                    // Save translation to history if result is valid
+                    if (translatedText.isNotEmpty && translatedText != 'No translation found') {
+                      HistoryItem historyItem = HistoryItem(
+                        action: 'Text Translation',
+                        inputText: inputText,
+                        outputText: translatedText,
+                        sourceLanguage: fromLanguage,
+                        targetLanguage: toLanguage,
+                        timestamp: DateTime.now(),
+                      );
+                      HistoryService().saveHistory(historyItem);
+                    }
+                  },
+                  child: Text("Translate"),
+                ),
               SizedBox(height: 20),
               Expanded(
                 flex: 1,
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(15),
-                  ),
-                  padding: EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Align(
-                        alignment: Alignment.topRight,
-                        child: IconButton(
-                          icon: Icon(Icons.volume_up, color: Colors.grey),
-                          onPressed: () {
-                            speakText(translatedText);
-                          },
+                child: SingleChildScrollView(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(15),
+                    ),
+                    padding: EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Align(
+                          alignment: Alignment.topRight,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: [
+                              IconButton(
+                                icon: Icon(Icons.volume_up, color: Colors.grey),
+                                onPressed: () {
+                                  speakText(translatedText); // Speak out the translated text
+                                },
+                              ),
+                              IconButton(
+                                icon: Icon(Icons.copy, color: Colors.grey),
+                                onPressed: () {
+                                  // Copy the translated text to clipboard
+                                  Clipboard.setData(ClipboardData(text: translatedText)).then((_) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(content: Text('Text copied to clipboard!')),
+                                    );
+                                  });
+                                },
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      SizedBox(height: 8),
-                      Text(
-                        translatedText.isNotEmpty ? translatedText : "Translation will appear here",
-                        style: TextStyle(
-                          fontSize: 16,
-                          color: Colors.black54,
+                        SizedBox(height: 0),
+                        Text(
+                          translatedText.isNotEmpty ? translatedText : "Translation will appear here",
+                          style: TextStyle(
+                            fontSize: 17,
+                            color: Colors.black54,
+                          ),
                         ),
-                      ),
-                    ],
+                        SizedBox(height: 8),
+                        Text(
+                          'Translated from $fromLanguage to $toLanguage',
+                          style: TextStyle(
+                            fontSize: 15,
+                            color: Colors.grey,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),

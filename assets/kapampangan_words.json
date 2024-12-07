@@ -1,0 +1,1516 @@
+{
+    "data": [
+{
+    "id": "1",
+    "kapampangan_word": "abaka",
+    "noun": "the abaca plant, fiber, or cloth.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "2",
+    "kapampangan_word": "a’bak",
+    "noun": "morning.",
+    "descriptive": "",
+    "verb": "mayabak, mayayabak, meyabak; to do something until morning; become morning. "
+},
+{
+    "id": "3",
+    "kapampangan_word": "abala’",
+    "noun": "",
+    "descriptive": "",
+    "verb": "bother, worry. [usually distributive: mangabala’, as in: e ka mangabala. ‘Don’t worry’]."
+},
+{
+    "id": "4",
+    "kapampangan_word": "a’be",
+    "noun": "friend, companion [used as a term of address], kayabe ‘companion’; pa:makiya’be ‘the skill of making and keeping friends’.",
+    "descriptive": "",
+    "verb": "makiyabe ‘accompany’; mi-abeyabe ‘live together, stay together’,"
+},
+{
+    "id": "5",
+    "kapampangan_word": "abi’su",
+    "noun": "warning; subpoena; ma:nabi’su ‘one who warns’.",
+    "descriptive": "",
+    "verb": "-an: ‘to warn someone’; ma-‘to be warned’; payabi’su ‘have someone warned’; i-‘take something as a warning’."
+},
+{
+    "id": "7",
+    "kapampangan_word": "ablas",
+    "noun": "what one gives in return for something else. echo; revenge. kakablas ‘echo’.",
+    "descriptive": "",
+    "verb": "-an ‘to return something’; imitate. maki- -an ‘to answer back, retort’, mablas, minablas, paki-qablas, payablasan, inablas, ayablas, makayablas, meyablas, pamanablas, pekaqablas. "
+},
+{
+    "id": "8",
+    "kapampangan_word": "abo’",
+    "noun": "left-over food.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "9",
+    "kapampangan_word": "abo’no",
+    "noun": "",
+    "descriptive": "",
+    "verb": "man- ‘to fertilize’; pa-‘have something fertilized’; maki-, paki-‘share fertilizer’."
+},
+{
+    "id": "10",
+    "kapampangan_word": "abri’l",
+    "noun": "the month of April.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "11",
+    "kapampangan_word": "absang",
+    "noun": "gnat, fruitfly (?)–a very small insect.",
+    "descriptive": "",
+    "verb": "in–an, mi–an ‘be swarmed on by tiny insects called absang’,"
+},
+{
+    "id": "13",
+    "kapampangan_word": "-absi’q",
+    "noun": "",
+    "descriptive": "satisfied (with respect to hunger).",
+    "verb": "magpaka-‘eat one’s fill’. See qabsiq"
+},
+{
+    "id": "14",
+    "kapampangan_word": "abu’",
+    "noun": "ashes",
+    "descriptive": "",
+    "verb": "man-‘become ash’; mi–an ‘get ashes on self’; -an [abwan] ‘scour (using ash)’. "
+},
+{
+    "id": "15",
+    "kapampangan_word": "abuka’du",
+    "noun": "avocado (a fruit).",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "16",
+    "kapampangan_word": "abuga’du",
+    "noun": "lawyer.",
+    "descriptive": "",
+    "verb": "pag–an ‘submit something to lawyers’. magqabugadu, see qabugadu."
+},
+{
+    "id": "17",
+    "kapampangan_word": "abu’lud",
+    "noun": "",
+    "descriptive": "",
+    "verb": "-an [abuluran] ‘to de-rib (to remove the center rib from a leaf)’, ‘to put a crease in’."
+},
+{
+    "id": "18",
+    "kapampangan_word": "abusa’du",
+    "noun": "one who takes unfair advantage; ka- -an, kapana-.",
+    "descriptive": "ma-.",
+    "verb": "man-, pa-‘abuse, take unfair advantage’. "
+},
+{
+    "id": "19",
+    "kapampangan_word": "a’but",
+    "noun": "",
+    "descriptive": "",
+    "verb": "‘reach’, ‘hand something to someone’. ‘understand’: E ku pa ayabutan. ‘I can’t grasp the meaning yet’."
+},
+{
+    "id": "20",
+    "kapampangan_word": "abya’s",
+    "noun": "milled rice. maga:qabyas ‘rice dealer’ [bigasera–from Tagalog, is also used].",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "21",
+    "kapampangan_word": "aka’sya",
+    "noun": "acacia, a kind of tree.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "22",
+    "kapampangan_word": "akba’k",
+    "noun": "a spit, made of bamboo, for barbecuing.",
+    "descriptive": "ma-‘to be spitted’.",
+    "verb": "-an ‘to put something on a spit’; pa- ‘to have something spitted’."
+},
+{
+    "id": "23",
+    "kapampangan_word": "akbu’ng",
+    "noun": "explosion. pa:pakbu’ng ‘a toy gun or bamboo piston device used to make fruit seeds shoot out–like a pop-gun; or a nail-and-tube device for exploding caps’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "24",
+    "kapampangan_word": "a’kit",
+    "noun": "pan-akit-an ‘earnings’.",
+    "descriptive": "",
+    "verb": "see c.f., -kit. ikit."
+},
+{
+    "id": "25",
+    "kapampangan_word": "akla’t",
+    "noun": "book (more commonly, libru). aklatan ‘library’. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "26",
+    "kapampangan_word": "akmu’l",
+    "noun": "akmulan ‘throat’.",
+    "descriptive": "",
+    "verb": "-an ‘swallow something’; in-‘be swallowed’."
+},
+{
+    "id": "27",
+    "kapampangan_word": "aksaya’q",
+    "noun": "",
+    "descriptive": "extravagant.",
+    "verb": ""
+},
+{
+    "id": "28",
+    "kapampangan_word": "akside’nti",
+    "noun": "accident.",
+    "descriptive": "mayaksidenti ‘be hurt in an accident’. ",
+    "verb": "manga-[distributive] have an accident. "
+},
+{
+    "id": "29",
+    "kapampangan_word": "a’ku",
+    "noun": "‘I’. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "30",
+    "kapampangan_word": "a:ku",
+    "noun": "c.f., nga:ku ‘I said…’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "31",
+    "kapampangan_word": "adja’r",
+    "noun": "adjaran-ungut ‘coconut-grating stool’; see kudkuran. pipagadjaran ‘place for scraping’.",
+    "descriptive": "",
+    "verb": "-an ‘to grate, scrape’."
+},
+{
+    "id": "32",
+    "kapampangan_word": "-adi’q",
+    "noun": "",
+    "descriptive": "",
+    "verb": "mang- ‘pray’ (intransitive). pa:ng- ‘pray for something’; maki-‘pray together’; pakipang- ‘pray together for…’."
+},
+{
+    "id": "33",
+    "kapampangan_word": "admiru’l",
+    "noun": "",
+    "descriptive": "starched.",
+    "verb": ""
+},
+{
+    "id": "34",
+    "kapampangan_word": "adwa’q",
+    "noun": "two. kakadwaq ‘second’; pangalawaq ‘the second one (e.g. child)’.",
+    "descriptive": "",
+    "verb": "pangaladwan ‘do something a second time’. "
+},
+{
+    "id": "35",
+    "kapampangan_word": "aga’d",
+    "noun": "straightaway, immediately.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "36",
+    "kapampangan_word": "agka’t",
+    "noun": "pa:managkat ‘manner of inviting’.",
+    "descriptive": "may-‘be invited’.",
+    "verb": "summon, invite, signal. man-, -an, pa-, pan-."
+},
+{
+    "id": "37",
+    "kapampangan_word": "a’giq",
+    "noun": "spider web.",
+    "descriptive": "mayagiq ‘be full of cobwebs’.",
+    "verb": "man- ‘to remove cobwebs’; pa-‘have cobwebs removed’."
+},
+{
+    "id": "38",
+    "kapampangan_word": "aginaldu",
+    "noun": "Christmas gift; see qaginaldu. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "39",
+    "kapampangan_word": "ago’sto",
+    "noun": "the month of August.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "40",
+    "kapampangan_word": "agyang",
+    "noun": "even, in spite of.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "41",
+    "kapampangan_word": "agta’l-",
+    "noun": "pa:nagtal ‘the harvest’; pi:panagtala’n ‘place of harvest’.",
+    "descriptive": "",
+    "verb": "harvest, gather. ma:magtal, agtala’n, papayagtal, manayagtal."
+},
+{
+    "id": "42",
+    "kapampangan_word": "aksaya’q",
+    "noun": "",
+    "descriptive": "extravagant. ",
+    "verb": ""
+},
+{
+    "id": "43",
+    "kapampangan_word": "akside’nti",
+    "noun": "accident.",
+    "descriptive": "mayaksidenti ‘be hurt in an accident’.",
+    "verb": "manga-[distributive] ‘have an accident’."
+},
+{
+    "id": "44",
+    "kapampangan_word": "a’gum-",
+    "noun": "a:gu’man ‘an association’. kagum ‘associate, a concomitant’.",
+    "descriptive": "",
+    "verb": "associate. maki-a’gum ‘join a group’,"
+},
+{
+    "id": "45",
+    "kapampangan_word": "a’gus",
+    "noun": "current.",
+    "descriptive": "",
+    "verb": "mamagus, minagus ‘flow’. papa-agus-an ‘cause to flow’."
+},
+{
+    "id": "46",
+    "kapampangan_word": "a’gwa- sina’da",
+    "noun": "a medicinal liquid used to clean wounds.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "47",
+    "kapampangan_word": "agya’p",
+    "noun": "cold sore.",
+    "descriptive": "",
+    "verb": "[stative] miyagyapan ‘have cold sore’; [stat. distributive] manga-agyap-an"
+},
+{
+    "id": "48",
+    "kapampangan_word": "agyu’q",
+    "noun": "",
+    "descriptive": "sufficient.",
+    "verb": " ma:nagyuq, pa:nagyuq, ma:ka-agyuq."
+},
+{
+    "id": "49",
+    "kapampangan_word": "a’us",
+    "noun": "",
+    "descriptive": "",
+    "verb": "call."
+},
+{
+    "id": "50",
+    "kapampangan_word": "a’lak",
+    "noun": "liquor.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "51",
+    "kapampangan_word": "ala’kdan",
+    "noun": "scorpion.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "52",
+    "kapampangan_word": "aladi’n",
+    "noun": "a kind of fuel-burning lamp.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "53",
+    "kapampangan_word": "ala’q\/- walaq",
+    "noun": "none",
+    "descriptive": "",
+    "verb": "manga-‘lose things [distributive]’; a:walaq ‘be lost unintentionally’; ma:walaq ‘be lost’; maki-qalaq; makiqala:ala’q ‘go along in denying’; payalaq ‘deny, denounce’."
+},
+{
+    "id": "54",
+    "kapampangan_word": "-ala’l-",
+    "noun": "ala’lan ‘election’, pa:manala’l ‘manner of electing’; pipagalalan ‘polling place’.",
+    "descriptive": "mayalal ‘be elected’.",
+    "verb": "man-. mangayalal ‘elect repeatedly’; papa-yalal ‘get someone elected’; ke:ala’l ‘cause election’"
+},
+{
+    "id": "55",
+    "kapampangan_word": "alalay-",
+    "noun": "ala’le ‘care’. alalayan ‘a prop, support’.",
+    "descriptive": "malale ‘careful (e.g. speech)’.",
+    "verb": "alalayan ‘support, maintain something’; magkala:kalale ‘beware of’."
+},
+{
+    "id": "56",
+    "kapampangan_word": "ala’mbre",
+    "noun": "wire. ala’mbring suksukan ‘barbed wire’. ",
+    "descriptive": "mayalambre ‘be caught on a wire’.",
+    "verb": ""
+},
+{
+    "id": "57",
+    "kapampangan_word": "alanga:lang",
+    "noun": "palate, roof of mouth. see telabanwa.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "58",
+    "kapampangan_word": "alas",
+    "noun": "ala’s ‘ace (in card-playing)’.",
+    "descriptive": "bungang ala’s ‘heat-rash’.",
+    "verb": "in combination with numbers, as alas singko ‘five o’clock’."
+},
+{
+    "id": "59",
+    "kapampangan_word": "-a’lat",
+    "noun": "",
+    "descriptive": "ma:lat, maalat ‘salty’, dayat-malat ‘ocean’.",
+    "verb": ""
+},
+{
+    "id": "60",
+    "kapampangan_word": "alata’q\/ alata’du",
+    "noun": "see qalataq\/qalatadu.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "61",
+    "kapampangan_word": "albe’",
+    "noun": "",
+    "descriptive": "",
+    "verb": "man-albe ‘watch’. albe-n ‘watch something’; ayalbe."
+},
+{
+    "id": "62",
+    "kapampangan_word": "a’lbug",
+    "noun": "flood. maki-a’lbug.",
+    "descriptive": "",
+    "verb": "mangayalbugan’be ‘flooded regularly’. payalbug, payalbugan, ka-albug."
+},
+{
+    "id": "63",
+    "kapampangan_word": "albuga’n",
+    "noun": "place where the sun sets.",
+    "descriptive": "",
+    "verb": "mi-albug-an ‘be caught by nightfall’. "
+},
+{
+    "id": "64",
+    "kapampangan_word": "albu’l",
+    "noun": "a drying device for fishnets. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "65",
+    "kapampangan_word": "albula’ryu",
+    "noun": "folk doctor. see (h) ilut.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "66",
+    "kapampangan_word": "alburutu",
+    "noun": "noise, make noise; see qalburutu.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "67",
+    "kapampangan_word": "aldo’",
+    "noun": "sun; day. ganing-aldo ‘pre-dawn morning’, kayaldawanan ‘birthday; anniversary’.",
+    "descriptive": "aldo-aldo ‘daily’.",
+    "verb": ""
+},
+{
+    "id": "68",
+    "kapampangan_word": "ali’q",
+    "noun": "not.",
+    "descriptive": "",
+    "verb": "payaliq; payalyan ‘deny’."
+},
+{
+    "id": "69",
+    "kapampangan_word": "alikabuk",
+    "noun": "dust.",
+    "descriptive": "maqalikabuk ‘dusty’; mi:alika-buka’n ‘covered with dust’; makaqa-likabuk [St.] ‘dusty’.",
+    "verb": "ma:n-alikabuk ‘raising dust’."
+},
+{
+    "id": "70",
+    "kapampangan_word": "ali’li-",
+    "noun": "ka:lili\/kayalili ‘successor’. ",
+    "descriptive": "",
+    "verb": "alila’n ‘change something’, man-alili ‘changing [intrans.]."
+},
+{
+    "id": "71",
+    "kapampangan_word": "alima’sag",
+    "noun": "spotted crab.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "72",
+    "kapampangan_word": "alimba’waq",
+    "noun": "example. pa:manalimbawaq ‘giving of examples’; pipagalimbawan ‘thing used for an example’; pekaqalimbawaq ‘the best example’.",
+    "descriptive": "",
+    "verb": "man-alimbawaq ‘give an example’; papayalimbawaq ‘make into an example’; pakiqalimbawaq."
+},
+{
+    "id": "73",
+    "kapampangan_word": "alimpu’yuq",
+    "noun": "mole. pekaqalimpuyuq ‘imitation mole’.",
+    "descriptive": "alimpuyuwan ‘full of moles’.",
+    "verb": "man-alimpuyuq ‘put on a fake mole. "
+},
+{
+    "id": "74",
+    "kapampangan_word": "alipunga’q",
+    "noun": "athletes’ foot.",
+    "descriptive": "maqalipungan ‘suffering from athletes’ foot’; makayalipungaq ‘conducive to a.f.’.",
+    "verb": ""
+},
+{
+    "id": "75",
+    "kapampangan_word": "alistu",
+    "noun": "a person who acts skillfully, lively. pangaqalistu ‘acting skillfully’.",
+    "descriptive": "kaqalistuwan; kasingalistu; pekaqalistu.",
+    "verb": ""
+},
+{
+    "id": "76",
+    "kapampangan_word": "aliwaq",
+    "noun": "other. pami-aliwaq ‘difference’; pamanaliwaq ‘process of change’.",
+    "descriptive": "maqaliwa:liwaq ‘all sorts of’; miyayaliwaq ‘disparate’; mi-aliwaq ‘different’.",
+    "verb": "man-aliwaq ‘change something’; i-aliwaq ‘change something’."
+},
+{
+    "id": "77",
+    "kapampangan_word": "a’lma",
+    "noun": "a female name. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "78",
+    "kapampangan_word": "alma’q",
+    "noun": "",
+    "descriptive": "",
+    "verb": "man-almaq ‘rear up’. "
+},
+{
+    "id": "79",
+    "kapampangan_word": "almura’nas",
+    "noun": "hemorrhoids. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "80",
+    "kapampangan_word": "almusal",
+    "noun": "breakfast.",
+    "descriptive": "",
+    "verb": "mag-almusal ‘eat breakfast’."
+},
+{
+    "id": "81",
+    "kapampangan_word": "alpa’q",
+    "noun": "a kind of vegetable, ampalaya. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "82",
+    "kapampangan_word": "alta’r",
+    "noun": "altar, house shrine.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "83",
+    "kapampangan_word": "alti’",
+    "noun": "thunder; (?lightning?); see duldul. Usually this word is used in curses, as: dipaning alti!",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "84",
+    "kapampangan_word": "alulu’d",
+    "noun": "eaves and drain of a roof; [metaphorically] ‘heavy drinking’.",
+    "descriptive": "meyalulud ‘barked shins’.",
+    "verb": ""
+},
+{
+    "id": "85",
+    "kapampangan_word": "aluminyu",
+    "noun": "aluminum; cheap money (new coins–as contrasted to the older coins with more silver content).",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "86",
+    "kapampangan_word": "a’lun",
+    "noun": "wave.",
+    "descriptive": "alunqalun ‘roller-coaster motion’; ‘wavy (hair)’, miyayalunan ‘be immersed in a wave’.",
+    "verb": ""
+},
+{
+    "id": "87",
+    "kapampangan_word": "a’lus",
+    "noun": "nearly, almost.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "88",
+    "kapampangan_word": "alwa’gi\/ aluwa’gi",
+    "noun": "carpenter",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "89",
+    "kapampangan_word": "ama",
+    "noun": "",
+    "descriptive": "pleasing. makayama ‘conducive to pleasure’.",
+    "verb": ""
+},
+{
+    "id": "90",
+    "kapampangan_word": "a’mad",
+    "noun": "cartilage. [metaphor] a selfish person. ",
+    "descriptive": "mayamad ‘stringy (meat)’.",
+    "verb": ""
+},
+{
+    "id": "91",
+    "kapampangan_word": "ama’nu",
+    "noun": "word, language, speech.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "92",
+    "kapampangan_word": "amba’g",
+    "noun": "contribution. peka-ambag ‘thing given’. ",
+    "descriptive": "",
+    "verb": "[intransitive] man-ambag, pan-ambag, makapanambag. [transitive] i-ambag, ayambag, ayam-bagan, panambaga, ka-ambagan, pa-ambag, apayambagan."
+},
+{
+    "id": "93",
+    "kapampangan_word": "ambuq",
+    "noun": "nickname for Pablo. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "94",
+    "kapampangan_word": "ambun",
+    "noun": "dew.",
+    "descriptive": "mayambun ‘overcast, misty’; miyambunan ‘covered with dew’.",
+    "verb": "mamambun ‘be about to rain’."
+},
+{
+    "id": "95",
+    "kapampangan_word": "ambus",
+    "noun": "",
+    "descriptive": "",
+    "verb": "mamambus ‘share (food)’."
+},
+{
+    "id": "96",
+    "kapampangan_word": "-andam-",
+    "noun": "",
+    "descriptive": "",
+    "verb": "borrow; see -dam-. manamdam, mangayamdam, pakiyamdam, makiyamdam, makayamdam, a:yamdam."
+},
+{
+    "id": "97",
+    "kapampangan_word": "amiyam",
+    "noun": "winter, the cold season from October to January.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "98",
+    "kapampangan_word": "ampi’l",
+    "noun": "",
+    "descriptive": "mayampil ‘stacked’.",
+    "verb": "man-ampil ‘stack (dishes)’, ampil-an, mangayampil, payampil."
+},
+{
+    "id": "99",
+    "kapampangan_word": "ampo’\/",
+    "noun": "and",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "100",
+    "kapampangan_word": "amu’k",
+    "noun": "mosquito.",
+    "descriptive": "mayamuk ‘be full of mosquitoes (place)’. ",
+    "verb": "amuk-an ‘be bitten by mosquitoes’."
+},
+{
+    "id": "101",
+    "kapampangan_word": "amuri’kut",
+    "noun": "a kind of grass or weed with pronged seeds.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "103",
+    "kapampangan_word": "ana’k",
+    "noun": "child; (pl.) a:nak. anak-anakan ‘adopted child’; ina:yinak ‘godchildren’; pekayanak ‘substitute for a child’; anak-bastardo, anak-banggera, anak-puta, anak-lele-kwayan, anak-lalam-tete ‘illegitimate child’,",
+    "descriptive": "kasinganak ‘the same age, age mate’. ",
+    "verb": "mang-anak ‘give birth’, maka-anak ‘capable of giving birth’."
+},
+{
+    "id": "104",
+    "kapampangan_word": "ana’tis",
+    "noun": "atis, a kind of fruit.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "105",
+    "kapampangan_word": "ana’m",
+    "noun": "six.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "106",
+    "kapampangan_word": "a:na",
+    "noun": "a girl’s name, Ana. [a:na ‘he said’].",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "107",
+    "kapampangan_word": "anda’s",
+    "noun": "serrated edges (of cloth). Simon de Andas, a famous Spaniard who once transferred the seat of Spanish government to Bacolor.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "108",
+    "kapampangan_word": "a’ne",
+    "noun": "termite.",
+    "descriptive": "maqa’ne ‘full of termites’. ",
+    "verb": ""
+},
+{
+    "id": "109",
+    "kapampangan_word": "a:nidyu",
+    "noun": "honeydew melon.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "110",
+    "kapampangan_word": "anima’l",
+    "noun": "animal; [also used as a curse].",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "111",
+    "kapampangan_word": "ante\/anta",
+    "noun": "where [with reference to moveable items]. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "112",
+    "kapampangan_word": "anti",
+    "noun": "like, compared to.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "113",
+    "kapampangan_word": "a’ntak",
+    "noun": "female sexual organs. antak-ne-da-mu [an indecent curse]. ",
+    "descriptive": "mayantak ‘sexually attractive (female)’.",
+    "verb": ""
+},
+{
+    "id": "114",
+    "kapampangan_word": "anting- anti’ng",
+    "noun": "talisman.",
+    "descriptive": "",
+    "verb": "mag-antinganting ‘use talisman’."
+},
+{
+    "id": "115",
+    "kapampangan_word": "anti-",
+    "noun": "anti-ra’bis, anti-te-tanus ‘injections to prevent rabies, tetanus’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "116",
+    "kapampangan_word": "anya’q",
+    "noun": "",
+    "descriptive": "later, and then, so. [often combined with uling, as: anyaq, e ko bisang mamangan king kekami uling ing asan mi tuyuq. ‘And so that’s why you don’t want to eat at our house because our main course is dried fish’].",
+    "verb": ""
+},
+{
+    "id": "117",
+    "kapampangan_word": "angka’q\/ yangka’q",
+    "noun": "nangka, a fruit.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "118",
+    "kapampangan_word": "a’ngga",
+    "noun": "angganan ‘boundary’.",
+    "descriptive": "up to, until.",
+    "verb": "man-angga ‘reach as far as, journey to’; mipa-angga; mangayang-ganan."
+},
+{
+    "id": "119",
+    "kapampangan_word": "anggi’q",
+    "noun": "mist, spray, blowing rain.",
+    "descriptive": "",
+    "verb": "mamanggiq ‘it is raining and blowing’."
+},
+{
+    "id": "120",
+    "kapampangan_word": "a’ngin",
+    "noun": "wind.",
+    "descriptive": "mayangin ‘windy (season, people)’.",
+    "verb": "mamangin ‘the wind is blowing’; angin-an, in-angin ‘held in the wind’; payangin, magpayangin, magpakayangin."
+},
+{
+    "id": "121",
+    "kapampangan_word": "-ango",
+    "noun": "",
+    "descriptive": "meyango ‘derived’. ",
+    "verb": ""
+},
+{
+    "id": "122",
+    "kapampangan_word": "anya’ya",
+    "noun": "anyahan ‘invitation’.",
+    "descriptive": "",
+    "verb": "invite."
+},
+{
+    "id": "123",
+    "kapampangan_word": "-anya’yaq",
+    "noun": "",
+    "descriptive": "",
+    "verb": "mang-anya’yaq ‘get inflamed (of a wound)’. "
+},
+{
+    "id": "124",
+    "kapampangan_word": "anye’ho",
+    "noun": "rum.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "125",
+    "kapampangan_word": "a’pa",
+    "noun": "cone, crust (as, an ice-cream cone). ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "126",
+    "kapampangan_word": "apa’",
+    "noun": "bran, especially rice bran.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "127",
+    "kapampangan_word": "apa’lit",
+    "noun": "narra, a kind of tree. Apalit, a town in Pampanga.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "128",
+    "kapampangan_word": "apalyaq",
+    "noun": "a vegetable, ampalaya. [metaphorically] a person with a sour disposition.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "129",
+    "kapampangan_word": "apa’n",
+    "noun": "bait.",
+    "descriptive": "",
+    "verb": "apan-an ‘bait something’; man-apan ‘put out bait’; maipanapan ‘bait each other’; pan-apan-an."
+},
+{
+    "id": "130",
+    "kapampangan_word": "a’pat",
+    "noun": "four. pang-apat ‘fourth’; mag-apat-a-banwa ‘spend four years’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "131",
+    "kapampangan_word": "apendisi’tis",
+    "noun": "appendicitis.",
+    "descriptive": "meqapendisi’tis ‘suffered from appendicitis’.",
+    "verb": ""
+},
+{
+    "id": "132",
+    "kapampangan_word": "a’piq",
+    "noun": "lime (calcium oxide); used in making cement; and as a component of the betel-chew.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "133",
+    "kapampangan_word": "api’q",
+    "noun": "fire, flame, spark.",
+    "descriptive": "",
+    "verb": "mamapi’q ‘is sparking, is on fire’."
+},
+{
+    "id": "134",
+    "kapampangan_word": "apla’ya",
+    "noun": "beach [probably a recent borrowing; more commonly: bebe-dagat].",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "135",
+    "kapampangan_word": "apo’n\/apu’n",
+    "noun": "Japanese; Japan.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "136",
+    "kapampangan_word": "apqap",
+    "noun": "a kind of fish, expensive and considered quite a delicacy.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "137",
+    "kapampangan_word": "a’pu",
+    "noun": "grandparent, especially grandmother. As a term of address, apu is used for grandfather and grandmother; as a term of reference, usually it is restricted to grandmother, with ingkong being used for grandfather. With saints’ names, as: Apu Lusya ‘Saint Lucy’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "138",
+    "kapampangan_word": "apu’",
+    "noun": "grandchild.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "139",
+    "kapampangan_word": "apu’luq",
+    "noun": "ten.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "140",
+    "kapampangan_word": "a’pun",
+    "noun": "",
+    "descriptive": "",
+    "verb": "na:pun ‘yesterday’; gatpanapun ‘afternoon’; patinga’pun ‘the whole day’."
+},
+{
+    "id": "141",
+    "kapampangan_word": "a’pus",
+    "noun": "imitation, similarity. Apus mu ku kaya. ‘You are making me look like him’. pa:yapus; see -kyapus.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "142",
+    "kapampangan_word": "a’ral",
+    "noun": "panig-aral-an; pag-aral-an ‘lesson’.",
+    "descriptive": "",
+    "verb": "mag-aral ‘study, go to school’. manig-aral [distributive]; papag-aral ‘be sent to school’. "
+},
+{
+    "id": "143",
+    "kapampangan_word": "ara’p",
+    "noun": "arap\/arapa’n ‘the front’.",
+    "descriptive": "maka-arap; miaraparap ‘be situated in front’. ",
+    "verb": ""
+},
+{
+    "id": "144",
+    "kapampangan_word": "ara’yat",
+    "noun": "Mt. Arayat.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "145",
+    "kapampangan_word": "a’re",
+    "noun": "hay, usually rice straw. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "146",
+    "kapampangan_word": "argabya’du",
+    "noun": "",
+    "descriptive": "aggravated.",
+    "verb": ""
+},
+{
+    "id": "147",
+    "kapampangan_word": "a’ri\/ya’ri\/ ya’riq",
+    "noun": "",
+    "descriptive": "finished. mayari ‘finished’; mayayari. ",
+    "verb": "ari-an ‘finish something’; man-ariq ‘(something) happened’."
+},
+{
+    "id": "148",
+    "kapampangan_word": "a’ri\/a’riq",
+    "noun": "king. atlung-a’ri ‘a constellation’. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "149",
+    "kapampangan_word": "ari’na",
+    "noun": "flour, especially casava flour. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "150",
+    "kapampangan_word": "arino’la",
+    "noun": "chamberpot",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "151",
+    "kapampangan_word": "ari:ya\/ ari’hiya",
+    "noun": "things customarily disapproved; statements of customary disapproval.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "152",
+    "kapampangan_word": "arkila’",
+    "noun": "",
+    "descriptive": "",
+    "verb": "hire, rent something; see qarkila. "
+},
+{
+    "id": "153",
+    "kapampangan_word": "arni’s",
+    "noun": "a self-defense sport.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "154",
+    "kapampangan_word": "arsobi’spo",
+    "noun": "archbishop; see obispo.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "155",
+    "kapampangan_word": "aru’",
+    "noun": "",
+    "descriptive": "something like ‘Wow!’.",
+    "verb": ""
+},
+{
+    "id": "156",
+    "kapampangan_word": "a’rung",
+    "noun": "nose.",
+    "descriptive": "",
+    "verb": "arung-an, inarungan ‘put on airs’. "
+},
+{
+    "id": "157",
+    "kapampangan_word": "a’sag",
+    "noun": "mantle of a pressure lantern.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "158",
+    "kapampangan_word": "asa’n",
+    "noun": "fish. 2. viand, i.e., food eaten with rice.",
+    "descriptive": "",
+    "verb": "asan-an, in-asan, as: nanung inasan yu? ‘What did you eat with your rice?’."
+},
+{
+    "id": "159",
+    "kapampangan_word": "a’sang",
+    "noun": "gills.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "160",
+    "kapampangan_word": "asa’q-",
+    "noun": "",
+    "descriptive": "",
+    "verb": "asa-an ‘put hope in someone’."
+},
+{
+    "id": "161",
+    "kapampangan_word": "asa’wa",
+    "noun": "spouse; [metaphor] ‘one of a pair, like mortar and pestle’, tala-asawa ‘a married person’.",
+    "descriptive": "",
+    "verb": "mag-asawa ‘get married’; mang-asawa ‘[old] arrange marriage’, ‘[new] have sexual intercourse’; paki-asawa ‘have someone married to someone else’; pang-asawa-n ‘rape someone’; mi-asawa ‘be married’."
+},
+{
+    "id": "162",
+    "kapampangan_word": "asbu’k",
+    "noun": "mouth.",
+    "descriptive": "",
+    "verb": "laban-asbuk ‘argue’."
+},
+{
+    "id": "163",
+    "kapampangan_word": "asik-",
+    "noun": "aski-an ‘rice-fields’. ma:nasik ‘rice farmer’.",
+    "descriptive": "",
+    "verb": "man-asik ‘farm’. makipan-asik."
+},
+{
+    "id": "164",
+    "kapampangan_word": "asi’n",
+    "noun": "salt; [metaphor] ‘brains, cleverness’. ",
+    "descriptive": "",
+    "verb": "asin-an ‘to salt something’. payasin, paki-asinan, man-asin, apa-yasin, ayasinan ‘unintentionally salted’."
+},
+{
+    "id": "165",
+    "kapampangan_word": "asintado",
+    "noun": "",
+    "descriptive": "clever, accurate.",
+    "verb": ""
+},
+{
+    "id": "166",
+    "kapampangan_word": "a’slag",
+    "noun": "light from a heavenly body; see saslag. aslagan ‘place where the sun rises, east’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "167",
+    "kapampangan_word": "asla’m",
+    "noun": "vinegar.",
+    "descriptive": "maslam ‘sour’.",
+    "verb": "aslam-an ‘add vinegar to something’; pan-aslam ‘use something to sour’."
+},
+{
+    "id": "168",
+    "kapampangan_word": "-aslat",
+    "noun": "",
+    "descriptive": "mayaslat, miyaslat ‘caught in broken floor-board’.",
+    "verb": ""
+},
+{
+    "id": "169",
+    "kapampangan_word": "aspak",
+    "noun": "crack.",
+    "descriptive": "mispak, mangaspak, mayayaspak ‘cracked’; apayaspak.",
+    "verb": "panaspakan."
+},
+{
+    "id": "170",
+    "kapampangan_word": "asta’ka",
+    "noun": "stake.",
+    "descriptive": "",
+    "verb": "man-astaka ‘place stakes’; astak-an ‘bound with stakes’."
+},
+{
+    "id": "171",
+    "kapampangan_word": "a’su",
+    "noun": "dog.",
+    "descriptive": "ma-asu ‘many dogs (in a place)’.",
+    "verb": ""
+},
+{
+    "id": "172",
+    "kapampangan_word": "asu’k",
+    "noun": "smoke.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "173",
+    "kapampangan_word": "asu’l",
+    "noun": "blue.",
+    "descriptive": "ma-asul ‘dark blue’; ma-asulasul ‘light blue’; maka-asul ‘wearing blue clothes’.",
+    "verb": ""
+},
+{
+    "id": "174",
+    "kapampangan_word": "a’sung",
+    "noun": "mortar.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "175",
+    "kapampangan_word": "aswa’ng",
+    "noun": "a frightening spirit creature, half-human, half-bird, vampire-like, said to prey on corpses and unborn children.",
+    "descriptive": "",
+    "verb": "aswang-an, inaswangan ‘made victim by an aswang’."
+},
+{
+    "id": "176",
+    "kapampangan_word": "aswe'",
+    "noun": "comb.",
+    "descriptive": "",
+    "verb": "man-aswe ‘use a harrow. aswe-n ‘comb (hair)‘; payaswe ‘have hair combed by another’."
+},
+{
+    "id": "177",
+    "kapampangan_word": "asyag",
+    "noun": "stye; see agya’p.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "178",
+    "kapampangan_word": "asya’s",
+    "noun": "post (e.g. asyas-bale ‘house-post’). peka-asyas ‘mainstay’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "179",
+    "kapampangan_word": "at",
+    "noun": ") ‘and’. Sometimes ‘that’, as: kapna mu at bala mu ‘it’s good that you know it’.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "180",
+    "kapampangan_word": "ata’b",
+    "noun": "tide.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "181",
+    "kapampangan_word": "ata’d",
+    "noun": "pamatad-oras ‘pastime’.",
+    "descriptive": "",
+    "verb": "escort away from home to another place. mamatad, i (h) atad, paki-atad."
+},
+{
+    "id": "182",
+    "kapampangan_word": "ata’ke",
+    "noun": "attack, heart-attack, stroke. ",
+    "descriptive": "me-atake ‘victimized by stroke’.",
+    "verb": ""
+},
+{
+    "id": "183",
+    "kapampangan_word": "atbu’",
+    "noun": "sugar-cane.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "184",
+    "kapampangan_word": "atdu’q",
+    "noun": "bile.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "185",
+    "kapampangan_word": "a’te",
+    "noun": "liver.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "186",
+    "kapampangan_word": "ati’\/ati’n",
+    "noun": "kayatina’n ‘wealth’. ",
+    "descriptive": "mikayatin ‘be wealthy’.",
+    "verb": "there is\/there are, be."
+},
+{
+    "id": "187",
+    "kapampangan_word": "ati’k",
+    "noun": "money, wealth; see qatik. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "188",
+    "kapampangan_word": "atlu’",
+    "noun": "three. pangatlu ‘third’; makatatlu ‘third time’; titlu-titlu ‘three-by-three’. atlung-ari 1. Feast of Three Kings; 2. a constellation.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "189",
+    "kapampangan_word": "-atni’",
+    "noun": "",
+    "descriptive": "matni’ ‘loud’. matni-buntuk ‘intelligent’.",
+    "verb": ""
+},
+{
+    "id": "190",
+    "kapampangan_word": "aca’ta",
+    "noun": "a large bedpan.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "191",
+    "kapampangan_word": "a’tcan",
+    "noun": "stomach.",
+    "descriptive": "",
+    "verb": "atcanan ‘hit someone in stomach’."
+},
+{
+    "id": "192",
+    "kapampangan_word": "atca’q",
+    "noun": "pa:manatcaq ‘pitching style’; piyatcanan ‘place something was thrown’.",
+    "descriptive": "",
+    "verb": "throw; itca ‘threw’. makayatcaq [ability]; atca-nan ‘throw something to somebody’; mipayatca; ayatca."
+},
+{
+    "id": "193",
+    "kapampangan_word": "atca’ra",
+    "noun": "pickled salad. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "194",
+    "kapampangan_word": "atci’ng",
+    "noun": "sneeze.",
+    "descriptive": "",
+    "verb": "mamatcing ‘is sneezing’"
+},
+{
+    "id": "195",
+    "kapampangan_word": "atcu’",
+    "noun": "See ati + yu.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "196",
+    "kapampangan_word": "atra’s",
+    "noun": "",
+    "descriptive": "",
+    "verb": "to the back, rear; retrogress. see qatras. "
+},
+{
+    "id": "197",
+    "kapampangan_word": "atra’su",
+    "noun": "omission, failure.",
+    "descriptive": "atrasa’du ‘late’.",
+    "verb": ""
+},
+{
+    "id": "198",
+    "kapampangan_word": "at-saka’\/ atcaka’",
+    "noun": "",
+    "descriptive": "",
+    "verb": "‘and also’. at-saka na ‘later’."
+},
+{
+    "id": "199",
+    "kapampangan_word": "a’tsi",
+    "noun": "older sister. Also used as a term of polite address to women, as: Atsing Edad, Atsing Son.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "200",
+    "kapampangan_word": "a:tul",
+    "noun": "decision. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "201",
+    "kapampangan_word": "atu’p\/ata’p",
+    "noun": "peak of a roof.",
+    "descriptive": "",
+    "verb": "manatap, atapan, payatap, panatap, paki-atap, ayatapan ‘to put on a roof’."
+},
+{
+    "id": "202",
+    "kapampangan_word": "a’tut",
+    "noun": "flatulence.",
+    "descriptive": "",
+    "verb": "atutan ‘affect another with one’s flatulence’."
+},
+{
+    "id": "203",
+    "kapampangan_word": "atye’sa\/ atce’sa",
+    "noun": "a kind of fruit.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "204",
+    "kapampangan_word": "au’l-",
+    "noun": "",
+    "descriptive": "",
+    "verb": "awl-an ‘guess something’, c.f. ula- "
+},
+{
+    "id": "205",
+    "kapampangan_word": "aunus",
+    "noun": "portion, share.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "206",
+    "kapampangan_word": "a’us",
+    "noun": "",
+    "descriptive": "",
+    "verb": "call, summon. man-aus; aws-an ‘call someone’."
+},
+{
+    "id": "207",
+    "kapampangan_word": "a’wak",
+    "noun": "a large bird of prey, crow or hawk. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "208",
+    "kapampangan_word": "awa’kan",
+    "noun": "waist.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "209",
+    "kapampangan_word": "-a’wad\/- ya’wad [tawad?]  ",
+    "noun": "pa:manyawad, piyawaran.",
+    "descriptive": "mayawad, meyawad, makayawad.",
+    "verb": "ask for; see inyad. manyawad, menyad\/ menyawad, inyawad\/inawad, pakiqawad, pa:yawad, papan-yawad, pa:nyawaran, a:yawad, a:yan-yawad, mipanyawad."
+},
+{
+    "id": "210",
+    "kapampangan_word": "a’wang",
+    "noun": "window.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "211",
+    "kapampangan_word": "a’we",
+    "noun": "a kind of rattan.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "212",
+    "kapampangan_word": "awi’g-awi’g ",
+    "noun": "similar in appearance; see qawigqawig. miyayawig, makayawig.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "213",
+    "kapampangan_word": "awni’",
+    "noun": "alternate form for oini. ",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "214",
+    "kapampangan_word": "awta",
+    "noun": "alternate for oita.",
+    "descriptive": "",
+    "verb": ""
+},
+{
+    "id": "215",
+    "kapampangan_word": "a’yri",
+    "noun": "air.",
+    "descriptive": "de-ayri ‘works by means of air’.",
+    "verb": ""
+},
+{
+    "id": "216",
+    "kapampangan_word": "a’yun",
+    "noun": "",
+    "descriptive": "",
+    "verb": "agree with, go along with. ayun-an, pa-ayun-an, maki-ayun."
+},
+{
+    "id": "217",
+    "kapampangan_word": "ayu’n",
+    "noun": "earthquake.",
+    "descriptive": "",
+    "verb": "mamayu’n ‘earth is quaking’. "
+},
+{
+    "id": "218",
+    "kapampangan_word": "a’yup",
+    "noun": "bird. ayup-ayu-pan ‘insect’. ",
+    "descriptive": "",
+    "verb": ""
+},
+        {
+            "id": "219",
+            "kapampangan_word": "a’ywe",
+            "noun": "highway.",
+            "descriptive": "",
+            "verb": ""
+        }
+    ]
+}
