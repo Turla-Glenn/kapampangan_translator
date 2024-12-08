@@ -4,6 +4,7 @@ import 'package:kapampangan_translator/screens/dictionary_screen.dart';
 import 'package:kapampangan_translator/screens/microphone_page.dart';
 import 'package:kapampangan_translator/screens/phrasebook_screen.dart';
 import 'package:kapampangan_translator/screens/history_page.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -28,12 +29,12 @@ class AppDrawer extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 24, // Smaller avatar
-                    backgroundImage: AssetImage('assets/images/KATAGLISH.png'), // Add logo or image
+                    backgroundImage: AssetImage('assets/images/logo1.png'), // Add logo or image
                   ),
                   SizedBox(width: 10),
                   Text(
-                    'KaTagLish',
-                    style: TextStyle(
+                    'Ka Tag Lish',
+                    style: GoogleFonts.molle(
                       color: Colors.white,
                       fontSize: 20, // Slightly smaller text size
                       fontWeight: FontWeight.bold,

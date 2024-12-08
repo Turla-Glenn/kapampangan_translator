@@ -7,7 +7,7 @@
 
 
     <application
-        android:label="kapampangan_translator"
+        android:label="KATAGLISH"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity
