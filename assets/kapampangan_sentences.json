@@ -95,6 +95,402 @@
       "kapampangan": "Mayap a abak",
       "filipino": "Magandang umaga",
       "english": "Good morning"
+    },
+    {
+      "id": "1500",
+      "kapampangan": "Panapaya mu ku",
+      "filipino": "Paumanhin po",
+      "english": "Excuse me"
+    },
+    {
+      "id": "1501",
+      "kapampangan": "Dakal a Salamat",
+      "filipino": "Maraming salamat",
+      "english": "Many thanks"
+    },
+    {
+      "id": "1502",
+      "kapampangan": " Siklod pu",
+      "filipino": "Mano po",
+      "english": "Kissing the hand of elderly"
+    },
+    {
+      "id": "1503",
+      "kapampangan": "Dispu",
+      "filipino": "Diyos din po",
+      "english": "Response to kissing hand by elderly"
+    },
+    {
+      "id": "1504",
+      "kapampangan": "Mangan ta na",
+      "filipino": "Kumain na tayo",
+      "english": "Lets eat"
+    },
+    {
+      "id": "1505",
+      "kapampangan": "Mengan na ka",
+      "filipino": "Kumain ka na ba",
+      "english": "Have you eaten"
+    },
+    {
+      "id": "1506",
+      "kapampangan": "Nanu ing pengan mu",
+      "filipino": "Ano ang kinain mo",
+      "english": "What have you eaten"
+    },
+    {
+      "id": "1507",
+      "kapampangan": "Tara na",
+      "filipino": "Tara na",
+      "english": "Lets go"
+    },
+    {
+      "id": "1508",
+      "kapampangan": "Muli ta na",
+      "filipino": "Umuwi na tayo",
+      "english": "Lets go home"
+    },
+    {
+      "id": "1509",
+      "kapampangan": "Mako na ka",
+      "filipino": "Pwede ka nang umalis",
+      "english": "You can go"
+    },
+    {
+      "id": "1510",
+      "kapampangan": "Nanung panayan mu",
+      "filipino": "Ano ang hinihintay mo",
+      "english": "For what do you wait"
+    },
+    {
+      "id": "1511",
+      "kapampangan": "Atiu na ku",
+      "filipino": "Narito ako",
+      "english": "Im here"
+    },
+    {
+      "id": "1512",
+      "kapampangan": "Atiu na kami",
+      "filipino": "Narito kami",
+      "english": "We re here"
+    },
+    {
+      "id": "1513",
+      "kapampangan": "Nanu maliari kung daptan keka",
+      "filipino": "Ano ang magagawa ko para sa iyo",
+      "english": "What can I do for you"
+    },
+    {
+      "id": "1514",
+      "kapampangan": "Mekeni",
+      "filipino": "Halika rito",
+      "english": "Go here"
+    },
+    {
+      "id": "1515",
+      "kapampangan": "Lagwa",
+      "filipino": "Mas mabilis",
+      "english": "Faster"
+    },
+    {
+      "id": "1516",
+      "kapampangan": "Panagkas",
+      "filipino": "Murang salita",
+      "english": "swear words"
+    },
+    {
+      "id": "1517",
+      "kapampangan": "Dinalan",
+      "filipino": "Isang daan",
+      "english": "One Hundred"
+    },
+    {
+      "id": "1518",
+      "kapampangan": "Adwang dalan",
+      "filipino": "Dalawang daan",
+      "english": "Two Hundred"
+    },
+    {
+      "id": "1519",
+      "kapampangan": "Matsura",
+      "filipino": "Pangit",
+      "english": "Ugly"
+    },
+    {
+      "id": "1520",
+      "kapampangan": "Madagul",
+      "filipino": "Malaki",
+      "english": "Big"
+    },
+    {
+      "id": "1521",
+      "kapampangan": "Matas",
+      "filipino": "Mataas",
+      "english": "High"
+    },
+    {
+      "id": "1522",
+      "kapampangan": "Mataram",
+      "filipino": "Matulis",
+      "english": "Sharp"
+    },
+    {
+      "id": "1523",
+      "kapampangan": "Malabug",
+      "filipino": "Malabo",
+      "english": "Blurry"
+    },
+    {
+      "id": "1524",
+      "kapampangan": "Maraya",
+      "filipino": "Madugo",
+      "english": "Bloody"
+    },
+    {
+      "id": "1525",
+      "kapampangan": "Malisangan",
+      "filipino": "Maalinsangan",
+      "english": "Sultry"
+    },
+    {
+      "id": "1526",
+      "kapampangan": "Mabanglu",
+      "filipino": "Mabango",
+      "english": "Aromatic"
+    },
+    {
+      "id": "1527",
+      "kapampangan": "Mabuluk",
+      "filipino": "Mabaho",
+      "english": "Stinking"
+    },
+    {
+      "id": "1528",
+      "kapampangan": "Matas iya",
+      "filipino": "Mataas ito",
+      "english": "It is high"
+    },
+    {
+      "id": "1529",
+      "kapampangan": "Malalam ya",
+      "filipino": "Malalim ito",
+      "english": "It is deep"
+    },
+    {
+      "id": "1530",
+      "kapampangan": "Sapak",
+      "filipino": "Punô",
+      "english": "Full"
+    },
+    {
+      "id": "1531",
+      "kapampangan": "Malagu ka",
+      "filipino": "Maganda ka",
+      "english": "You are beautiful"
+    },
+    {
+      "id": "1532",
+      "kapampangan": "Masanting ka",
+      "filipino": "Guwapo ka",
+      "english": "You are handsom"
+    },
+    {
+      "id": "1533",
+      "kapampangan": "Malagad",
+      "filipino": "Bihira",
+      "english": "Rare"
+    },
+    {
+      "id": "1534",
+      "kapampangan": "Keni",
+      "filipino": "Dito",
+      "english": "Here"
+    },
+    {
+      "id": "1535",
+      "kapampangan": "Keta",
+      "filipino": "Doon",
+      "english": "There"
+    },
+    {
+      "id": "1536",
+      "kapampangan": "Kayli",
+      "filipino": "Kaliwa",
+      "english": "Left"
+    },
+    {
+      "id": "1537",
+      "kapampangan": "Wanan",
+      "filipino": "Kanan",
+      "english": "Right"
+    },
+    {
+      "id": "1538",
+      "kapampangan": "Manik",
+      "filipino": "Umakyat",
+      "english": "Go Upstairs"
+    },
+    {
+      "id": "1539",
+      "kapampangan": "Tipa",
+      "filipino": "Bumaba",
+      "english": "Go Downstairs"
+    },
+    {
+      "id": "1540",
+      "kapampangan": "Papalub",
+      "filipino": "Pumasok",
+      "english": "Going inside"
+    },
+    {
+      "id": "1541",
+      "kapampangan": "Papaluwal",
+      "filipino": "Lumabas",
+      "english": "Going outside"
+    },
+    {
+      "id": "1542",
+      "kapampangan": "Albugan",
+      "filipino": "Kanluran",
+      "english": "Westward"
+    },
+    {
+      "id": "1543",
+      "kapampangan": "Amianan",
+      "filipino": "Hilaga",
+      "english": "Northward"
+    },
+    {
+      "id": "1544",
+      "kapampangan": "Aslagan",
+      "filipino": "Silangan",
+      "english": "Eastward"
+    },
+    {
+      "id": "1545",
+      "kapampangan": "Abagatan",
+      "filipino": "Timog",
+      "english": "Southward"
+    },
+    {
+      "id": "1546",
+      "kapampangan": "Pengari",
+      "filipino": "Magulang",
+      "english": "Parent"
+    },
+    {
+      "id": "1547",
+      "kapampangan": "Koya",
+      "filipino": "Kuya",
+      "english": "Older brother"
+    },
+    {
+      "id": "1548",
+      "kapampangan": "Achi",
+      "filipino": "Ate",
+      "english": "Older Sister"
+    },
+    {
+      "id": "1549",
+      "kapampangan": "Kapatad",
+      "filipino": "Kapatid",
+      "english": "Sibling"
+    },
+    {
+      "id": "1550",
+      "kapampangan": "Ingkong",
+      "filipino": "Lolo",
+      "english": "Grandfather"
+    },
+    {
+      "id": "1551",
+      "kapampangan": "Apu",
+      "filipino": "Lola",
+      "english": "Grandmother"
+    },
+    {
+      "id": "1552",
+      "kapampangan": "Dara",
+      "filipino": "Tiya",
+      "english": "Aunt"
+    },
+    {
+      "id": "1553",
+      "kapampangan": "Pisan",
+      "filipino": "Pinsan",
+      "english": "Cousin"
+    },
+    {
+      "id": "1554",
+      "kapampangan": "Wali",
+      "filipino": "Bunso",
+      "english": "Younger Sibling"
+    },
+    {
+      "id": "1555",
+      "kapampangan": "Pisan alang pilatan",
+      "filipino": "Pinsang buo",
+      "english": "First Cousin"
+    },
+    {
+      "id": "1556",
+      "kapampangan": "Dinan",
+      "filipino": "Magbigay",
+      "english": "Give"
+    },
+    {
+      "id": "1557",
+      "kapampangan": "Munta",
+      "filipino": "Pumunta",
+      "english": "Go"
+    },
+    {
+      "id": "1558",
+      "kapampangan": "Lakwan",
+      "filipino": "Umalis",
+      "english": "Leave"
+    },
+    {
+      "id": "1559",
+      "kapampangan": "Sulapo",
+      "filipino": "Lumipad",
+      "english": "Fly"
+    },
+    {
+      "id": "1560",
+      "kapampangan": "Pulayi",
+      "filipino": "Tumakbo",
+      "english": "Run"
+    },
+    {
+      "id": "1561",
+      "kapampangan": "Lukdang",
+      "filipino": "Tumalon",
+      "english": "Jump"
+    },
+    {
+      "id": "1562",
+      "kapampangan": "Sumabi",
+      "filipino": "Magsalita",
+      "english": "To Speak"
+    },
+    {
+      "id": "1563",
+      "kapampangan": "Awsan",
+      "filipino": "Tumawag",
+      "english": "To call"
+    },
+    {
+      "id": "1564",
+      "kapampangan": "Mamipi",
+      "filipino": "Maglaba",
+      "english": "To wash clothes"
+    },
+    {
+      "id": "1565",
+      "kapampangan": "Samasnan",
+      "filipino": "Ayusin",
+      "english": "To fix"
     }
   ]
 }

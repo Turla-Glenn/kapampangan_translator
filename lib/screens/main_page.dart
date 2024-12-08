@@ -8,6 +8,7 @@ import '../widgets/app_drawer.dart';
 import '../services/history_service.dart';
 import '../models/history_item.dart';
 import 'package:flutter/services.dart' show Clipboard, ClipboardData;
+import 'package:google_fonts/google_fonts.dart';
 
 class MainPage extends StatefulWidget {
   final double titleVerticalOffset;
@@ -16,7 +17,7 @@ class MainPage extends StatefulWidget {
 
   MainPage({
     this.titleVerticalOffset = 5.0,
-    this.titleHorizontalOffset = 55.0,
+    this.titleHorizontalOffset = 75.0,
     this.subtitleHorizontalOffset = 40.0,
   });
 
@@ -170,7 +171,7 @@ class _MainPageState extends State<MainPage> {
     });
   }
 
-  // Function to translate a sentence
+// Function to translate a sentence
   String translateSentence(String sentence) {
     // Normalize input and check for exact match in phrases
     String normalizedSentence = _normalizeInput(sentence);
@@ -187,14 +188,30 @@ class _MainPageState extends State<MainPage> {
     List<String> words = sentence.split(RegExp(r'\s+'));
     List<String> translatedWords = [];
 
+    bool hasValidTranslation = false;
+
     for (var word in words) {
       String normalizedWord = _normalizeInput(word);
       String translatedWord = getTranslation(normalizedWord);
-      translatedWords.add(translatedWord);
+
+      // Check if the word has a valid translation
+      if (translatedWord != 'No translation found') {
+        hasValidTranslation = true;
+      }
+
+      // Avoid appending multiple "No translation found" for untranslated words
+      translatedWords.add(translatedWord == 'No translation found' ? '' : translatedWord);
     }
 
-    return translatedWords.join(' ');
+    // If no valid translations exist for the entire sentence
+    if (!hasValidTranslation) {
+      return 'No translation found';
+    }
+
+    // Join translated words while skipping empty translations
+    return translatedWords.where((word) => word.isNotEmpty).join(' ');
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -203,6 +220,7 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       backgroundColor: Colors.blueGrey[50],
       appBar: AppBar(
+        centerTitle: true, // Ensures the title is centered
         backgroundColor: Colors.transparent,
         elevation: 0,
         toolbarHeight: 90,
@@ -214,8 +232,8 @@ class _MainPageState extends State<MainPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'KaTagLish',
-                  style: TextStyle(
+                  'Ka Tag Lish',
+                  style: GoogleFonts.molle(
                     fontSize: 30,
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
