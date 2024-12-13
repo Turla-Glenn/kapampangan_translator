@@ -17,7 +17,7 @@ class MainPage extends StatefulWidget {
 
   MainPage({
     this.titleVerticalOffset = 5.0,
-    this.titleHorizontalOffset = 75.0,
+    this.titleHorizontalOffset = 60.0,
     this.subtitleHorizontalOffset = 40.0,
   });
 

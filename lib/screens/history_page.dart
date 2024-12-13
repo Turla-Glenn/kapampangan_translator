@@ -122,9 +122,25 @@ class _HistoryPageState extends State<HistoryPage> {
                       color: Colors.blueAccent,
                     ),
                   ),
-                  subtitle: Text(
-                    '${item.inputText} → ${item.outputText}',
-                    style: TextStyle(fontSize: 14, color: Colors.black54),
+                  subtitle: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      SizedBox(height: 4),
+                      Text(
+                        'Input: ${item.inputText}',
+                        style: TextStyle(fontSize: 14, color: Colors.black87),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        'Output: ${item.outputText}',
+                        style: TextStyle(fontSize: 14, color: Colors.black54),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        'Language: ${item.sourceLanguage} → ${item.targetLanguage}',
+                        style: TextStyle(fontSize: 12, color: Colors.grey),
+                      ),
+                    ],
                   ),
                   trailing: Row(
                     mainAxisSize: MainAxisSize.min,
@@ -132,7 +148,8 @@ class _HistoryPageState extends State<HistoryPage> {
                       IconButton(
                         icon: Icon(Icons.copy, color: Colors.green),
                         onPressed: () {
-                          copyToClipboard('${item.inputText} → ${item.outputText}');
+                          copyToClipboard(
+                              '${item.inputText} → ${item.outputText}');
                         },
                       ),
                       IconButton(
